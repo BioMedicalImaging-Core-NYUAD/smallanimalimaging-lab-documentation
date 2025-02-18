@@ -1,4 +1,4 @@
 SAI Lab Description
 ===================
 
-Test
+Welcome to the Small Animal Imaging Core !
