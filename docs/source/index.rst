@@ -3,7 +3,6 @@ Small Animal Imaging documentation page
 
 lab description
 ===============
-Welcome to the Small Animal Imaging Core !
 
 These are the policies and procedures for a working SAI lab.
 
