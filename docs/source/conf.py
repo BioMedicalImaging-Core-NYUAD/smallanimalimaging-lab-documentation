@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "NYUAD MRI Lab Documentation"
-copyright = "2022, Haidee Paterson, Osama Abdullah"
-author = "Haidee Paterson, Osama Abdullah"
+project = "NYUAD Small Animal Imaging Core Documentation"
+copyright = "2024, Maylis Boitet"
+author = "Maylis Boitet"
 
 master_doc = "index"
 # -- General configuration ---------------------------------------------------
