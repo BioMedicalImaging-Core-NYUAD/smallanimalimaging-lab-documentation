@@ -1,4 +1,4 @@
-Small Animal Imaging documentation page
+Small Animal Imaging Core documentation page
 ######################
 
 lab description
