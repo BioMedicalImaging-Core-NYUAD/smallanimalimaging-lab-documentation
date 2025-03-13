@@ -12,4 +12,5 @@ These are the policies and procedures for a working SAI lab.
 
     SAI_lab_description
     process_diagram
+    croissant
 
