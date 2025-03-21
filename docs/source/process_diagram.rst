@@ -1,5 +1,5 @@
 SAI project Workflow
-=============================
+====================
 
 Below is a flowchart describing a typical project initiation workflow when using the Small Animal Imaging Core data acquisition process:
 
