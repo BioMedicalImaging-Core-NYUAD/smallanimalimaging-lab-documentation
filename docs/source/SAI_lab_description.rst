@@ -10,6 +10,7 @@ accessible to NYUAD researchers, facilitating high-resolution, non-invasive stud
 Imaging Equipment
 *****************
 The core facility houses the following advanced imaging systems:
+
 - Optical Imaging System – IVIS Spectrum (Revvity)
 - Micro-Computed Tomography (microCT) – SkyScan 1276 (Bruker)
 - Customized Rodent Endoscope – Karl Storz
