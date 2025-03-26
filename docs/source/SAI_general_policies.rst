@@ -1,9 +1,6 @@
 SAI General Policies
 ####################
 
-
-
-
 Compliance
 **********
 
