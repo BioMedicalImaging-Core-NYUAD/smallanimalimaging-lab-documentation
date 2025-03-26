@@ -16,7 +16,8 @@ Team
 Maylis Boitet, DVM, PhD
 =======================
 
-**Small Animal Imaging Research Scientist**
+Small Animal Imaging Research Scientist
+---------------------------------------
 
 Since August 2023, Dr. Boitet has led the Small Animal Imaging Core at New York University Abu Dhabi (NYUAD) as its
 inaugural Research Instrumentation Scientist. She earned her Ph.D. from Institut Pasteur Korea, where she developed
@@ -35,7 +36,7 @@ The Small Animal Imaging Core is located within the AAALAC-accredited vivarium i
 Research Building, C1 at New York University Abu Dhabi, UAE.
 
 Documentation content
-=====================
+*********************
 
 These are the policies and procedures for a working SAI lab.
 
