@@ -6,29 +6,24 @@ Imaging Core—one of twelve specialized facilities within the Core Technology P
 CTP encompasses a wide range of advanced instrumentation, supported by a team of dedicated scientists and technical
 experts who manage equipment maintenance, provide comprehensive user training, and facilitate research operations across
 the university.
-
 For more information about available technologies and support services, please visit the CTP website:
 https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platforms.html
 
 Team
 ****
-
 Maylis Boitet, DVM, PhD
 =======================
 
 Small Animal Imaging Research Scientist
 ---------------------------------------
-
-Since August 2023, Dr. Boitet has led the Small Animal Imaging Core at New York University Abu Dhabi (NYUAD) as its
-inaugural Research Instrumentation Scientist. She earned her Ph.D. from Institut Pasteur Korea, where she developed
-a reporter mouse model of neuroinflammation using in vivo optical imaging. Her research focuses on neuroscience and
-optical imaging, particularly the use of advanced imaging techniques to study brain function in preclinical models.
-
-Additionally, she holds a Doctor of Veterinary Medicine (DVM) degree from VetAgro Sup (Lyon, France), where she studied
-the naturally occurring L120Q mutation in the rVKORC1 protein in wild rats, linked to resistance to antivitamin K
-compounds.
-
-At NYUAD, Dr. Boitet actively collaborates with researchers to integrate non-invasive imaging into preclinical studies.
+Since August 2023, Dr. Boitet has served as the inaugural Research Instrumentation Scientist for the Small Animal Imaging
+Core at New York University Abu Dhabi (NYUAD). She earned her Ph.D. from Institut Pasteur Korea, where she characterized
+a reporter mouse model for neuroinflammation using in vivo optical imaging. Her research focuses on neuroscience and optical
+imaging, with particular emphasis on the application of advanced imaging modalities to study brain function in preclinical
+models. Dr. Boitet also holds a Doctor of Veterinary Medicine (DVM) degree from VetAgro Sup in Lyon, France, where she
+characterized the naturally occurring L120Q mutation in the rVKORC1 protein in wild rats, a mutation linked to resistance
+against antivitamin K compounds.
+At NYUAD, she actively collaborates with researchers to integrate non-invasive imaging strategies into preclinical research studies.
 
 Location
 ********
@@ -37,7 +32,6 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
 
 Documentation content
 *********************
-
 These are the policies and procedures for a working SAI lab.
 
 .. toctree::

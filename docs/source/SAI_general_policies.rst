@@ -3,16 +3,22 @@ SAI General Policies
 
 Compliance
 **********
-
+Users are responsible for ensuring compliance with all applicable NYUAD policies, including those set by the Institutional
+Animal Care and Use Committee (IACUC), the Controlled Substance Program, and the Radiation Safety Program. Prior to conducting
+any imaging procedures, users must provide the core staff with a copy of their approved IACUC protocol, and if applicable,
+an approved Institutional Biosafety Committee (IBC) protocol.
 
 Anesthesia
 **********
-The oxygen supply valve and anesthesia vaporizer must be turned off and the anesthesia system must be flushed after used.
-
+Each imaging station within the core is equipped with an isoflurane anesthesia system. Imaging sessions are conducted
+with animals anesthetized using isoflurane, unless an alternative method is specifically requested and scientifically
+justified. Users are required to supply their own isoflurane bottles for imaging sessions and must adhere to NYUAD
+guidelines governing the use of Controlled Substances. Training on the operation of the anesthesia system is included
+as part of the mandatory imaging user training. Following each session, users must turn off the oxygen supply valve and
+anesthesia vaporizer, and flush the system to ensure safe and proper maintenance.
 
 SAI Facility Hygiene Guidelines
 *******************************
-
 Surface and equipment decontamination
 =====================================
 Users are responsible for maintaining cleanliness and organization within the Small Animal Imaging Laboratory. All work
@@ -27,6 +33,7 @@ Users are responsible for ensuring that all equipment is returned to its origina
 includes recapping cameras when applicable, closing imaging chambers or lids, properly shutting down or securing system
 components, and returning all accessories to their designated locations.  These steps help maintain equipment integrity,
 prolong system lifespan, and ensure readiness for the next user.
+
 
 Material storage and sample containment
 =======================================
