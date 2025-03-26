@@ -23,7 +23,7 @@ Intranet
     - https://intranet.nyuad.nyu.edu/files/resources/bio-safety.pdf
     - https://students.nyuad.nyu.edu/services/safety-and-awareness/environmental-health-and-safety/trainings/
     - https://moodle.abudhabi.nyu.edu/ (online education)
-- NYUAD vivarium
+- NYUAD Vivarium support
     - https://intranet.nyuad.nyu.edu/faculty-resources/research/research-administration/regulatory-approvals-human-subjects-research/animal-research/
     - https://about.citiprogram.org/ (online education)
 
