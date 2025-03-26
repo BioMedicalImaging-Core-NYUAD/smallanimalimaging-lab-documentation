@@ -13,9 +13,17 @@ Manufacturer information
 NYUAD links
 ***********
 
+Core Technology Platforms
+=========================
+- CTP booking system https://corelabs.abudhabi.nyu.edu/
+- more information regarding related Cores contact
+    - mrk6@nyu.edu for Cellular and Molecular Biology
+    - rachid.rezgui@nyu.edu for Light Microscopy
+    - marc.arnoux@nyu.edu for Sequencing
+    - oga2@nyu.edu for Advanced Manufacturing
+
 Intranet
 ========
-
 - NYUAD Core Technology Platforms
     - https://intranet.nyuad.nyu.edu/faculty-resources/research/research-resources-and-support/core-technology-platforms/
     - https://nyuad.nyu.edu/content/dam/nyuad/research/research-support/core-technology/2020-core-technology-platforms.pdf
