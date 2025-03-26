@@ -2,7 +2,7 @@ SAI List of Publications
 ########################
 
 Authorship
-***********
+**********
 
 2025
 ====
