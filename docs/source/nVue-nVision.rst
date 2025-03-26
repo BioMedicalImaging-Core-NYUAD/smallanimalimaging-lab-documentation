@@ -1,5 +1,5 @@
-nVue-nVision - miniscope platform
-#################################
+Miniscope platform nVue-nVision (Inscopix)
+#########################################
 
 Technology
 **********

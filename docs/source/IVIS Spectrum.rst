@@ -1,5 +1,5 @@
-IVIS Spectrum - optical imaging
-###############################
+Optical Imaging IVIS Spectrum (Revvity)
+#######################################
 
 Technology
 **********
