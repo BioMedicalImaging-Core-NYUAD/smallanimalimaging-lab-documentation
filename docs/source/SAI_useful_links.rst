@@ -1,13 +1,13 @@
 SAI Useful Links
 ################
 
-Equipment
-*********
+Manufacturer information
+************************
 
 - Optical Imaging System – IVIS Spectrum (Revvity) https://resources.revvity.com/pdfs/prd-advanced-pre-clinical-optical-imaging-ivis-spectrum.pdf
 - Micro-Computed Tomography (microCT) – SkyScan 1276 (Bruker) https://www.bruker.com/en/products-and-solutions/preclinical-imaging/micro-ct/skyscan-1276.html
 - Customized Rodent Endoscope – Karl Storz https://www.karlstorz.com/ae/en/small-animals.htm
-- Miniscope and Behavioral Imaging Platform – nVue and nVision (Inscopix) https://inscopix.com/nvue-system/
+- Miniscope and Behavioral Imaging Platform – nVue and nVision (Inscopix) https://iqlearning.inscopix.com/products/nvue-0
 
 
 NYUAD links
