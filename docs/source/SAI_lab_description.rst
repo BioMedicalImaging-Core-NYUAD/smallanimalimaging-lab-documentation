@@ -43,16 +43,10 @@ data storage and access to high-performance computing resources. These comprehen
 and implementation of longitudinal studies investigating disease progression, therapeutic efficacy, and molecular
 mechanisms in murine models (mice and rats).
 
-Booking
-*******
-The SAI facility employs the CTP booking system for the centralized scheduling and management of imaging resources.
-All core users are required to utilize this system to reserve equipment and access services.
-
-
 Acknowledgements
 ****************
-All publications (manuscripts, abstracts, presentations, posters, and also in their grant applications) based on work
-conducted in the SAI Core should acknowledge NYUAD Core Technology Platforms.
+All publications (manuscripts, abstracts, presentations, posters...) based on work conducted in the SAI Core should
+acknowledge NYUAD Core Technology Platforms.
 A suggested statement is as follows:
 "This research was partially carried out using the Core Technology Platforms resources at New York University Abu Dhabi."
 
