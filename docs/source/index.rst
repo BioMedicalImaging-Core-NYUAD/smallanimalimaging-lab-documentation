@@ -44,6 +44,10 @@ These are the policies and procedures for a working SAI lab.
     process_diagram
 
 .. toctree::
-    :caption: Equipment
+    :caption: Imaging Technology
 
+    IVIS Spectrum
+    SkyScan 1276
+    Karl Storz small animal endoscope
+    nVue-nVision
 

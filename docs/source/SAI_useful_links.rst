@@ -18,8 +18,7 @@ NYUAD contacts
     - marc.arnoux@nyu.edu for Sequencing
     - Oraib Al-Ketan at oga2@nyu.edu for Advanced Manufacturing
 - vivarium operations:
-    - william.pressley@nyu.edu (Animal Care Facilities Operations) for inquiries related to vivarium access, operational
-procedures, and IACUC please contact the Animal Care Facilities
+    - william.pressley@nyu.edu (Animal Care Facilities Operations) for inquiries related to vivarium access, operational procedures, and IACUC please contact the Animal Care Facilities
     - Fatin Qamash fq5@nyu.edu (Attending veterinarian) for questions regarding controlled substances or animal health and welfare
 
 NYUAD links
@@ -27,6 +26,7 @@ NYUAD links
 Intranet
 ========
 - CTP booking system https://corelabs.abudhabi.nyu.edu/
+- CTP training attendance https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform
 - NYUAD Core Technology Platforms
     - https://intranet.nyuad.nyu.edu/faculty-resources/research/research-resources-and-support/core-technology-platforms/
     - https://nyuad.nyu.edu/content/dam/nyuad/research/research-support/core-technology/2020-core-technology-platforms.pdf
