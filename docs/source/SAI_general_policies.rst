@@ -3,7 +3,10 @@ SAI General Policies
 
 Compliance
 **********
-
+Users are responsible for ensuring compliance with all applicable NYUAD policies, including those set by the Institutional
+Animal Care and Use Committee (IACUC), the Controlled Substance Program, and the Radiation Safety Program. Prior to conducting
+any imaging procedures, users must provide the core staff with a copy of their approved IACUC protocol, and if applicable,
+an approved Institutional Biosafety Committee (IBC) protocol.
 
 Anesthesia
 **********

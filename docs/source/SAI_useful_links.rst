@@ -11,16 +11,16 @@ Manufacturer information
 
 NYUAD contacts
 **************
+- Small Animal Imaging Lab: for any inquiry regarding SAI Lab, please contact maylis.boitet@nyu.edu
 - more information regarding related Cores:
     - Mostafa Khair at mrk6@nyu.edu for Cellular and Molecular Biology
     - rachid.rezgui@nyu.edu for Light Microscopy
     - marc.arnoux@nyu.edu for Sequencing
     - Oraib Al-Ketan at oga2@nyu.edu for Advanced Manufacturing
 - vivarium operations:
-    - For inquiries related to vivarium access and operational procedures, please contact the Animal Care Facilities Operations
-team william.pressley@nyu.edu
-    - For questions regarding controlled substances or animal health and welfare, please contact the Attending Veterinarian
-Fatin Qamash fq5@nyu.edu
+    - william.pressley@nyu.edu (Animal Care Facilities Operations) for inquiries related to vivarium access, operational
+procedures, and IACUC please contact the Animal Care Facilities
+    - Fatin Qamash fq5@nyu.edu (Attending veterinarian) for questions regarding controlled substances or animal health and welfare
 
 NYUAD links
 ***********
@@ -36,8 +36,8 @@ Intranet
     - https://moodle.abudhabi.nyu.edu/ (online education)
 - NYUAD Vivarium support
     - https://intranet.nyuad.nyu.edu/faculty-resources/research/research-administration/regulatory-approvals-human-subjects-research/animal-research/
-    - https://about.citiprogram.org/ (online education)
-    -
+    - https://about.citiprogram.org/ (mandatory online Institutional courses)
+    - https://www.aalaslearninglibrary.org/ (online resources for working with research animals)
 
 Internet
 ========
