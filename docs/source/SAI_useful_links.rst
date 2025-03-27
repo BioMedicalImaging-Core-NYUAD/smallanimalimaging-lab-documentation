@@ -16,7 +16,7 @@ NYUAD contacts
     - Mostafa Khair at mrk6@nyu.edu for Cellular and Molecular Biology
     - rachid.rezgui@nyu.edu for Light Microscopy
     - marc.arnoux@nyu.edu for Sequencing
-    - Oraib Al-Ketan at oga2@nyu.edu for Advanced Manufacturing
+    - Oraib Al-Ketan at oga2@nyu.edu for Advanced Manufacturing and 3D printing
 - vivarium operations:
     - william.pressley@nyu.edu (Animal Care Facilities Operations) for inquiries related to vivarium access, operational procedures, and IACUC please contact the Animal Care Facilities
     - Fatin Qamash fq5@nyu.edu (Attending veterinarian) for questions regarding controlled substances or animal health and welfare
@@ -32,7 +32,6 @@ Intranet
     - https://nyuad.nyu.edu/content/dam/nyuad/research/research-support/core-technology/2020-core-technology-platforms.pdf
 - NYUAD Environmental Health and safety
     - https://intranet.nyuad.nyu.edu/files/resources/bio-safety.pdf
-    - https://students.nyuad.nyu.edu/services/safety-and-awareness/environmental-health-and-safety/trainings/
     - https://moodle.abudhabi.nyu.edu/ (online education)
 - NYUAD Vivarium support
     - https://intranet.nyuad.nyu.edu/faculty-resources/research/research-administration/regulatory-approvals-human-subjects-research/animal-research/
