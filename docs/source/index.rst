@@ -23,7 +23,9 @@ imaging, with particular emphasis on the application of advanced imaging modalit
 models. Dr. Boitet also holds a Doctor of Veterinary Medicine (DVM) degree from VetAgro Sup in Lyon, France, where she
 characterized the naturally occurring L120Q mutation in the rVKORC1 protein in wild rats, a mutation linked to resistance
 against antivitamin K compounds.
+
 At NYUAD, she actively collaborates with researchers to integrate non-invasive imaging strategies into preclinical research studies.
+`maylis.boitet@nyu.edu <mailto:maylis.boitet@nyu.edu>`_
 
 Location
 ********
@@ -32,7 +34,6 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
 
 Documentation content
 *********************
-These are the policies and procedures for a working SAI lab.
 
 .. toctree::
     :caption: Lab Overview
@@ -44,6 +45,10 @@ These are the policies and procedures for a working SAI lab.
     process_diagram
 
 .. toctree::
-    :caption: Equipment
+    :caption: Imaging Technology
 
+    IVIS Spectrum
+    SkyScan 1276
+    Karl Storz small animal endoscope
+    nVue-nVision
 
