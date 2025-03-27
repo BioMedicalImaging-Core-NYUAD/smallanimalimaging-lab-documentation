@@ -12,6 +12,7 @@ SAI Capabilities and Services
 Imaging equipment
 =================
 The SAI core facility houses the following advanced imaging systems:
+
 - Optical Imaging System – IVIS Spectrum (Revvity)
 - Micro-Computed Tomography (microCT) – SkyScan 1276 (Bruker)
 - Customized Rodent Endoscope – Karl Storz
