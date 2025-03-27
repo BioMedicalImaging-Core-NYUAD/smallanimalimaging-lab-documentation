@@ -18,7 +18,7 @@ NYUAD contacts
     - marc.arnoux@nyu.edu for Sequencing
     - Oraib Al-Ketan at oga2@nyu.edu for Advanced Manufacturing and 3D printing
 - vivarium operations:
-    - william.pressley@nyu.edu (Animal Care Facilities Operations) for inquiries related to vivarium access, operational procedures, and IACUC please contact the Animal Care Facilities
+    - william.pressley@nyu.edu (Animal Care Facilities Operations) for inquiries related to vivarium access, operational procedures, and IACUC
     - Fatin Qamash fq5@nyu.edu (Attending veterinarian) for questions regarding controlled substances or animal health and welfare
 
 NYUAD links
