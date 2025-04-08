@@ -8,57 +8,63 @@ The following outlines the general workflow for initiating a standard study usin
 .. mermaid::
 
    graph TD
-    A[Project presentation to Maylis]
+    %% Styles
+    classDef white fill=#ffffff,stroke=#000000,color=#000;
+    classDef green fill=#eaf4e0,stroke=#436f29,color=#000;
+    classDef yellow fill=#fceec0,stroke=#c58e00,color=#000;
+    classDef blue fill=#e4f1fb,stroke=#0367a6,color=#000;
+    classDef orange fill=#ffe5d5,stroke=#d46900,color=#000;
+    classDef dashed stroke-dasharray: 5 5;
 
-    %% Ex vivo branch
-    A --> B1[Ex vivo<br>Biological sample<br>Material science]
-    B1 --> C1{Project feasibility?}
-    C1 --> D1[SkyScan 1276]
-    C1 --> D2[IVIS Spectrum]
+    %% Nodes
+    A[Initial Consultation]
+    B{<b>Ex vivo</b><br>Biological sample<br>Material science}
+    C{<i>In vivo</i>}
 
-    %% SkyScan 1276
-    D1 --> E1{Radiation safety certificate?}
-    E1 --> F1[Project request submission]
-    F1 --> G1[SOPs signature]
-    G1 --> H1[Calendar invitation]
-    H1 --> I1[Data acquisition with Maylis]
-    I1 --> J1[Data transfer to SAI folder]
-    J1 --> K1[Data analysis]
+    D{Project feasibility?}
+    E[Staff-Assisted imaging]
+    F[Project request submission]
+    G[SOPs signature]
+    H[Calendar invitation]
+    I[Data acquisition with Maylis]
+    J[Data transfer to SAI folder]
+    K[Data analysis]
 
-    %% IVIS Spectrum shares the same flow after Radiation Cert
-    D2 --> E1
+    L{Project feasibility?}
+    M{Vivarium access?}
+    N{IACUC/IBC approved?}
+    O{Animals ready?}
+    P[User-Operated imaging]
+    Q[Project request Submission]
+    R[Schedule training with Maylis]
+    S[Training attendance form]
+    T[SOPs/RAs signature]
+    U[Access to equipment booking]
+    V[Data acquisition by user]
+    W[Data transfer to SAI folder]
+    X[Data analysis]
 
-    %% In vivo branch
-    A --> B2[In vivo]
-    B2 --> C2{Project feasibility?}
-    C2 --> D3{Vivarium access?}
-    D3 --> E2{IACUC approved?}
-    E2 --> F2{Animals ready?}
-    F2 --> G2[KS Endoscope]
-    F2 --> G3[nVue-nVision]
+    %% Flow
+    A --> B
+    A --> C
 
-    %% KS Endoscope flow
-    G2 --> H2[Project request submission]
-    H2 --> I2[Schedule training with Maylis]
-    I2 --> J2[Training attendance sheet]
-    J2 --> K2[SOPs/RAs signature]
-    K2 --> L2[Access to equipment booking]
-    L2 --> M2[Data acquisition by user]
-    M2 --> N2[Data transfer to SAI folder]
-    N2 --> O2[Data analysis]
+    B --> D
+    D --> E
+    E --> F --> G --> H --> I --> J --> K
 
-    %% nVue-nVision shares the same flow
-    G3 --> H2
+    C --> L --> M --> N --> O --> P
+    P --> Q --> R --> S --> T --> U --> V --> W --> X
 
     %% Styling
-    style A fill:#ffffff,stroke:#000,stroke-width:2px
-    style B1 fill:#d6eadf,stroke:#2c662d,stroke-width:2px
-    style B2 fill:#d0e7f7,stroke:#005792,stroke-width:2px
+    class A white
+    class B green
+    class D,F,G,H,I,J,K yellow
+    class E yellow
+    class C,L,M,N,O blue
+    class P,Q,R,S,T,U,V,W,X orange
+    class H,I,J,K dashed
+    class V,W,X dashed
 
-    style D1 fill:#fff2cc,stroke:#d89b00
-    style D2 fill:#fff2cc,stroke:#d89b00
-    style G2 fill:#fdecdc,stroke:#ff5722
-    style G3 fill:#fdecdc,stroke:#ff5722
 
 
 Study Initiation
