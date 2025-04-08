@@ -3,13 +3,71 @@ SAI Study Scheduling
 
 Study General Workflow
 **********************
+The following outlines the general workflow for initiating a standard study using the SAI Core.
 
+.. mermaid::
 
+   graph TD
+    %% Styles
+    classDef white fill=#ffffff,stroke=#000000,color=#000;
+    classDef green fill=#eaf4e0,stroke=#436f29,color=#000;
+    classDef yellow fill=#fceec0,stroke=#c58e00,color=#000;
+    classDef blue fill=#e4f1fb,stroke=#0367a6,color=#000;
+    classDef orange fill=#ffe5d5,stroke=#d46900,color=#000;
+    classDef dashed stroke-dasharray: 5 5;
+
+    %% Nodes
+    A[Initial Consultation]
+    B{<b>Ex vivo</b><br>Biological sample<br>Material science}
+    C{<i>In vivo</i>}
+
+    D{Project feasibility?}
+    E[Staff-Assisted imaging]
+    F[Project request submission]
+    G[SOPs signature]
+    H[Calendar invitation]
+    I[Data acquisition with Maylis]
+    J[Data transfer to SAI folder]
+    K[Data analysis]
+
+    L{Project feasibility?}
+    M{Vivarium access?}
+    N{IACUC/IBC approved?}
+    O{Animals ready?}
+    P[User-Operated imaging]
+    Q[Project request Submission]
+    R[Schedule training with Maylis]
+    S[Training attendance form]
+    T[SOPs/RAs signature]
+    U[Access to equipment booking]
+    V[Data acquisition by user]
+    W[Data transfer to SAI folder]
+    X[Data analysis]
+
+    %% Flow
+    A --> B
+    A --> C
+
+    B --> D
+    D --> E
+    E --> F --> G --> H --> I --> J --> K
+
+    C --> L --> M --> N --> O --> P
+    P --> Q --> R --> S --> T --> U --> V --> W --> X
+
+    %% Styling
+    class A white
+    class B green
+    class D,F,G,H,I,J,K yellow
+    class E yellow
+    class C,L,M,N,O blue
+    class P,Q,R,S,T,U,V,W,X orange
+    class H,I,J,K dashed
+    class V,W,X dashed
 
 
 Study Initiation
 ****************
-
 Initial Consultation
 ====================
 To initiate a research project utilizing equipment from the SAI Core, please contact maylis.boitet@nyu.edu to arrange an
@@ -21,6 +79,7 @@ Project Registration
 Upon completion of the consultation, please submit the online project registration form (LINK) along with all required supporting documentation.
 You will receive an email containing the relevant Standard Operating Procedures (SOPs) for SAI operations, imaging procedures, and material transfer.
 These documents must be reviewed and signed during your initial imaging session or training.
+
 
 Training and Scheduling
 ***********************
@@ -54,6 +113,9 @@ When staff assistance is required for an imaging study, please send a Google Cal
 ensuring that your name and the imaging modality are clearly stated in the subject line.
 Before submitting the request, verify the availability of the required resource using the booking system https://corelabs.abudhabi.nyu.edu/.
 
+SAI Room access
+===============
+All users who require access to the SAI room must have prior access to the vivarium as well as an approved IACUC protocol for live animal imaging.
 
 Daily equipment scheduling strategy
 ===================================
@@ -71,9 +133,23 @@ Daily Imaging Order (from lowest to highest contamination risk):
 
 Adherence to this imaging sequence is mandatory to ensure biosafety and preserve the health classification of vivarium environments.
 
-SAI Room access
-***************
-All users who require access to the SAI room must have prior access to the vivarium as well as approved IACUC protocol.
+
+Scheduling Policies
+*******************
+Equipment booking
+=================
+Use of any SAI resource must be scheduled in advance through the designated booking system. Users are encouraged to reserve
+their imaging timeslots at least one week ahead of time. For staff-assisted imaging, a minimum notice of 24 hours is required,
+while user-operated sessions must be booked with at least 4 hours notice. Short-notice bookings should be avoided to ensure proper planning and support.
+When reserving equipment, please account for warm-up time and cleaning procedures to ensure optimal performance and adherence to safety protocols.
+
+Cancellation
+============
+Users must cancel any scheduled imaging sessions as early as possible to allow reallocation of resources. Cancellations
+should be made at least 24 hours in advance through the CTP booking system. Repeated last-minute cancellations or no-shows
+may result in temporary suspension of booking privileges. Please notify core staff immediately in the event of unavoidable
+delays or emergencies.
+
 
 Required documentation
 **********************
@@ -112,41 +188,8 @@ The online Radiation Safety Training can be accessed at: https://moodle.abudhabi
 
 
 
-Scheduling Policies
-*******************
-
-Cancellation
-============
-Users must cancel any scheduled imaging sessions as early as possible to allow reallocation of resources. Cancellations
-should be made at least 24 hours in advance through the CTP booking system. Repeated last-minute cancellations or no-shows
-may result in temporary suspension of booking privileges. Please notify core staff immediately in the event of unavoidable
-delays or emergencies.
 
 
 
 
-
-
-
-
-
-
-
-
-
-Below is a flowchart describing a typical project initiation workflow when using the Small Animal Imaging Core data acquisition process:
-
-.. mermaid::
-
-   graph TD
-       A[Patient Registration & Scheduling] --> B[Screening for Contraindications]
-       B --> C[Patient Preparation & Consent]
-       C --> D[Patient Positioning]
-       D --> E[Localizer/Scout Scans]
-       E --> F[Pulse Sequence Selection]
-       F --> G[MRI Data Acquisition]
-       G --> H[Image Reconstruction]
-       H --> I[Quality Control & Post-Processing]
-       I --> J[Diagnostic Interpretation]
-       J --> K[Reporting & Archiving]
 

@@ -8,6 +8,9 @@ Animal Care and Use Committee (IACUC), the Institutional Biosafety Committee (IB
 Radiation Safety Program. Prior to conducting any imaging procedures, users must provide the core staff with a copy of their
 approved IACUC protocol, and if applicable, an approved Institutional Biosafety Committee (IBC) protocol.
 
+Failure to comply with SAI policies, rules, and procedures may result in the revocation of access to both the resources and the facility.
+
+
 Anesthesia
 **********
 Each imaging station within the core is equipped with an isoflurane anesthesia system. Imaging sessions are conducted
@@ -49,9 +52,9 @@ Animal transfer to husbandry room
 The SAI room is considered a "dirty" area relative to the rest of the vivarium.
 To prevent cross-contamination, the following decontamination procedures must be followed:
 
-    - Before returning animal cages to the vivarium husbandry room using a trolley, spray each cage thoroughly with MB-10 disinfectant solution.
-    - When entering the vivarium corridor from the SAI room, either spray your gloves with MB-10 solution or replace them with a fresh pair.
-Additionally, wear an extra pair of shoe covers.
+- Before returning animal cages to the vivarium husbandry room using a trolley, spray each cage thoroughly with MB-10 disinfectant solution.
+- When entering the vivarium corridor from the SAI room, either spray your gloves with MB-10 solution or replace them with a fresh pair. Additionally, wear an extra pair of shoe covers.
+
 
 SAI Resource Management
 ***********************
@@ -61,10 +64,11 @@ The Small Animal Imaging (SAI) facility uses the CTP booking system for centrali
 resources. All core users are required to utilize this system to reserve equipment prior to accessing services. To schedule
 an experiment in the SAI lab, visit https://corelabs.abudhabi.nyu.edu/, navigate to the Reservations section, select Schedule,
 and from the upper drop-down menu choose Brain Imaging, then book the appropriate resource.
+For additional details, please refer to the "Scheduling Policies" section.
 
 Data storage
 ============
-Research data is accessible via the shared SAI folder, organized under each researcher's name \\it-nfs2.abudhabi.nyu.edu\Small Animal Imaging\Username.
+Research data is accessible via the shared SAI folder, organized under each researcher's name. Contact maylis.boitet@nyu.edu for access.
 Users are responsible for backing up their own data.
 
 Data analysis
