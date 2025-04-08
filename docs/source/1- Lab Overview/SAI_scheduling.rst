@@ -16,7 +16,7 @@ The following outlines the general workflow for initiating a standard study usin
     C1 --> D1[SkyScan 1276]
     C1 --> D2[IVIS Spectrum]
 
-    %% SkyScan
+    %% SkyScan 1276
     D1 --> E1{Radiation safety certificate?}
     E1 --> F1[Project request submission]
     F1 --> G1[SOPs signature]
@@ -35,7 +35,7 @@ The following outlines the general workflow for initiating a standard study usin
     D3 --> E2{IACUC approved?}
     E2 --> F2{Animals ready?}
     F2 --> G2[KS Endoscope]
-    F2 --> G3[nVue/nVision]
+    F2 --> G3[nVue-nVision]
 
     %% KS Endoscope flow
     G2 --> H2[Project request submission]
@@ -47,7 +47,7 @@ The following outlines the general workflow for initiating a standard study usin
     M2 --> N2[Data transfer to SAI folder]
     N2 --> O2[Data analysis]
 
-    %% nVue/nVision shares the same flow
+    %% nVue-nVision shares the same flow
     G3 --> H2
 
     %% Styling
