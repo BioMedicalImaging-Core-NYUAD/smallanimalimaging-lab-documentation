@@ -52,8 +52,8 @@ Animal transfer to husbandry room
 The SAI room is considered a "dirty" area relative to the rest of the vivarium.
 To prevent cross-contamination, the following decontamination procedures must be followed:
 
-    - Before returning animal cages to the vivarium husbandry room using a trolley, spray each cage thoroughly with MB-10 disinfectant solution.
-    - When entering the vivarium corridor from the SAI room, either spray your gloves with MB-10 solution or replace them with a fresh pair. Additionally, wear an extra pair of shoe covers.
+- Before returning animal cages to the vivarium husbandry room using a trolley, spray each cage thoroughly with MB-10 disinfectant solution.
+- When entering the vivarium corridor from the SAI room, either spray your gloves with MB-10 solution or replace them with a fresh pair. Additionally, wear an extra pair of shoe covers.
 
 
 SAI Resource Management

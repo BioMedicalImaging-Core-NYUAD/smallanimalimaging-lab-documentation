@@ -66,7 +66,6 @@ The following outlines the general workflow for initiating a standard study usin
     class V,W,X dashed
 
 
-
 Study Initiation
 ****************
 Initial Consultation
