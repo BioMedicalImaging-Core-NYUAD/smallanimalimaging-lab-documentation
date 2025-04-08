@@ -21,6 +21,7 @@ as part of the mandatory imaging user training. Activated charcoal canisters mus
 Following each session, users must turn off the oxygen supply valve and
 anesthesia vaporizer, and flush the system to ensure safe and proper maintenance.
 
+
 SAI Facility Hygiene Guidelines
 *******************************
 Surface and equipment decontamination

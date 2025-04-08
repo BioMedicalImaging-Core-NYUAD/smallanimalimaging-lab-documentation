@@ -9,8 +9,9 @@ the university.
 For more information about available technologies and support services, please visit the CTP website:
 https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platforms.html
 
-Team
-****
+
+Core Team
+*********
 Maylis Boitet, DVM, PhD
 =======================
 
@@ -24,10 +25,12 @@ models. Dr. Boitet also holds a Doctor of Veterinary Medicine (DVM) degree from 
 collaborates with researchers to integrate non-invasive imaging strategies into preclinical research studies.
 `maylis.boitet@nyu.edu <mailto:maylis.boitet@nyu.edu>`_
 
+
 Location
 ********
 The Small Animal Imaging Core is located within the AAALAC-accredited vivarium in Basement Level 2 of the Experimental
 Research Building, C1 at New York University Abu Dhabi, UAE.
+
 
 Documentation content
 *********************

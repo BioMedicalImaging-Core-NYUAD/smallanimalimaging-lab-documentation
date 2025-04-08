@@ -7,6 +7,7 @@ vivarium, the laboratory provides a comprehensive suite of in vivo and ex vivo i
 structural, functional, and molecular imaging techniques. These advanced imaging capabilities enable high-resolution, non-invasive
 investigations in preclinical models and are readily available to researchers at NYUAD.
 
+
 SAI Capabilities and Services
 *****************************
 Imaging equipment
@@ -48,6 +49,7 @@ equipment, and support for data acquisition, processing, and analysis. Furthermo
 data storage and access to high-performance computing resources. These comprehensive capabilities support the design
 and implementation of longitudinal studies investigating disease progression, therapeutic efficacy, and molecular
 mechanisms in murine models (mice and rats).
+
 
 Core Acknowledgements
 *********************

@@ -44,6 +44,7 @@ Common genetic engineering approaches include:
 These models enable non-invasive monitoring of gene expression, disease progression, and therapeutic response in preclinical research,
 particularly in the fields of oncology, immunology, and neuroscience.
 
+
 System Specifications
 *********************
 CCD camera
@@ -85,6 +86,7 @@ Software
 - Co-registration with anatomical atlases or CT/MRI for overlaying structural and functional data
 - 3D bioluminescence and fluorescence tomography with depth estimation and quantitative analysis
 - Exportation of DICOM image format for 3D co-registration
+
 
 Available accessories
 *********************
