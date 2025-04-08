@@ -20,11 +20,8 @@ Since August 2023, Dr. Boitet has served as the inaugural Research Instrumentati
 Core at New York University Abu Dhabi (NYUAD). She earned her Ph.D. from Institut Pasteur Korea, where she characterized
 a reporter mouse model for neuroinflammation using in vivo optical imaging. Her research focuses on neuroscience and optical
 imaging, with particular emphasis on the application of advanced imaging modalities to study brain function in preclinical
-models. Dr. Boitet also holds a Doctor of Veterinary Medicine (DVM) degree from VetAgro Sup in Lyon, France, where she
-characterized the naturally occurring L120Q mutation in the rVKORC1 protein in wild rats, a mutation linked to resistance
-against antivitamin K compounds.
-
-At NYUAD, she actively collaborates with researchers to integrate non-invasive imaging strategies into preclinical research studies.
+models. Dr. Boitet also holds a Doctor of Veterinary Medicine (DVM) degree from VetAgro Sup in Lyon. At NYUAD, she actively
+collaborates with researchers to integrate non-invasive imaging strategies into preclinical research studies.
 `maylis.boitet@nyu.edu <mailto:maylis.boitet@nyu.edu>`_
 
 Location
@@ -40,15 +37,17 @@ Documentation content
 
     SAI_lab_overview
     SAI_general_policies
+    SAI_scheduling
     SAI_publications
     SAI_useful_links
-    process_diagram
+
 
 .. toctree::
     :caption: Imaging Technology
 
     IVIS Spectrum
     SkyScan 1276
-    Karl Storz small animal endoscope
     nVue-nVision
+    Karl Storz small animal endoscope
+
 

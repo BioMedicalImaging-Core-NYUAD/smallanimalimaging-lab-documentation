@@ -4,9 +4,9 @@ SAI General Policies
 Compliance
 **********
 Users are responsible for ensuring compliance with all applicable NYUAD policies, including those set by the Institutional
-Animal Care and Use Committee (IACUC), the Controlled Substance Program, and the Radiation Safety Program. Prior to conducting
-any imaging procedures, users must provide the core staff with a copy of their approved IACUC protocol, and if applicable,
-an approved Institutional Biosafety Committee (IBC) protocol.
+Animal Care and Use Committee (IACUC), the Institutional Biosafety Committee (IBC), the Controlled Substance Program, and the
+Radiation Safety Program. Prior to conducting any imaging procedures, users must provide the core staff with a copy of their
+approved IACUC protocol, and if applicable, an approved Institutional Biosafety Committee (IBC) protocol.
 
 Anesthesia
 **********
@@ -14,7 +14,8 @@ Each imaging station within the core is equipped with an isoflurane anesthesia s
 with animals anesthetized using isoflurane, unless an alternative method is specifically requested and scientifically
 justified. Users are required to supply their own isoflurane bottles for imaging sessions and must adhere to NYUAD
 guidelines governing the use of Controlled Substances. Training on the operation of the anesthesia system is included
-as part of the mandatory imaging user training. Following each session, users must turn off the oxygen supply valve and
+as part of the mandatory imaging user training. Activated charcoal canisters must be weighed prior to the use of the anesthesia system.
+Following each session, users must turn off the oxygen supply valve and
 anesthesia vaporizer, and flush the system to ensure safe and proper maintenance.
 
 SAI Facility Hygiene Guidelines
@@ -29,11 +30,10 @@ is the imaging stage of the IVIS Spectrum, which must be cleaned using 70% ethan
 
 Post-use equipment standby
 ==========================
-Users are responsible for ensuring that all equipment is returned to its original sleep or standby mode after use. This
-includes recapping cameras when applicable, closing imaging chambers or lids, properly shutting down or securing system
-components, and returning all accessories to their designated locations.  These steps help maintain equipment integrity,
+Users are responsible for ensuring that all equipment is returned to its original standby mode after use. This includes
+recapping cameras when applicable, closing imaging chambers or lids, properly shutting down acquisition software, securing
+system components, and returning all accessories to their designated storage locations. These steps help maintain equipment integrity,
 prolong system lifespan, and ensure readiness for the next user.
-
 
 Material storage and sample containment
 =======================================
@@ -44,20 +44,28 @@ All materials belonging to research teams must be stored in the designated trans
 clearly labeled with the team’s name. No items should be left on laboratory benches, imaging stations, or computer desks
 at any time.
 
+Animal transfer to husbandry room
+=================================
+The SAI room is considered a "dirty" area relative to the rest of the vivarium.
+To prevent cross-contamination, the following decontamination procedures must be followed:
+
+    - Before returning animal cages to the vivarium husbandry room using a trolley, spray each cage thoroughly with MB-10 disinfectant solution.
+    - When entering the vivarium corridor from the SAI room, either spray your gloves with MB-10 solution or replace them with a fresh pair.
+Additionally, wear an extra pair of shoe covers.
 
 SAI Resource Management
 ***********************
-
 Scheduling
 ==========
 The Small Animal Imaging (SAI) facility uses the CTP booking system for centralized scheduling and management of imaging
 resources. All core users are required to utilize this system to reserve equipment prior to accessing services. To schedule
 an experiment in the SAI lab, visit https://corelabs.abudhabi.nyu.edu/, navigate to the Reservations section, select Schedule,
-and from the upper drop-down menu choose Biomedical Imaging, then book the appropriate resource.
+and from the upper drop-down menu choose Brain Imaging, then book the appropriate resource.
 
-Cancellation
+Data storage
 ============
-Users must cancel any scheduled imaging sessions as early as possible to allow reallocation of resources. Cancellations
-should be made at least 24 hours in advance through the CTP booking system. Repeated last-minute cancellations or no-shows
-may result in temporary suspension of booking privileges. Please notify core staff immediately in the event of unavoidable
-delays or emergencies.
+Research data is accessible via the shared SAI folder, organized under each researcher's name \\it-nfs2.abudhabi.nyu.edu\Small Animal Imaging\Username.
+Users are responsible for backing up their own data.
+
+Data analysis
+=============
