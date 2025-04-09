@@ -8,7 +8,7 @@ Animal Care and Use Committee (IACUC), the Institutional Biosafety Committee (IB
 Radiation Safety Program. Prior to conducting any imaging procedures, users must provide the core staff with a copy of their
 approved IACUC protocol, and if applicable, an approved Institutional Biosafety Committee (IBC) protocol.
 
-Failure to comply with SAI policies, rules, and procedures may result in the revocation of access to both the resources and the facility.
+Failure to comply with SAI policies, rules, and procedures may result in temporary suspension of booking privileges.
 
 
 Anesthesia
@@ -69,8 +69,17 @@ For additional details, please refer to the "Scheduling Policies" section.
 
 Data storage
 ============
-Research data is accessible via the shared SAI folder, organized under each researcher's name. Contact maylis.boitet@nyu.edu for access.
-Users are responsible for backing up their own data.
+Research data is available in the shared SAI folder, organized by individual researcher names. For access permissions,
+please contact maylis.boitet@nyu.edu.
+Access to subfolders is restricted based on user credentials. Users are encouraged to reorganize their data in accordance
+with their specific study to facilitate efficient data retrieval. All users are strongly encouraged to maintain their own backups.
 
-Data analysis
-=============
+Data processing workstation
+===========================
+A dedicated CTP workstation is available for users to conduct data analysis. Users can directly access their data from the
+shared SAI folder on this common workstation.
+For remote access or to book the workstation, please contact maylis.boitet@nyu.edu.
+When using the shared workstation, users are advised not to save their data on the local hard drive, as files may be altered
+or deleted by other users. Instead, users are encouraged to store their data on secure platforms such as their NYU Box,
+Google Drive, or their private SAI shared subfolder.
+

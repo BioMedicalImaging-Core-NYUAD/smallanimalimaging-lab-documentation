@@ -76,9 +76,9 @@ the imaging resource intended for use.
 
 Project Registration
 ====================
-Upon completion of the consultation, please submit the online project registration form (LINK) along with all required supporting documentation.
-You will receive an email containing the relevant Standard Operating Procedures (SOPs) for SAI operations, imaging procedures, and material transfer.
-These documents must be reviewed and signed during your initial imaging session or training.
+Upon completion of the consultation, please submit the online project registration form https://forms.gle/d3xRyphopVUj6PwW6.
+You will then receive an email containing the relevant Standard Operating Procedures (SOPs) for SAI operations, imaging
+procedures, and material transfer. These documents must be reviewed and signed during your initial imaging session or training.
 
 
 Training and Scheduling
@@ -115,7 +115,8 @@ Before submitting the request, verify the availability of the required resource 
 
 SAI Room access
 ===============
-All users who require access to the SAI room must have prior access to the vivarium as well as an approved IACUC protocol for live animal imaging.
+All users who require access to the SAI room must have prior access to the vivarium as well as an approved IACUC protocol
+for live animal imaging.
 
 Daily equipment scheduling strategy
 ===================================
@@ -140,8 +141,9 @@ Equipment booking
 =================
 Use of any SAI resource must be scheduled in advance through the designated booking system. Users are encouraged to reserve
 their imaging timeslots at least one week ahead of time. For staff-assisted imaging, a minimum notice of 24 hours is required,
-while user-operated sessions must be booked with at least 4 hours notice. Short-notice bookings should be avoided to ensure proper planning and support.
-When reserving equipment, please account for warm-up time and cleaning procedures to ensure optimal performance and adherence to safety protocols.
+while user-operated sessions must be booked with at least 4 hours notice. Short-notice bookings should be avoided to ensure proper
+planning and support. When reserving equipment, please account for warm-up time and cleaning procedures to ensure optimal
+performance and adherence to safety protocols.
 
 Cancellation
 ============
