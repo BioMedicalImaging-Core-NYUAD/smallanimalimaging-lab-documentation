@@ -3,7 +3,6 @@ SAI List of Publications
 
 Authorship
 **********
-
 2025
 ====
 Benyettou, F., Das, G., Boitet, M., Varghese, S., Khair, M., Das, A. K., Matouk, Z., et al.,
@@ -27,6 +26,7 @@ bioRxiv, September 1, 2024. https://www.biorxiv.org/content/10.1101/2024.08.30.6
 Benyettou, F., Khair, M., Prakasam, T., Varghese, S., Matouk, Z., Alkaabi, M., Pena-Sánchez, P., et al.,
 CRGD-Peptide Modified Covalent Organic Frameworks for Precision Chemotherapy in Triple-Negative Breast Cancer,
 ACS Applied Materials and Interfaces, August 27, 2024. https://pubs.acs.org/doi/10.1021/acsami.4c10812
+
 
 Acknowledgements
 ****************
