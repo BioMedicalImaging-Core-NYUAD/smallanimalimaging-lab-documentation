@@ -1,7 +1,7 @@
 SAI Study Scheduling
 ####################
 
-Study General Workflow
+Study general workflow
 **********************
 The following outlines the general workflow for initiating a standard study using the SAI Core.
 
