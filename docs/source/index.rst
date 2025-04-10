@@ -38,19 +38,19 @@ Documentation content
 .. toctree::
     :caption: Lab Overview
 
-    SAI_lab_overview
-    SAI_general_policies
-    SAI_scheduling
-    SAI_publications
-    SAI_useful_links
+    1-lab-overview/SAI_lab_overview
+    1-lab-overview/SAI_general_policies
+    1-lab-overview/SAI_scheduling
+    1-lab-overview/SAI_publications
+    1-lab-overview/SAI_useful_links
 
 
 .. toctree::
     :caption: Imaging Technology
 
-    IVIS Spectrum
-    SkyScan 1276
-    nVue-nVision
-    Karl Storz small animal endoscope
+    2-Imaging-technology/IVIS_Spectrum
+    2-Imaging-technology/SkyScan_1276
+    2-Imaging-technology/nVue-nVision
+    2-Imaging-technology/KarlStorz_small_animal_endoscope
 
 
