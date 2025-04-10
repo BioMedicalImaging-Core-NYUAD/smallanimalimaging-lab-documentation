@@ -22,7 +22,7 @@ Following each session, users must turn off the oxygen supply valve and
 anesthesia vaporizer, and flush the system to ensure safe and proper maintenance.
 
 
-SAI Facility Hygiene Guidelines
+SAI facility hygiene guidelines
 *******************************
 Surface and equipment decontamination
 =====================================
@@ -57,7 +57,7 @@ To prevent cross-contamination, the following decontamination procedures must be
 - When entering the vivarium corridor from the SAI room, either spray your gloves with MB-10 solution or replace them with a fresh pair. Additionally, wear an extra pair of shoe covers.
 
 
-SAI Resource Management
+SAI resource management
 ***********************
 Scheduling
 ==========

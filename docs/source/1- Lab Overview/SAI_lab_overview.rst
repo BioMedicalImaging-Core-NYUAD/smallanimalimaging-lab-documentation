@@ -8,7 +8,7 @@ structural, functional, and molecular imaging techniques. These advanced imaging
 investigations in preclinical models and are readily available to researchers at NYUAD.
 
 
-SAI Capabilities and Services
+SAI capabilities and services
 *****************************
 Imaging equipment
 =================
@@ -42,7 +42,7 @@ but not limited to:
     - Gene expression and reporter imaging
     - Biodistribution and pharmacokinetics of drugs
 
-Research Support and Services
+Research support and services
 =============================
 In addition to imaging services, the facility offers expert consultation, specialized training in the operation of imaging
 equipment, and support for data acquisition, processing, and analysis. Furthermore, it provides researchers with secure
@@ -51,7 +51,7 @@ and implementation of longitudinal studies investigating disease progression, th
 mechanisms in murine models (mice and rats).
 
 
-Core Acknowledgements
+Core acknowledgements
 *********************
 All publications (manuscripts, abstracts, presentations, posters...) based on work conducted in the SAI Core should
 acknowledge NYUAD Core Technology Platforms.

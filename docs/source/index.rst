@@ -10,12 +10,12 @@ For more information about available technologies and support services, please v
 https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platforms.html
 
 
-Core Team
+Core team
 *********
 Maylis Boitet, DVM, PhD
 =======================
 
-Small Animal Imaging Research Scientist
+Small animal imaging research scientist
 ---------------------------------------
 Since August 2023, Dr. Boitet has served as the inaugural Research Instrumentation Scientist for the Small Animal Imaging
 Core at New York University Abu Dhabi (NYUAD). She earned her Ph.D. from Institut Pasteur Korea, where she characterized
