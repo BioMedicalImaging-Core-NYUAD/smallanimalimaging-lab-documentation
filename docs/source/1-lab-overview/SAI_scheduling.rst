@@ -7,42 +7,42 @@ The following outlines the general workflow for initiating a standard study usin
 
 .. mermaid::
 
-   graph TD
+  graph TD
     %% Styles
     classDef white fill=#ffffff,stroke=#000000,color=#000;
     classDef green fill=#eaf4e0,stroke=#436f29,color=#000;
     classDef yellow fill=#fceec0,stroke=#c58e00,color=#000;
     classDef blue fill=#e4f1fb,stroke=#0367a6,color=#000;
     classDef orange fill=#ffe5d5,stroke=#d46900,color=#000;
-    classDef dashed stroke-dasharray: 5 5;
+    classDef dashed stroke-dasharray 5 5;
 
     %% Nodes
-    A[Initial Consultation]
-    B{<b>Ex vivo</b><br>Biological sample<br>Material science}
-    C{<i>In vivo</i>}
+    A["Initial Consultation"]
+    B["Ex vivo\nBiological sample\nMaterial science"]
+    C["In vivo"]
 
-    D{Project feasibility?}
-    E[Staff-Assisted imaging]
-    F[Project request submission]
-    G[SOPs signature]
-    H[Calendar invitation]
-    I[Data acquisition with Maylis]
-    J[Data transfer to SAI folder]
-    K[Data analysis]
+    D["Project feasibility?"]
+    E["Staff-Assisted imaging"]
+    F["Project request submission"]
+    G["SOPs signature"]
+    H["Calendar invitation"]
+    I["Data acquisition with Maylis"]
+    J["Data transfer to SAI folder"]
+    K["Data analysis"]
 
-    L{Project feasibility?}
-    M{Vivarium access?}
-    N{IACUC/IBC approved?}
-    O{Animals ready?}
-    P[User-Operated imaging]
-    Q[Project request Submission]
-    R[Schedule training with Maylis]
-    S[Training attendance form]
-    T[SOPs/RAs signature]
-    U[Access to equipment booking]
-    V[Data acquisition by user]
-    W[Data transfer to SAI folder]
-    X[Data analysis]
+    L["Project feasibility?"]
+    M["Vivarium access?"]
+    N["IACUC/IBC approved?"]
+    O["Animals ready?"]
+    P["User-Operated imaging"]
+    Q["Project request submission"]
+    R["Schedule training with Maylis"]
+    S["Training attendance form"]
+    T["SOPs/RAs signature"]
+    U["Access to equipment booking"]
+    V["Data acquisition by user"]
+    W["Data transfer to SAI folder"]
+    X["Data analysis"]
 
     %% Flow
     A --> B
