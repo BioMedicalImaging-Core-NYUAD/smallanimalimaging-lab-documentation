@@ -8,7 +8,7 @@ structural, functional, and molecular imaging techniques. These advanced imaging
 investigations in preclinical models and are readily available to researchers at NYUAD.
 
 .. image:: ../graphic/SAI_equipment.png
-   :alt: MRI scanner image
+   :alt: SAI imaging equipment
    :width: 1650px
    :align: center
 
