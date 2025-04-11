@@ -9,8 +9,8 @@ IVIS Spectrum (Revvity)
 
    <br>
 
-Introduction to optical imaging
-*******************************
+Introduction to in vivo optical imaging
+***************************************
 
 
 

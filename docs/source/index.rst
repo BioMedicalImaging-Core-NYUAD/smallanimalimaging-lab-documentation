@@ -42,7 +42,7 @@ Documentation content
 .. toctree::
     :caption: Lab Overview
 
-    1-lab-overview/SAI_lab_overview
+    1-lab-overview/SAI_lab_presentation
     1-lab-overview/SAI_general_policies
     1-lab-overview/SAI_scheduling
     1-lab-overview/SAI_publications
@@ -52,9 +52,15 @@ Documentation content
 .. toctree::
     :caption: Imaging Technology
 
-    2-Imaging-technology/IVIS_Spectrum
-    2-Imaging-technology/SkyScan_1276
-    2-Imaging-technology/nVue-nVision
-    2-Imaging-technology/KarlStorz_small_animal_endoscope
+    2-Available-technology/IVIS_Spectrum
+    2-Available-technology/SkyScan_1276
+    2-Available-technology/nVue-nVision
+    2-Available-technology/KarlStorz_small_animal_endoscope
 
+.. toctree::
+    :caption: Technology Principles
 
+    3-Technology Principles/Optical imaging
+    3-Technology Principles/MicroCT
+    3-Technology Principles/Miniscope imaging
+    3-Technology Principles/Endoscopy
