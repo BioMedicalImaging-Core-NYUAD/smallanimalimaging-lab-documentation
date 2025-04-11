@@ -2,14 +2,14 @@ body {
     background-color: #ADFF2F; /* Replace with your desired color */
 }
 
-h1 {
-    color: #57068c;  /* NYU Purple */
+.rst-content h1 {
+    color: #57068c !important;  /* NYU Purple */
 }
 
-h2 {
-    color: #4682b4;  /* Steelblue */
+.rst-content h2 {
+    color: #4682b4 !important;  /* Steelblue */
 }
 
-h3 {
-    color: #2e8b57;  /* Seagreen */
+.rst-content h3 {
+    color: #2e8b57 !important;  /* Seagreen */
 }

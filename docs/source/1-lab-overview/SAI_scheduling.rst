@@ -9,34 +9,76 @@ The following outlines the general workflow for initiating a standard study usin
 
     graph TD
 
-    %% Initial Paths
-    A["Initial Consultation"] --> B["Ex vivo<br>Biological Sample<br>Material Science"]
-    A --> C["In vivo"]
+    %% Styles
+    classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
+    classDef invivo fill:#cfe2f3,stroke:#0b5394,stroke-width:1px;
+    classDef decision fill:#fff2cc,stroke:#b45f06,stroke-width:1px;
+    classDef staff fill:#fce5cd,stroke:#e69138,stroke-width:1px;
+    classDef user fill:#f9cb9c,stroke:#cc4125,stroke-width:1px;
+    classDef groupbox stroke-dasharray: 5 5;
 
-    %% Ex vivo Branch
-    B --> D["Project Feasibility?"]
-    D --> E["Staff-Assisted Imaging"]
-    E --> F["Project Request Submission"]
-    F --> G["SOPs Signature"]
-    G --> H["Calendar Invitation"]
-    H --> I["Data Acquisition with Maylis"]
-    I --> J["Data Transfer to SAI Folder"]
-    J --> K["Data Analysis"]
+    %% Nodes
+    A["Initial Consultation"]
+    B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
+    C["In vivo"]:::invivo
 
-    %% In vivo Branch
-    C --> L["Project Feasibility?"]
-    L --> M["Vivarium Access?"]
-    M --> N["IACUC/IBC Approved?"]
-    N --> O["Animals Ready?"]
-    O --> P["User-Operated Imaging"]
-    P --> Q["Project Request Submission"]
-    Q --> R["Schedule Training with Maylis"]
-    R --> S["Training Attendance Form"]
-    S --> T["SOPs/RAs Signature"]
-    T --> U["Access to Equipment Booking"]
-    U --> V["Data Acquisition by User"]
-    V --> W["Data Transfer to SAI Folder"]
-    W --> X["Data Analysis"]
+    D["Project Feasibility?"]:::decision
+    E["Staff-Assisted Imaging"]:::staff
+    F["Project Request Submission"]:::staff
+    G["SOPs Signature"]:::staff
+    H["Calendar Invitation"]:::staff
+    I["Data Acquisition with Maylis"]:::staff
+    J["Data Transfer to SAI Folder"]:::staff
+    K["Data Analysis"]:::staff
+
+    L["Project Feasibility?"]:::decision
+    M["Vivarium Access?"]:::decision
+    N["IACUC/IBC Approved?"]:::decision
+    O["Animals Ready?"]:::decision
+    P["User-Operated Imaging"]:::user
+    Q["Project Request Submission"]:::user
+    R["Schedule Training with Maylis"]:::user
+    S["Training Attendance Form"]:::user
+    T["SOPs/RAs Signature"]:::user
+    U["Access to Equipment Booking"]:::user
+    V["Data Acquisition by User"]:::user
+    W["Data Transfer to SAI Folder"]:::user
+    X["Data Analysis"]:::user
+
+    %% Flow
+    A --> B
+    A --> C
+
+    %% Ex vivo flow
+    B --> D
+    D --> E
+    D -.-> B
+    E --> F --> G --> H --> I --> J --> K
+
+    %% In vivo flow
+    C --> L --> M --> N --> O
+    L -.-> C
+    M -.-> L
+    N -.-> M
+    O -.-> N
+
+    %% Conditional outcomes from Animals Ready
+    O --> E
+    O --> P
+
+    %% User-operated flow
+    P --> Q --> R --> S --> T --> U --> V --> W --> X
+
+    %% Dashed grouping boxes
+    class H,I,J,K groupbox;
+    class V,W,X groupbox;
+
+    %% Clickable Nodes
+    click A "mailto:maylis.boitet@nyu.edu" "Email maylis.boitet@nyu.edu"
+    click Q "https://forms.gle/d3xRyphopVUj6PwW6" "Open Project Request Form"
+    click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform" "Open Training Attendance Form"
+    click U "https://corelabs.abudhabi.nyu.edu/" "Go to Equipment Booking Portal"
+
 
 Study initiation
 ****************

@@ -1,12 +1,15 @@
 IVIS Spectrum (Revvity)
 #######################
+.. image:: ../_static/IVIS.png
+   :alt: *IVIS Spectrum*
+   :width: 400px
+   :align: center
 
-Introduction to optical imaging
-*******************************
+.. raw:: html
 
+   <br>
 
-
-
+For a comprehensive explanation of optical imaging principles, see :doc:`Optical Imaging Principles <3-Technology Principles/Optical imaging>`.
 
 
 IVIS Spectrum applications
