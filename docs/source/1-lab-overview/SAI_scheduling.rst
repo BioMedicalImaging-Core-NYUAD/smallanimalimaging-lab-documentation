@@ -19,7 +19,6 @@ The following outlines the general workflow for initiating a standard study usin
 
     %% Nodes
     A["Initial Consultation"]
-
     B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
     C["In vivo"]:::invivo
 
@@ -73,6 +72,13 @@ The following outlines the general workflow for initiating a standard study usin
     %% Dashed grouping boxes
     class H,I,J,K groupbox;
     class V,W,X groupbox;
+
+    %% Clickable Nodes
+    click A "mailto:maylis.boitet@nyu.edu" "Email maylis.boitet@nyu.edu"
+    click Q "https://forms.gle/d3xRyphopVUj6PwW6" "Open Project Request Form"
+    click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform" "Open Training Attendance Form"
+    click U "https://corelabs.abudhabi.nyu.edu/" "Go to Equipment Booking Portal"
+
 
 Study initiation
 ****************
