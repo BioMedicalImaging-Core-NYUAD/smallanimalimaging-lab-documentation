@@ -9,12 +9,7 @@ IVIS Spectrum (Revvity)
 
    <br>
 
-Introduction to in vivo optical imaging
-***************************************
-
-
-
-
+For a comprehensive explanation of optical imaging principles, see :doc:`Optical Imaging Principles <3-Technology-Principles/optical_imaging>`.
 
 
 IVIS Spectrum applications
