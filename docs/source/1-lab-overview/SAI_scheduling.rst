@@ -7,47 +7,36 @@ The following outlines the general workflow for initiating a standard study usin
 
 .. mermaid::
 
-graph TD
+    graph TD
 
-    %% Nodes
-    A["Initial Consultation"]
-    B["Ex vivo\nBiological sample\nMaterial science"]
-    C["In vivo"]
+    %% Initial Paths
+    A["Initial Consultation"] --> B["Ex vivo<br>Biological Sample<br>Material Science"]
+    A --> C["In vivo"]
 
-    D["Project feasibility?"]
-    E["Staff-Assisted imaging"]
-    F["Project request submission"]
-    G["SOPs signature"]
-    H["Calendar invitation"]
-    I["Data acquisition with Maylis"]
-    J["Data transfer to SAI folder"]
-    K["Data analysis"]
+    %% Ex vivo Branch
+    B --> D["Project Feasibility?"]
+    D --> E["Staff-Assisted Imaging"]
+    E --> F["Project Request Submission"]
+    F --> G["SOPs Signature"]
+    G --> H["Calendar Invitation"]
+    H --> I["Data Acquisition with Maylis"]
+    I --> J["Data Transfer to SAI Folder"]
+    J --> K["Data Analysis"]
 
-    L["Project feasibility?"]
-    M["Vivarium access?"]
-    N["IACUC/IBC approved?"]
-    O["Animals ready?"]
-    P["User-Operated imaging"]
-    Q["Project request submission"]
-    R["Schedule training with Maylis"]
-    S["Training attendance form"]
-    T["SOPs/RAs signature"]
-    U["Access to equipment booking"]
-    V["Data acquisition by user"]
-    W["Data transfer to SAI folder"]
-    X["Data analysis"]
-
-    %% Flow
-    A --> B
-    A --> C
-
-    B --> D
-    D --> E
-    E --> F --> G --> H --> I --> J --> K
-
-    C --> L --> M --> N --> O --> P
-    P --> Q --> R --> S --> T --> U --> V --> W --> X
-
+    %% In vivo Branch
+    C --> L["Project Feasibility?"]
+    L --> M["Vivarium Access?"]
+    M --> N["IACUC/IBC Approved?"]
+    N --> O["Animals Ready?"]
+    O --> P["User-Operated Imaging"]
+    P --> Q["Project Request Submission"]
+    Q --> R["Schedule Training with Maylis"]
+    R --> S["Training Attendance Form"]
+    S --> T["SOPs/RAs Signature"]
+    T --> U["Access to Equipment Booking"]
+    U --> V["Data Acquisition by User"]
+    V --> W["Data Transfer to SAI Folder"]
+    W --> X["Data Analysis"]
 
 Study initiation
 ****************
