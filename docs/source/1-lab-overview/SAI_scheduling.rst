@@ -74,10 +74,10 @@ The following outlines the general workflow for initiating a standard study usin
     P --> Q --> R --> S --> T --> U --> V --> W --> X
 
     %% Clickable Nodes
-    click A "mailto:maylis.boitet@nyu.edu" "Email maylis.boitet@nyu.edu"
-    click Q "https://forms.gle/d3xRyphopVUj6PwW6" "Open Project Request Form"
-    click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform" "Open Training Attendance Form"
-    click U "https://corelabs.abudhabi.nyu.edu/" "Go to Equipment Booking Portal"
+    click A "mailto:maylis.boitet@nyu.edu"
+    click Q "https://forms.gle/d3xRyphopVUj6PwW6"
+    click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
+    click U "https://corelabs.abudhabi.nyu.edu/"
 
 
 Study initiation
