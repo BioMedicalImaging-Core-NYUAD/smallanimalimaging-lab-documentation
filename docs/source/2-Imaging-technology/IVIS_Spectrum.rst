@@ -1,7 +1,7 @@
 IVIS Spectrum (Revvity)
 #######################
 .. image:: ../_static/IVIS.png
-   :alt: IVIS Spectrum
+   :alt: *IVIS Spectrum*
    :width: 400px
    :align: center
 
