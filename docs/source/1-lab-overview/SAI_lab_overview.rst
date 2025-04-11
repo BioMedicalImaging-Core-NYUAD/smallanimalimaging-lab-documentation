@@ -9,7 +9,7 @@ investigations in preclinical models and are readily available to researchers at
 
 .. image:: ../_static/SAI_equipment.png
    :alt: SAI Technology overview
-   :width: 1650px
+   :width: 800px
    :align: center
 
 .. raw:: html
