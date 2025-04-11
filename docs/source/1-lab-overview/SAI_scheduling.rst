@@ -55,15 +55,6 @@ graph TD
     C --> L --> M --> N --> O --> P
     P --> Q --> R --> S --> T --> U --> V --> W --> X
 
-    %% Styling
-    class A white
-    class B green
-    class D,F,G,H,I,J,K yellow
-    class E yellow
-    class C,L,M,N,O blue
-    class P,Q,R,S,T,U,V,W,X orange
-    class H,I,J,K dashed
-    class V,W,X dashed
 
 
 Study initiation
