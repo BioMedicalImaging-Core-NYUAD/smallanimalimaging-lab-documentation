@@ -3,13 +3,13 @@ body {
 }
 
 h1 {
-    color: #57068c;  /* NYU Purple */
+    color: #57068c !important;  /* NYU Purple */
 }
 
 h2 {
-    color: #4682b4;  /* Steelblue */
+    color: #4682b4 !important;  /* Steelblue */
 }
 
 h3 {
-    color: #2e8b57;  /* Seagreen */
+    color: #2e8b57 !important;  /* Seagreen */
 }
