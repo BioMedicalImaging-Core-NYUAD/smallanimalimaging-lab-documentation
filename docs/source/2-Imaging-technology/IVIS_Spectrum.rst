@@ -1,5 +1,13 @@
 IVIS Spectrum (Revvity)
 #######################
+.. image:: ../_static/IVIS.png
+   :alt: IVIS Spectrum
+   :width: 400px
+   :align: center
+
+.. raw:: html
+
+   <br>
 
 Introduction to optical imaging
 *******************************

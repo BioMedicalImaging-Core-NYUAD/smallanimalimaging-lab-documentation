@@ -14,7 +14,7 @@ Core team
 *********
 .. image:: ../_static/Maylis.png
    :alt: Maylis Boitet, DVM, PhD
-   :width: 300px
+   :width: 400px
    :align: center
 
 .. raw:: html
