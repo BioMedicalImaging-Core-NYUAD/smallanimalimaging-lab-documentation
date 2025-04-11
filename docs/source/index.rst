@@ -12,11 +12,15 @@ https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platfor
 
 Core team
 *********
-Maylis Boitet, DVM, PhD
-=======================
+.. image:: ../_static/Maylis.png
+   :alt: Maylis Boitet, DVM, PhD
+   :width: 300px
+   :align: center
 
-Small animal imaging research scientist
----------------------------------------
+.. raw:: html
+
+   <br>
+
 Since August 2023, Dr. Boitet has served as the inaugural Research Instrumentation Scientist for the Small Animal Imaging
 Core at New York University Abu Dhabi (NYUAD). She earned her Ph.D. from Institut Pasteur Korea, where she characterized
 a reporter mouse model for neuroinflammation using in vivo optical imaging. Her research focuses on neuroscience and optical
