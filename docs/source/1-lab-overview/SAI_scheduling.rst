@@ -7,14 +7,14 @@ The following outlines the general workflow for initiating a standard study usin
 
 .. mermaid::
 
-  graph TD
+graph TD
     %% Styles
-    classDef white fill=#ffffff,stroke=#000000,color=#000;
-    classDef green fill=#eaf4e0,stroke=#436f29,color=#000;
-    classDef yellow fill=#fceec0,stroke=#c58e00,color=#000;
-    classDef blue fill=#e4f1fb,stroke=#0367a6,color=#000;
-    classDef orange fill=#ffe5d5,stroke=#d46900,color=#000;
-    classDef dashed stroke-dasharray 5 5;
+    classDef white fill:#ffffff,stroke:#000000,color:#000000;
+    classDef green fill:#eaf4e0,stroke:#436f29,color:#000000;
+    classDef yellow fill:#fceec0,stroke:#c58e00,color:#000000;
+    classDef blue fill:#e4f1fb,stroke:#0367a6,color:#000000;
+    classDef orange fill:#ffe5d5,stroke:#d46900,color:#000000;
+    classDef dashed stroke-dasharray:5 5;
 
     %% Nodes
     A["Initial Consultation"]
@@ -55,15 +55,6 @@ The following outlines the general workflow for initiating a standard study usin
     C --> L --> M --> N --> O --> P
     P --> Q --> R --> S --> T --> U --> V --> W --> X
 
-    %% Styling
-    class A white
-    class B green
-    class D,F,G,H,I,J,K yellow
-    class E yellow
-    class C,L,M,N,O blue
-    class P,Q,R,S,T,U,V,W,X orange
-    class H,I,J,K dashed
-    class V,W,X dashed
 
 
 Study initiation
