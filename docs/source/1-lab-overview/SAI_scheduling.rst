@@ -12,17 +12,24 @@ The following outlines the general workflow for initiating a standard study usin
     %% Styles
     classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
     classDef invivo fill:#cfe2f3,stroke:#0b5394,stroke-width:1px;
-    classDef decision fill:#fff2cc,stroke:#b45f06,stroke-width:1px;
-    classDef staff fill:#fce5cd,stroke:#e69138,stroke-width:1px;
     classDef user fill:#f9cb9c,stroke:#cc4125,stroke-width:1px;
-    classDef groupbox stroke-dasharray: 5 5;
+    classDef staff fill:#fce5cd,stroke:#e69138,stroke-width:1px;
 
     %% Nodes
     A["Initial Consultation"]
-    B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
-    C["In vivo"]:::invivo
 
-    D["Project Feasibility?"]:::decision
+    %% Group 1: Ex vivo path
+    B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
+    D["Project Feasibility?"]:::exvivo
+
+    %% Group 2: In vivo path
+    C["In vivo"]:::invivo
+    L["Project Feasibility?"]:::invivo
+    M["Vivarium Access?"]:::invivo
+    N["IACUC/IBC Approved?"]:::invivo
+    O["Animals Ready?"]:::invivo
+
+    %% Group 3: Staff-handled
     E["Staff-Assisted Imaging"]:::staff
     F["Project Request Submission"]:::staff
     G["SOPs Signature"]:::staff
@@ -31,10 +38,7 @@ The following outlines the general workflow for initiating a standard study usin
     J["Data Transfer to SAI Folder"]:::staff
     K["Data Analysis"]:::staff
 
-    L["Project Feasibility?"]:::decision
-    M["Vivarium Access?"]:::decision
-    N["IACUC/IBC Approved?"]:::decision
-    O["Animals Ready?"]:::decision
+    %% Group 4: User-operated
     P["User-Operated Imaging"]:::user
     Q["Project Request Submission"]:::user
     R["Schedule Training with Maylis"]:::user
@@ -49,35 +53,31 @@ The following outlines the general workflow for initiating a standard study usin
     A --> B
     A --> C
 
+    subgraph Align Decisions [ ]
+        direction LR
+        D --> E
+        L --> M
+    end
+
     %% Ex vivo flow
     B --> D
-    D --> E
-    D -.-> B
     E --> F --> G --> H --> I --> J --> K
 
     %% In vivo flow
-    C --> L --> M --> N --> O
-    L -.-> C
-    M -.-> L
-    N -.-> M
-    O -.-> N
-
-    %% Conditional outcomes from Animals Ready
-    O --> E
-    O --> P
+    C --> L
+    M --✅ Yes --> N
+    N --✅ Yes --> O
+    O --✅ Yes --> E
+    O --✅ Yes --> P
 
     %% User-operated flow
     P --> Q --> R --> S --> T --> U --> V --> W --> X
 
-    %% Dashed grouping boxes
-    class H,I,J,K groupbox;
-    class V,W,X groupbox;
-
     %% Clickable Nodes
-    click A "mailto:maylis.boitet@nyu.edu" "Email maylis.boitet@nyu.edu"
-    click Q "https://forms.gle/d3xRyphopVUj6PwW6" "Open Project Request Form"
-    click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform" "Open Training Attendance Form"
-    click U "https://corelabs.abudhabi.nyu.edu/" "Go to Equipment Booking Portal"
+    click A "mailto:maylis.boitet@nyu.edu"
+    click Q "https://forms.gle/d3xRyphopVUj6PwW6"
+    click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
+    click U "https://corelabs.abudhabi.nyu.edu/"
 
 
 Study initiation
