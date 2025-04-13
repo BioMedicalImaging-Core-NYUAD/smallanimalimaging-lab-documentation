@@ -30,30 +30,31 @@ Challenges
 Non-invasive in vivo optical imaging provides a powerful platform for tracking biological processes in live animals.
 However, it faces several important challenges that can impact imaging performance, accuracy, and data interpretability:
 
-- **Limited tissue penetration:**
-Both excitation and emission photons are subject to significant absorption and scattering by biological tissues.
+- **Limited tissue penetration:** Both excitation and emission photons are subject to significant absorption and scattering by biological tissues.
 This dramatically restricts photon penetration depth, particularly for visible-wavelength fluorophores or reporters,
 thereby limiting the modality’s utility for imaging deep anatomical structures. To mitigate this limitation, far-red
 fluorescent reporters with high brightness should be prioritized, as far-red signals (650–900 nm) penetrate more deeply
 into tissues (brain, lung, and liver). Despite substantial progress in fluorescent protein engineering—shifting emission
 spectra toward the far-red for improved in vivo imaging—bioluminescence imaging remains limited by the availability of
 bright far-red-emitting luciferases.
-- **Limited spatial resolution:**
-Optical imaging systems offer whole-body imaging but with relatively low spatial resolution due to photon diffusion and
+
+- **Limited spatial resolution:** Optical imaging systems offer whole-body imaging but with relatively low spatial resolution due to photon diffusion and
 scattering in tissue. These effects lead to signal blurring and poor localization accuracy, especially when imaging deep-seated
 organs. The deeper the emission source, the more pronounced the scattering. Three-dimensional fluorescence molecular tomography
 (FMT) has emerged as an alternative approach, enabling improved signal localization and quantitative probe distribution in 3D.
-- **Autofluorescence and background noise:**
-In fluorescence imaging, endogenous tissue autofluorescence,primarily from skin, fur, and dietary components, can significantly
+
+- **Autofluorescence and background noise:** In fluorescence imaging, endogenous tissue autofluorescence,primarily from skin, fur, and dietary components, can significantly
 reduce the signal-to-noise ratio. Mitigating autofluorescence is essential for reliable in vivo fluorescence imaging.
 This can be achieved by using albino mouse strains to minimize melanin absorption, employing hairless strains or shaving
 prior to imaging, and implementing an alfalfa-free diet to reduce chlorophyll-induced gut fluorescence. Although bioluminescence
 imaging inherently avoids autofluorescence, it remains susceptible to signal attenuation due to tissue scattering and often
 exhibits low photon output.
+
 - **Quantitative limitations:**
 Optical signal intensity is influenced by a range of variables including reporter expression level, brightness, tissue depth,
 inter-animal and positional variability. As a result, both fluorescence and bioluminescence imaging are typically semi-quantitative,
 requiring rigorous normalization and the inclusion of standardized controls to support meaningful comparisons.
+
 - **Substrate and probe delivery issues:
 Bioluminescence imaging requires systemic delivery of substrates (D-luciferin, coelenterazine), and is affected by variability
 in injection efficiency, biodistribution, metabolism, and tissue perfusion. Moreover, luciferase activity is dependent on
@@ -61,12 +62,12 @@ intracellular ATP and oxygen availability, rendering the signal sensitive to hyp
 leading to variability across tissues or in disease states. Similarly, fluorescent probes may suffer from non-specific distribution,
 poor bioavailability, or off-target accumulation, all of which can compromise signal specificity. Optical signal propagation
 is further influenced by tissue pigmentation, vascularization, and hydration.
+
 - **Restricted multiplexing (bioluminescence):
 While fluorescence imaging enables multiplexing through the use of spectrally distinct fluorophores and spectral unmixing
 algorithms, bioluminescence imaging is more limited in this regard. Overlapping emission spectra and the shared substrate
 requirements of common luciferases restrict the number of distinct reporters that can be simultaneously imaged, complicating
 multi-parametric experimental designs.
-
 
 
 Fluorescence imaging
