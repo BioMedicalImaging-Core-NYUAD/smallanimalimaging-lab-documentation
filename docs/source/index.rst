@@ -60,7 +60,7 @@ Documentation content
 .. toctree::
     :caption: Technology Principles
 
-    3-Technology Principles/Optical_imaging
-    3-Technology Principles/MicroCT
-    3-Technology Principles/Miniscope_imaging
-    3-Technology Principles/Endoscopy
+    3-Technology-principles/Optical_imaging
+    3-Technology-principles/MicroCT
+    3-Technology-principles/Miniscope_imaging
+    3-Technology-principles/Endoscopy
