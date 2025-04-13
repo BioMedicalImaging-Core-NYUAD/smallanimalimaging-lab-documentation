@@ -18,6 +18,15 @@ The main application of the IVIS Spectrum is non-invasive in vivo optical imagin
 small animal models using bioluminescence and fluorescence. Its high sensitivity, spectral unmixing and 3D imaging
 capabilities for bioluminescence and fluorescence approaches make it especially powerful for longitudinal studies in live animals.
 
+.. image:: ../_static/reporter_types.png
+   :alt: *Commonly used reporter types in in vivo optical imaging*
+   :width: 400px
+   :align: center
+
+.. raw:: html
+
+  <br>
+
 Probe injection (transient signal)
 ==================================
 This approach involves the use of exogenous imaging agents that emit optical signals for a limited duration following administration.
