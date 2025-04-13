@@ -50,21 +50,18 @@ prior to imaging, and implementing an alfalfa-free diet to reduce chlorophyll-in
 imaging inherently avoids autofluorescence, it remains susceptible to signal attenuation due to tissue scattering and often
 exhibits low photon output.
 
-- **Quantitative limitations:**
-Optical signal intensity is influenced by a range of variables including reporter expression level, brightness, tissue depth,
+- **Quantitative limitations:** Optical signal intensity is influenced by a range of variables including reporter expression level, brightness, tissue depth,
 inter-animal and positional variability. As a result, both fluorescence and bioluminescence imaging are typically semi-quantitative,
 requiring rigorous normalization and the inclusion of standardized controls to support meaningful comparisons.
 
-- **Substrate and probe delivery issues:
-Bioluminescence imaging requires systemic delivery of substrates (D-luciferin, coelenterazine), and is affected by variability
+- **Substrate and probe delivery issues: Bioluminescence imaging requires systemic delivery of substrates (D-luciferin, coelenterazine), and is affected by variability
 in injection efficiency, biodistribution, metabolism, and tissue perfusion. Moreover, luciferase activity is dependent on
 intracellular ATP and oxygen availability, rendering the signal sensitive to hypoxic or necrotic environments and potentially
 leading to variability across tissues or in disease states. Similarly, fluorescent probes may suffer from non-specific distribution,
 poor bioavailability, or off-target accumulation, all of which can compromise signal specificity. Optical signal propagation
 is further influenced by tissue pigmentation, vascularization, and hydration.
 
-- **Restricted multiplexing (bioluminescence):
-While fluorescence imaging enables multiplexing through the use of spectrally distinct fluorophores and spectral unmixing
+- **Restricted multiplexing (bioluminescence): While fluorescence imaging enables multiplexing through the use of spectrally distinct fluorophores and spectral unmixing
 algorithms, bioluminescence imaging is more limited in this regard. Overlapping emission spectra and the shared substrate
 requirements of common luciferases restrict the number of distinct reporters that can be simultaneously imaged, complicating
 multi-parametric experimental designs.
