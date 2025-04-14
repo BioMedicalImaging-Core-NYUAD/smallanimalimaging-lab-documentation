@@ -12,30 +12,25 @@ The following outlines the general workflow for initiating a standard study usin
     %% Styles
     classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
     classDef invivo fill:#cfe2f3,stroke:#0b5394,stroke-width:1px;
-    classDef user fill:#ea9999,stroke:#cc0000,stroke-width:1px;
-    classDef staff fill:#fff2cc,stroke:#b45f06,stroke-width:1px;
-    classDef consult fill:#d9d9d9,stroke:#666,stroke-width:1px;
-    classDef invisible fill:none,stroke:none;
+    classDef user fill:#ea9999,stroke:#cc0000,stroke-width:1px;     %% red for user-operated
+    classDef staff fill:#fff2cc,stroke:#b45f06,stroke-width:1px;     %% yellow for staff
+    classDef consult fill:#d9d9d9,stroke:#666,stroke-width:1px;      %% grey for consultation
 
     %% Nodes
     A["Initial Consultation"]:::consult
 
-    %% Invisible alignment helpers
-    X1[""]:::invisible
-    X2[""]:::invisible
-
-    %% Ex vivo path
+    %% Group 1: Ex vivo path
     B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
     D1["Project Feasibility?"]:::exvivo
 
-    %% In vivo path
+    %% Group 2: In vivo path
     C["In vivo"]:::invivo
     L1["Project Feasibility?"]:::invivo
     M["Vivarium Access?"]:::invivo
     N["IACUC/IBC Approved?"]:::invivo
     O["Animals Ready?"]:::invivo
 
-    %% Staff-assisted path
+    %% Group 3: Staff-handled
     E["Staff-Assisted Imaging"]:::staff
     F["Project Request Submission"]:::staff
     G["SOPs Signature"]:::staff
@@ -44,7 +39,7 @@ The following outlines the general workflow for initiating a standard study usin
     J["Data Transfer to SAI Folder"]:::staff
     K["Data Analysis"]:::staff
 
-    %% User-operated path
+    %% Group 4: User-operated
     P["User-Operated Imaging"]:::user
     Q["Project Request Submission"]:::user
     R["Schedule Training with Maylis"]:::user
@@ -56,26 +51,21 @@ The following outlines the general workflow for initiating a standard study usin
     X["Data Analysis"]:::user
 
     %% Flow
-    A --> X1 --> B
-    A --> X2 --> C
+    A --> B
+    A --> C
 
-    B --> D1
-    C --> L1
-
-    %% Align Project Feasibility blocks
-    X1 -->|""| D1
-    X2 -->|""| L1
-
-    %% Continue flows
-    D1 --> E
+    %% Ex vivo flow
+    B --> D1 --> E
     E --> F --> G --> H --> I --> J --> K
 
-    L1 --> M
+    %% In vivo flow
+    C --> L1 --> M
     M --✅ Yes --> N
     N --✅ Yes --> O
     O --✅ Yes --> E
     O --✅ Yes --> P
 
+    %% User-operated flow
     P --> Q --> R --> S --> T --> U --> V --> W --> X
 
     %% Clickable Nodes
