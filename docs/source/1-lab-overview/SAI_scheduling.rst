@@ -7,7 +7,7 @@ The following outlines the general workflow for initiating a standard study usin
 
 .. mermaid::
 
-    graph TD
+   graph TD
 
     %% Styles
     classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
@@ -20,11 +20,11 @@ The following outlines the general workflow for initiating a standard study usin
 
     %% Group 1: Ex vivo path
     B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
-    D["Project Feasibility?"]:::exvivo
+    D1["Project Feasibility?"]:::exvivo
 
     %% Group 2: In vivo path
     C["In vivo"]:::invivo
-    L["Project Feasibility?"]:::invivo
+    L1["Project Feasibility?"]:::invivo
     M["Vivarium Access?"]:::invivo
     N["IACUC/IBC Approved?"]:::invivo
     O["Animals Ready?"]:::invivo
@@ -55,16 +55,16 @@ The following outlines the general workflow for initiating a standard study usin
 
     subgraph Align Decisions [ ]
         direction LR
-        D --> E
-        L --> M
+        D1 --> E
+        L1 --> M
     end
 
     %% Ex vivo flow
-    B --> D
+    B --> D1
     E --> F --> G --> H --> I --> J --> K
 
     %% In vivo flow
-    C --> L
+    C --> L1
     M --✅ Yes --> N
     N --✅ Yes --> O
     O --✅ Yes --> E
