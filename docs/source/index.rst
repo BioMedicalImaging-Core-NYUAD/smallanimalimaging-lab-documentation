@@ -1,7 +1,7 @@
 Small Animal Imaging Core
 #########################
 
-The Small Animal Imaging Core, in collaboration with the NeuroWaves Lab and the Brain Imaging Lab, forms the Biomedical
+The Small Animal Imaging Lab, in collaboration with the NeuroWaves Lab and the Brain Imaging Lab, forms the Biomedical
 Imaging Core—one of twelve specialized facilities within the Core Technology Platforms (CTP) at NYU Abu Dhabi.
 
 .. image:: _static/biomedical_imaging_core.png
