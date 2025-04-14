@@ -49,6 +49,7 @@ reporters with high brightness should be prioritized, as far-red signals (650–
 .. raw:: html
 
   <br>
+
 - **Limited spatial resolution:**
 Photon scattering in biological tissues limits the spatial resolution of in vivo optical imaging by reducing localization
 accuracy, particularly for deep-seated emission sources. The deeper the signal origin, the more pronounced the scattering,
