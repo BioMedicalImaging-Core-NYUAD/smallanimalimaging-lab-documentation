@@ -31,7 +31,7 @@ Non-invasive in vivo optical imaging provides a powerful platform for monitoring
 However, it faces several interrelated challenges, primarily arising from the interactions between visible-range photons
 and biological tissues, which can affect imaging performance, spatial accuracy, and data interpretability:
 
-- **Limited tissue penetration:**
+- **Limited tissue penetration**
 Both excitation and emission photons are subject to significant absorption and scattering by biological tissues.
 This dramatically restricts photon penetration depth, particularly for visible-wavelength fluorophores or reporters,
 thereby limiting the modality’s utility for imaging deep anatomical structures. To mitigate this limitation, far-red fluorescent
@@ -46,20 +46,20 @@ reporters with high brightness should be prioritized, as far-red signals (650–
 
 .. raw:: html
 
-- **Limited spatial resolution:**
+- **Limited spatial resolution**
 Photon scattering in biological tissues limits the spatial resolution of in vivo optical imaging by reducing localization
 accuracy, particularly for deep-seated emission sources. The deeper the signal origin, the more pronounced the scattering,
 resulting in increased signal blurring and decreased anatomical precision. Bioluminescence imaging avoids autofluorescence
 but suffers from low photon output and tissue scattering, which contribute to low spatial resolution and reduced signal localization accuracy.
 
-- **Autofluorescence and background noise:**
+- **Autofluorescence and background noise**
 Endogenous tissue autofluorescence, primarily from skin, fur, and diet, reduces signal-to-noise ratios in fluorescence imaging.
 
-- **Quantitative limitations:**
+- **Quantitative limitations**
 Signal intensity is influenced by reporter brightness, depth, biological variability, and animal positioning, making
 fluorescence and bioluminescence data semi-quantitative unless normalized with appropriate controls.
 
-- **Substrate and probe delivery issues:**
+- **Substrate and probe delivery issues**
 Bioluminescence imaging requires substrate administration (D-luciferin), and signal intensity is influenced by
 delivery efficiency, biodistribution, metabolism, and perfusion. Moreover, because luciferase activity is dependent on
 intracellular ATP and oxygen, the signal is sensitive to hypoxic or necrotic environments, potentially leading to variability
@@ -67,7 +67,7 @@ across tissues or in disease states. Similarly, fluorescent probes may suffer fr
 or off-target accumulation, all of which can compromise signal specificity. Optical signal propagation is further influenced by
 tissue pigmentation, vascularization, and hydration.
 
-- **Restricted multiplexing (bioluminescence):**
+- **Restricted multiplexing (bioluminescence)**
 While fluorescence imaging supports multiplexing through spectral unmixing, enabled by the wide availability of spectrally
 distinct reporters, bioluminescence imaging is limited by overlapping emission spectra and shared substrate requirements,
 which constrain the ability to perform simultaneous multi-reporter imaging.
