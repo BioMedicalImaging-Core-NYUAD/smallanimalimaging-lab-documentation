@@ -27,8 +27,6 @@ Challenges
 
 .. raw:: html
 
-  <br>
-
 Non-invasive in vivo optical imaging provides a powerful platform for monitoring biological processes in live animals.
 However, it faces several interrelated challenges, primarily arising from the interactions between visible-range photons
 and biological tissues, which can affect imaging performance, spatial accuracy, and data interpretability:
@@ -47,8 +45,6 @@ reporters with high brightness should be prioritized, as far-red signals (650–
 *The optical window for in vivo optical imaging*
 
 .. raw:: html
-
-  <br>
 
 - **Limited spatial resolution:**
 Photon scattering in biological tissues limits the spatial resolution of in vivo optical imaging by reducing localization
