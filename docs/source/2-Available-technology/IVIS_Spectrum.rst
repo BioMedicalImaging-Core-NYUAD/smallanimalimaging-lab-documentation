@@ -1,9 +1,11 @@
 IVIS Spectrum (Revvity)
 #######################
-.. image:: ../_static/IVIS.png
+.. image:: ../_static/IVIS.jpg
    :alt: *IVIS Spectrum*
    :width: 1000px
    :align: center
+
+*IVIS Spectrum*
 
 .. raw:: html
 
@@ -22,6 +24,8 @@ capabilities for bioluminescence and fluorescence approaches make it especially 
    :alt: *Commonly used reporter types in in vivo optical imaging*
    :width: 1000px
    :align: center
+
+*Commonly used reporter types in in vivo optical imaging*
 
 .. raw:: html
 

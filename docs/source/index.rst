@@ -12,10 +12,12 @@ https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platfor
 
 Core team
 *********
-.. image:: _static/Maylis.png
+.. image:: _static/Maylis.jpg
    :alt: *Maylis Boitet, DVM, PhD*
    :width: 1000px
    :align: center
+
+*Maylis Boitet, DVM, PhD*
 
 .. raw:: html
 

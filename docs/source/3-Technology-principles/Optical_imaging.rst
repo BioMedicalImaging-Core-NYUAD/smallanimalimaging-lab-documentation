@@ -20,8 +20,10 @@ Challenges
 ==========
 .. image:: ../_static/light_interaction.png
    :alt: *Light interaction with biological matter*
-   :width: 400px
+   :width: 1000px
    :align: center
+
+*Light interaction with biological matter*
 
 .. raw:: html
 
@@ -31,17 +33,37 @@ Non-invasive in vivo optical imaging provides a powerful platform for monitoring
 However, it faces several interrelated challenges, primarily arising from the interactions between visible-range photons
 and biological tissues, which can affect imaging performance, spatial accuracy, and data interpretability:
 
-- **Limited tissue penetration:** Both excitation and emission photons are subject to significant absorption and scattering by biological tissues. This dramatically restricts photon penetration depth, particularly for visible-wavelength fluorophores or reporters, thereby limiting the modality’s utility for imaging deep anatomical structures. To mitigate this limitation, far-red fluorescent reporters with high brightness should be prioritized, as far-red signals (650–900 nm) penetrate more deeply into tissues (brain, lung, and liver).
+- **Limited tissue penetration:**
+Both excitation and emission photons are subject to significant absorption and scattering by biological tissues.
+This dramatically restricts photon penetration depth, particularly for visible-wavelength fluorophores or reporters,
+thereby limiting the modality’s utility for imaging deep anatomical structures. To mitigate this limitation, far-red fluorescent
+reporters with high brightness should be prioritized, as far-red signals (650–900 nm) penetrate more deeply into tissues (brain, lung, and liver).
 
-- **Limited spatial resolution:** Photon scattering in biological tissues limits the spatial resolution of in vivo optical imaging by reducing localization accuracy, particularly for deep-seated emission sources. The deeper the signal origin, the more pronounced the scattering, resulting in increased signal blurring and decreased anatomical precision. Bioluminescence imaging avoids autofluorescence but suffers from low photon output and tissue scattering, which contribute to low spatial resolution and reduced signal localization accuracy.
+- **Limited spatial resolution:**
+Photon scattering in biological tissues limits the spatial resolution of in vivo optical imaging by reducing localization
+accuracy, particularly for deep-seated emission sources. The deeper the signal origin, the more pronounced the scattering,
+resulting in increased signal blurring and decreased anatomical precision. Bioluminescence imaging avoids autofluorescence
+but suffers from low photon output and tissue scattering, which contribute to low spatial resolution and reduced signal localization accuracy.
 
-- **Autofluorescence and background noise:** Endogenous tissue autofluorescence, primarily from skin, fur, and diet, reduces signal-to-noise ratios in fluorescence imaging.
+- **Autofluorescence and background noise:**
+Endogenous tissue autofluorescence, primarily from skin, fur, and diet, reduces signal-to-noise ratios in fluorescence imaging.
 
-- **Quantitative limitations:** Signal intensity is influenced by reporter brightness, depth, biological variability, and animal positioning, making fluorescence and bioluminescence data semi-quantitative unless normalized with appropriate controls.
+- **Quantitative limitations:**
+Signal intensity is influenced by reporter brightness, depth, biological variability, and animal positioning, making
+fluorescence and bioluminescence data semi-quantitative unless normalized with appropriate controls.
 
-- **Substrate and probe delivery issues:** Bioluminescence imaging requires substrate administration (D-luciferin), and signal intensity is influenced by delivery efficiency, biodistribution, metabolism, and perfusion. Moreover, because luciferase activity is dependent on intracellular ATP and oxygen, the signal is sensitive to hypoxic or necrotic environments, potentially leading to variability across tissues or in disease states. Similarly, fluorescent probes may suffer from non-specific distribution, poor bioavailability, or off-target accumulation, all of which can compromise signal specificity. Optical signal propagation is further influenced by tissue pigmentation, vascularization, and hydration.
+- **Substrate and probe delivery issues:**
+Bioluminescence imaging requires substrate administration (D-luciferin), and signal intensity is influenced by
+delivery efficiency, biodistribution, metabolism, and perfusion. Moreover, because luciferase activity is dependent on
+intracellular ATP and oxygen, the signal is sensitive to hypoxic or necrotic environments, potentially leading to variability
+across tissues or in disease states. Similarly, fluorescent probes may suffer from non-specific distribution, poor bioavailability,
+or off-target accumulation, all of which can compromise signal specificity. Optical signal propagation is further influenced by
+tissue pigmentation, vascularization, and hydration.
 
-- **Restricted multiplexing (bioluminescence):** While fluorescence imaging supports multiplexing through spectral unmixing, enabled by the wide availability of spectrally distinct reporters, bioluminescence imaging is limited by overlapping emission spectra and shared substrate requirements, which constrain the ability to perform simultaneous multi-reporter imaging.
+- **Restricted multiplexing (bioluminescence):**
+While fluorescence imaging supports multiplexing through spectral unmixing, enabled by the wide availability of spectrally
+distinct reporters, bioluminescence imaging is limited by overlapping emission spectra and shared substrate requirements,
+which constrain the ability to perform simultaneous multi-reporter imaging.
 
 
 Fluorescence imaging
@@ -56,9 +78,11 @@ to energy dissipation.
    :width: 1000px
    :align: center
 
+*Principle of fluorescence*
+
 .. raw:: html
 
-  <br>
+ <br><br>
 
 In in vivo imaging systems, excitation light is typically delivered using spectrally filtered light-emitting diodes (LEDs),
 (AMI HT system), or via broadband white-light sources combined with excitation filters (IVIS Spectrum).
@@ -91,9 +115,11 @@ Bioluminescence imaging
    :width: 1000px
    :align: center
 
+*Principle of bioluminescence*
+
 .. raw:: html
 
-  <br>
+ <br><br>
 
 
 Advantages
