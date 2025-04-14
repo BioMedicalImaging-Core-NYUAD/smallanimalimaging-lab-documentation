@@ -53,18 +53,12 @@ The following outlines the general workflow for initiating a standard study usin
     A --> B
     A --> C
 
-    subgraph Align Decisions [ ]
-        direction LR
-        D1 --> E
-        L1 --> M
-    end
-
     %% Ex vivo flow
-    B --> D1
+    B --> D1 --> E
     E --> F --> G --> H --> I --> J --> K
 
     %% In vivo flow
-    C --> L1
+    C --> L1 --> M
     M --✅ Yes --> N
     N --✅ Yes --> O
     O --✅ Yes --> E
