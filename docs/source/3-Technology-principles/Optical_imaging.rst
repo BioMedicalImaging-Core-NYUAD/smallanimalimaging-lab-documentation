@@ -97,10 +97,21 @@ device (CCD) cameras after passing through wavelength-specific emission filters,
 This approach, employing narrow-band excitation and emission wavelengths, effectively minimizes background noise originating
 from tissue autofluorescence and reduces spectral overlap between multiple fluorophores.
 
+.. image:: ../_static/epi-illumination.png
+   :alt: *2D in vivo fluorescence imaging: epi-illumination*
+   :width: 1000px
+   :align: center
+
+*2D in vivo fluorescence imaging: epi-illumination*
+
+.. raw:: html
+
 This modality enables the targeted visualization of specific biological structures or molecular events through the use of
 fluorophores conjugated to targeting moieties such as antibodies, peptides, or receptor ligands. The use of far-red fluorophores,
 typically within the 650–900 nm spectral range, enhances imaging performance by increasing tissue penetration and reducing
 signal interference from endogenous tissue autofluorescence.
+
+
 
 Advantages
 ==========
@@ -111,6 +122,15 @@ Disadvantages
 
 2D versus 3D tomography
 =======================
+
+.. image:: ../_static/trans-illumination.png
+   :alt: *3D in vivo fluorescence molecular tomography: trans-illumination*
+   :width: 1000px
+   :align: center
+
+*3D in vivo fluorescence molecular tomography: trans-illumination*
+
+.. raw:: html
 
 Bioluminescence imaging
 ***********************
