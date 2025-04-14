@@ -143,7 +143,7 @@ Bioluminescence imaging
 .. raw:: html
 
 
-.. image:: ../_static/2D-illumination.png
+.. image:: ../_static/2D-bioluminescence.png
    :alt: *2D in vivo bioluminescence imaging*
    :width: 1000px
    :align: center
@@ -162,7 +162,7 @@ Disadvantages
 
 2D versus 3D tomography
 =======================
-.. image:: ../_static/2D-illumination.png
+.. image:: ../_static/3D-bioluminescence.png
    :alt: *3D in vivo Diffuse Light Imaging Tomography*
    :width: 1000px
    :align: center
