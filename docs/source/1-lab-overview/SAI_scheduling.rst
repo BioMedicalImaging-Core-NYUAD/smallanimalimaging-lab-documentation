@@ -12,19 +12,20 @@ The following outlines the general workflow for initiating a standard study usin
     %% Styles
     classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
     classDef invivo fill:#cfe2f3,stroke:#0b5394,stroke-width:1px;
-    classDef user fill:#f9cb9c,stroke:#cc4125,stroke-width:1px;
-    classDef staff fill:#fce5cd,stroke:#e69138,stroke-width:1px;
+    classDef user fill:#ea9999,stroke:#cc0000,stroke-width:1px;     %% red for user-operated
+    classDef staff fill:#fff2cc,stroke:#b45f06,stroke-width:1px;     %% yellow for staff
+    classDef consult fill:#d9d9d9,stroke:#666,stroke-width:1px;      %% grey for consultation
 
     %% Nodes
-    A["Initial Consultation"]
+    A["Initial Consultation"]:::consult
 
     %% Group 1: Ex vivo path
     B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
-    D["Project Feasibility?"]:::exvivo
+    D1["Project Feasibility?"]:::exvivo
 
     %% Group 2: In vivo path
     C["In vivo"]:::invivo
-    L["Project Feasibility?"]:::invivo
+    L1["Project Feasibility?"]:::invivo
     M["Vivarium Access?"]:::invivo
     N["IACUC/IBC Approved?"]:::invivo
     O["Animals Ready?"]:::invivo
@@ -53,18 +54,12 @@ The following outlines the general workflow for initiating a standard study usin
     A --> B
     A --> C
 
-    subgraph Align Decisions [ ]
-        direction LR
-        D --> E
-        L --> M
-    end
-
     %% Ex vivo flow
-    B --> D
+    B --> D1 --> E
     E --> F --> G --> H --> I --> J --> K
 
     %% In vivo flow
-    C --> L
+    C --> L1 --> M
     M --✅ Yes --> N
     N --✅ Yes --> O
     O --✅ Yes --> E

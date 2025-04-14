@@ -1,13 +1,13 @@
 IVIS Spectrum (Revvity)
 #######################
-.. image:: ../_static/IVIS.png
+.. image:: ../_static/IVIS.jpg
    :alt: *IVIS Spectrum*
    :width: 1000px
    :align: center
 
-.. raw:: html
+*IVIS Spectrum*
 
-   <br>
+.. raw:: html
 
 For a comprehensive explanation of optical imaging principles, see :doc:`Optical Imaging Principles <3-Technology Principles/Optical imaging>`.
 
@@ -23,9 +23,9 @@ capabilities for bioluminescence and fluorescence approaches make it especially 
    :width: 1000px
    :align: center
 
-.. raw:: html
+*Commonly used reporter types in in vivo optical imaging*
 
-  <br>
+.. raw:: html
 
 Probe injection (transient signal)
 ==================================

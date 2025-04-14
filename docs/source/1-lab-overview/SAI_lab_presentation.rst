@@ -12,9 +12,9 @@ investigations in preclinical models and are readily available to researchers at
    :width: 1000px
    :align: center
 
-.. raw:: html
+*SAI Technology overview*
 
-   <br>
+.. raw:: html
 
 SAI capabilities and services
 *****************************
