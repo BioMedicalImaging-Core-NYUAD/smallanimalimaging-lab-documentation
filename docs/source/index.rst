@@ -19,6 +19,14 @@ the university.
 For more information about available technologies and support services, please visit the CTP website:
 https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platforms.html
 
+.. image:: _static/core_technology_platforms.png
+   :alt: *NYUAD Core Technology Platforms*
+   :width: 1000px
+   :align: center
+
+*NYUAD Core Technology Platforms*
+
+.. raw:: html
 
 Core team
 *********
