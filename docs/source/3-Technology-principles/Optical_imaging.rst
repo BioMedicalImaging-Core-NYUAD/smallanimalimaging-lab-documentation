@@ -53,7 +53,7 @@ to energy dissipation.
 
 .. image:: ../_static/fluorescence.png
    :alt: *Principle of fluorescence*
-   :width: 400px
+   :width: 1000px
    :align: center
 
 .. raw:: html
@@ -88,7 +88,7 @@ Bioluminescence imaging
 
 .. image:: ../_static/bioluminescence.png
    :alt: *Principle of bioluminescence*
-   :width: 400px
+   :width: 1000px
    :align: center
 
 .. raw:: html
