@@ -89,8 +89,6 @@ to energy dissipation.
 
 .. raw:: html
 
- <br>
-
 In in vivo imaging systems, excitation light is typically delivered using spectrally filtered light-emitting diodes (LEDs),
 (AMI HT system), or via broadband white-light sources combined with excitation filters (IVIS Spectrum).
 These illumination strategies enable selective excitation of fluorophores at their optimal wavelengths, enhancing specificity
@@ -125,8 +123,6 @@ Bioluminescence imaging
 *Principle of bioluminescence*
 
 .. raw:: html
-
- <br>
 
 Advantages
 ==========

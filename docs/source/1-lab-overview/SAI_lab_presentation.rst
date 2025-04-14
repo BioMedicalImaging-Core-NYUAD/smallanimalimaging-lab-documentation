@@ -16,7 +16,6 @@ investigations in preclinical models and are readily available to researchers at
 
 .. raw:: html
 
-   <br>
 
 SAI capabilities and services
 *****************************

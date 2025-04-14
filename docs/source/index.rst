@@ -21,8 +21,6 @@ Core team
 
 .. raw:: html
 
-   <br>
-
 Since August 2023, Dr. Boitet has served as the inaugural Research Instrumentation Scientist for the Small Animal Imaging
 Core at New York University Abu Dhabi (NYUAD). She earned her Ph.D. from Institut Pasteur Korea, where she characterized
 a reporter mouse model for neuroinflammation using in vivo optical imaging. Her research focuses on neuroscience and optical
