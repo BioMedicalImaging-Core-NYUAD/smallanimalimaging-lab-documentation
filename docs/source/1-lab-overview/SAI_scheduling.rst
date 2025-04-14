@@ -7,16 +7,18 @@ The following outlines the general workflow for initiating a standard study usin
 
 .. mermaid::
 
-   graph TD
+    graph TD
 
     %% Styles
+    classDef header fill:#d9d9d9,stroke:#999999,stroke-width:1px;      %% grey for Initial Consultation
     classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
     classDef invivo fill:#cfe2f3,stroke:#0b5394,stroke-width:1px;
     classDef user fill:#f9cb9c,stroke:#cc4125,stroke-width:1px;
     classDef staff fill:#fce5cd,stroke:#e69138,stroke-width:1px;
+    classDef imaging fill:#fff2cc,stroke:#b45f06,stroke-width:1px;     %% yellow for Staff-Assisted Imaging
 
     %% Nodes
-    A["Initial Consultation"]
+    A["Initial Consultation"]:::header
 
     %% Group 1: Ex vivo path
     B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
@@ -30,7 +32,7 @@ The following outlines the general workflow for initiating a standard study usin
     O["Animals Ready?"]:::invivo
 
     %% Group 3: Staff-handled
-    E["Staff-Assisted Imaging"]:::staff
+    E["Staff-Assisted Imaging"]:::imaging
     F["Project Request Submission"]:::staff
     G["SOPs Signature"]:::staff
     H["Calendar Invitation"]:::staff
@@ -72,6 +74,7 @@ The following outlines the general workflow for initiating a standard study usin
     click Q "https://forms.gle/d3xRyphopVUj6PwW6"
     click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
     click U "https://corelabs.abudhabi.nyu.edu/"
+
 
 Study initiation
 ****************
