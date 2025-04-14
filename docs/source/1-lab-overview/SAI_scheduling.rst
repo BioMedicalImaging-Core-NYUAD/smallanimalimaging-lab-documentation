@@ -79,7 +79,6 @@ The following outlines the general workflow for initiating a standard study usin
     click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
     click U "https://corelabs.abudhabi.nyu.edu/"
 
-
 Study initiation
 ****************
 Initial consultation

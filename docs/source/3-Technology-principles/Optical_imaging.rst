@@ -68,7 +68,10 @@ device (CCD) cameras after passing through wavelength-specific emission filters,
 This approach, employing narrow-band excitation and emission wavelengths, effectively minimizes background noise originating
 from tissue autofluorescence and reduces spectral overlap between multiple fluorophores.
 
-This modality enables the targeted visualization of specific biological structures or molecular events through the use of fluorophores conjugated to targeting moieties such as antibodies, peptides, or receptor ligands. The use of near-infrared (NIR) fluorophores—typically within the 650–900 nm spectral range—enhances imaging performance by increasing tissue penetration and reducing signal interference from endogenous tissue autofluorescence.
+This modality enables the targeted visualization of specific biological structures or molecular events through the use of
+fluorophores conjugated to targeting moieties such as antibodies, peptides, or receptor ligands. The use of far-red fluorophores,
+typically within the 650–900 nm spectral range, enhances imaging performance by increasing tissue penetration and reducing
+signal interference from endogenous tissue autofluorescence.
 
 Advantages
 ==========
