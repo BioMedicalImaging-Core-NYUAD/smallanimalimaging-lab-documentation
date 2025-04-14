@@ -124,11 +124,11 @@ Disadvantages
 =======================
 
 .. image:: ../_static/trans-illumination.png
-   :alt: *3D in vivo fluorescence molecular tomography: trans-illumination*
+   :alt: *3D in vivo Fluorescence Molecular Tomography: trans-illumination*
    :width: 1000px
    :align: center
 
-*3D in vivo fluorescence molecular tomography: trans-illumination*
+*3D in vivo Fluorescence Molecular Tomography: trans-illumination*
 
 .. raw:: html
 
@@ -145,7 +145,7 @@ Bioluminescence imaging
 .. raw:: html
 
 
-.. image:: ../_static/epi-illumination.png
+.. image:: ../_static/2D-illumination.png
    :alt: *2D in vivo bioluminescence imaging*
    :width: 1000px
    :align: center
@@ -164,7 +164,14 @@ Disadvantages
 
 2D versus 3D tomography
 =======================
+.. image:: ../_static/2D-illumination.png
+   :alt: *3D in vivo Diffuse Light Imaging Tomography*
+   :width: 1000px
+   :align: center
 
+*3D in vivo Diffuse Light Imaging Tomography*
+
+.. raw:: html
 
 Quick tips for in vivo optical imaging
 **************************************
