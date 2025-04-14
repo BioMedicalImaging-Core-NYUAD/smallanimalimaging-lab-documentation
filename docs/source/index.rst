@@ -5,7 +5,7 @@ The Small Animal Imaging Core, in collaboration with the NeuroWaves Lab and the 
 Imaging Core—one of twelve specialized facilities within the Core Technology Platforms (CTP) at NYU Abu Dhabi.
 
 .. image:: _static/biomedical_imaging_core.png
-   :alt: *SAI Technology overview*
+   :alt: *Biomedical Imaging Core*
    :width: 1000px
    :align: center
 
