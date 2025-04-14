@@ -144,6 +144,16 @@ Bioluminescence imaging
 
 .. raw:: html
 
+
+.. image:: ../_static/epi-illumination.png
+   :alt: *2D in vivo bioluminescence imaging*
+   :width: 1000px
+   :align: center
+
+*2D in vivo bioluminescence imaging*
+
+.. raw:: html
+
 Advantages
 ==========
 
