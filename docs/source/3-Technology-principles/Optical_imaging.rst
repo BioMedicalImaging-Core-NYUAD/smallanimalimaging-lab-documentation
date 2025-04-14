@@ -111,8 +111,6 @@ fluorophores conjugated to targeting moieties such as antibodies, peptides, or r
 typically within the 650–900 nm spectral range, enhances imaging performance by increasing tissue penetration and reducing
 signal interference from endogenous tissue autofluorescence.
 
-
-
 Advantages
 ==========
 
