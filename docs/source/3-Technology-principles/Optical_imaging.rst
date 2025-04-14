@@ -39,6 +39,16 @@ This dramatically restricts photon penetration depth, particularly for visible-w
 thereby limiting the modality’s utility for imaging deep anatomical structures. To mitigate this limitation, far-red fluorescent
 reporters with high brightness should be prioritized, as far-red signals (650–900 nm) penetrate more deeply into tissues (brain, lung, and liver).
 
+.. image:: ../_static/optical_window.png
+   :alt: *The optical window for in vivo optical imaging*
+   :width: 1000px
+   :align: center
+
+*The optical window for in vivo optical imaging*
+
+.. raw:: html
+
+  <br>
 - **Limited spatial resolution:**
 Photon scattering in biological tissues limits the spatial resolution of in vivo optical imaging by reducing localization
 accuracy, particularly for deep-seated emission sources. The deeper the signal origin, the more pronounced the scattering,
@@ -68,8 +78,8 @@ which constrain the ability to perform simultaneous multi-reporter imaging.
 
 Fluorescence imaging
 ********************
-Fluorescence imaging relies on the use of fluorophores—synthetic dyes, nanoparticles, or genetically encoded fluorescent
-proteins—which are molecules capable of emitting light upon the absorption of photons at specific excitation wavelengths.
+Fluorescence imaging relies on the use of fluorophores (synthetic dyes, nanoparticles, or genetically encoded fluorescent
+proteins) which are molecules capable of emitting light upon the absorption of photons at specific excitation wavelengths.
 These fluorophores absorb light at a defined excitation wavelength and subsequently emit light at a longer wavelength due
 to energy dissipation.
 
@@ -120,7 +130,6 @@ Bioluminescence imaging
 .. raw:: html
 
  <br>
-
 
 Advantages
 ==========
