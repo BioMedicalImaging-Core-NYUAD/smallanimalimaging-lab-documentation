@@ -10,15 +10,14 @@ The following outlines the general workflow for initiating a standard study usin
     graph TD
 
     %% Styles
-    classDef header fill:#d9d9d9,stroke:#999999,stroke-width:1px;      %% grey for Initial Consultation
     classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
     classDef invivo fill:#cfe2f3,stroke:#0b5394,stroke-width:1px;
-    classDef user fill:#f9cb9c,stroke:#cc4125,stroke-width:1px;
-    classDef staff fill:#fce5cd,stroke:#e69138,stroke-width:1px;
-    classDef imaging fill:#fff2cc,stroke:#b45f06,stroke-width:1px;     %% yellow for Staff-Assisted Imaging
+    classDef user fill:#ea9999,stroke:#cc0000,stroke-width:1px;     %% red for user-operated
+    classDef staff fill:#fff2cc,stroke:#b45f06,stroke-width:1px;     %% yellow for staff
+    classDef consult fill:#d9d9d9,stroke:#666,stroke-width:1px;      %% grey for consultation
 
     %% Nodes
-    A["Initial Consultation"]:::header
+    A["Initial Consultation"]:::consult
 
     %% Group 1: Ex vivo path
     B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
@@ -32,7 +31,7 @@ The following outlines the general workflow for initiating a standard study usin
     O["Animals Ready?"]:::invivo
 
     %% Group 3: Staff-handled
-    E["Staff-Assisted Imaging"]:::imaging
+    E["Staff-Assisted Imaging"]:::staff
     F["Project Request Submission"]:::staff
     G["SOPs Signature"]:::staff
     H["Calendar Invitation"]:::staff
