@@ -7,6 +7,19 @@ research facility dedicated to advancing biomedical research through small anima
 structural, functional, and molecular imaging techniques. These advanced imaging capabilities enable high-resolution, non-invasive
 investigations in preclinical models and are readily available to researchers at NYUAD.
 
+.. image:: ../_static/biomedical_imaging_core.png
+   :alt: *SAI Technology overview*
+   :width: 1000px
+   :align: center
+
+*Biomedical Imaging Core*
+
+.. raw:: html
+
+SAI capabilities and services
+*****************************
+Imaging equipment
+=================
 .. image:: ../_static/SAI_equipment.png
    :alt: *SAI Technology overview*
    :width: 1000px
@@ -16,11 +29,6 @@ investigations in preclinical models and are readily available to researchers at
 
 .. raw:: html
 
-
-SAI capabilities and services
-*****************************
-Imaging equipment
-=================
 The SAI core facility houses the following advanced imaging systems:
 
 - **Optical Imaging System** – IVIS Spectrum (Revvity)
