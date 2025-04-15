@@ -136,7 +136,7 @@ Spectral unmixing
 Three-dimensional (3D) fluorescence tomography is an advanced in vivo imaging technique that enables **volumetric localization**
 and **quantification of fluorescent probes** within live animal models. A central feature of this modality is **transillumination scanning**,
 in which excitation light is delivered from multiple positions beneath the animal, while emitted fluorescence is collected from above.
-In this approach, a s**eries of 2D transillumination-based excitation and fluorescence images** are acquired by illuminating
+In this approach, a **series of 2D transillumination-based excitation and fluorescence images** are acquired by illuminating
 the animal from various positions below the imaging platform. As the excitation source is systematically repositioned and
 the detection geometry remains fixed, the system samples the entire volume of interest through **multiple excitation–emission pairings**.
 Prior to fluorescence acquisition, a **surface topography scan** is performed using structured light projection to reconstruct
