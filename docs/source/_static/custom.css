@@ -46,5 +46,6 @@ body {
 }
 
 .wy-nav-content {
-    max-width: 100% !important;  /* or set a specific value like 1200px */
-    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
