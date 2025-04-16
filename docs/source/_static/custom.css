@@ -3,18 +3,19 @@ body {
 }
 
 .rst-content h1 {
-    font-size: 2.5em !important;
+    font-size: 3em !important;
     color: #57068c !important;  /* NYU Purple */
+    text-align: center !important;
 }
 
 .rst-content h2 {
     font-size: 2em !important;
-    color: #e0c88c !important;  /* Soft Gold */
+    color: #4682b4 !important;  /* Steelblue */
 }
 
 .rst-content h3 {
     font-size: 1.5em !important;
-    color: #4682b4 !important;  /* Steelblue */
+    color: #708090 !important;  /* Slate Gray */
 }
 
 .rst-content p {
