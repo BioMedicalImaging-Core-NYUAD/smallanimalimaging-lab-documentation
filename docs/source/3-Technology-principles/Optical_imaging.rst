@@ -92,9 +92,9 @@ to energy dissipation.
 In in vivo imaging systems, excitation light is typically delivered using spectrally filtered light-emitting diodes (LEDs),
 (AMI HT system), or via broadband white-light sources combined with excitation filters (IVIS Spectrum).
 These illumination strategies enable selective excitation of fluorophores at their optimal wavelengths, enhancing specificity
-and minimizing off-target activation. The resulting fluorescent photons are captured by highly sensitive, cooled charge-coupled
-device (CCD) cameras after passing through wavelength-specific emission filters, which selectively isolate the desired signal.
-This approach, employing narrow-band excitation and emission wavelengths, effectively minimizes background noise originating
+and minimizing off-target activation. The resulting fluorescent photons are captured by highly sensitive CCD cameras
+after passing through wavelength-specific emission filters, which selectively isolate the desired signal. This approach,
+employing narrow-band excitation and emission wavelengths, effectively minimizes background noise originating
 from tissue autofluorescence and reduces spectral overlap between multiple fluorophores.
 
 .. image:: ../_static/epi-illumination.png
@@ -119,36 +119,73 @@ excitation light is delivered from the side opposite the detector. As the excita
 it is absorbed by fluorophores that emit photons detectable at the surface. This alternative approach improves sensitivity to deeper
 tissue signals and enhances contrast and detection accuracy in 2D fluorescence imaging applications.
 
+Advanced techniques for in vivo fluorescence imaging
+====================================================
 Spectral unmixing
-=================
+-----------------
+Spectral unmixing is an advanced analytical technique used in fluorescence imaging to **separate overlapping fluorescence signals**
+in vivo. It enables the discrimination of signals originating from multiple fluorophores within the same imaging field,
+or the isolation of specific reporter signals from endogenous tissue autofluorescence. This capability is particularly
+critical in **multiplex imaging**, where several fluorescent reporters with distinct (but often partially overlapping) spectral profiles
+are used simultaneously to monitor different biological processes. However, spectral unmixing is also highly
+beneficial in single-reporter (singleplex) studies, where it can **significantly improve the signal-to-noise ratio** (SNR) by
+reducing background fluorescence.
+It is important to recognize that the fluorescent signal detected by the camera is a **composite of both specific and non-specific fluorescence**.
+It includes photons emitted by the reporter of interest, as well as contributions from endogenous fluorophores (collagen, NADH, and elastin...),
+which contribute to tissue autofluorescence. Since the detector integrates all photons indiscriminately, **multi-spectral acquisition**
+is required to capture a broader spectral signature that enables the separation of these signals.
+Furthermore, both autofluorescence and exogenous fluorescent reporters exhibit **distinctive, wavelength-dependent excitation and emission spectra**.
+Although these spectra are characteristic of each fluorophore, they often partially overlap, necessitating the use of
+**multiple excitation and/or emission filters** to sample distinct spectral bands. This process forms the basis for accurate **spectral deconvolution**.
+In this workflow, the system acquires a **multi-spectral image dataset**, where each image corresponds to a defined
+excitation–emission wavelength combination. This generates a **spectral profile** for each pixel, reflecting the combined
+contributions of all fluorescent and background sources present in the tissue.
+To resolve these mixed signals, spectral unmixing algorithms are applied. These algorithms mathematically deconvolve the
+composite fluorescence spectrum using a set of reference spectra, typically derived from **reporter-negative control** animals
+(for background subtraction) and **single-reporter controls** or well-characterized standards (for signal identification).
+By fitting the measured spectra to these reference fingerprints, the algorithm estimates the **relative contribution of each fluorophore**
+at every pixel or region of interest.
 
-3D tomography (Fluorescence Molecular Tomography)
-=================================================
+The result is a series of unmixed fluorescence images, each depicting the spatial distribution of a specific fluorophore,
+even in regions where spectral overlap occurs. This process enables high-specificity localization and semi-quantitative
+measurement of fluorescent signals in complex biological tissues, supporting robust in vivo imaging across both multiplex
+and single-target applications.
+
+Fluorescence Imaging Tomography (FLIT)
+--------------------------------------
 .. image:: ../_static/trans-illumination.png
-   :alt: *3D in vivo Fluorescence Molecular Tomography: trans-illumination*
+   :alt: *3D in vivo Fluorescence Imaging Tomography: trans-illumination*
    :width: 1000px
    :align: center
 
-*3D in vivo Fluorescence Molecular Tomography: trans-illumination*
+*3D in vivo Fluorescence Imaging Tomography: trans-illumination*
 
 .. raw:: html
 
-Three-dimensional (3D) fluorescence tomography is an advanced in vivo imaging technique that enables **volumetric localization**
-and **quantification of fluorescent probes** within live animal models. A central feature of this modality is **transillumination scanning**,
-in which excitation light is delivered from multiple positions beneath the animal, while emitted fluorescence is collected from above.
-In this approach, a **series of 2D transillumination-based excitation and fluorescence images** are acquired by illuminating
-the animal from various positions below the imaging platform. As the excitation source is systematically repositioned and
-the detection geometry remains fixed, the system samples the entire volume of interest through **multiple excitation–emission pairings**.
-Prior to fluorescence acquisition, a **surface topography scan** is performed using structured light projection to reconstruct
-the animal’s external 3D geometry, which serves as the anatomical framework for tomographic reconstruction.
-To estimate fluorophore distribution, the system integrates **transmitted excitation and fluorescence emission images** with **topographical data**
-as input to the tomographic reconstruction process, which begins by **modeling the propagation of incident (excitation) light**
-through tissue. This step accounts for photon scattering and absorption to estimate the local excitation fluence (the photon density
-delivered per unit area at each location within the subject). Next, the emitted fluorescent photons, generated isotropically,
-are modeled as they propagate through tissue toward the detector. A **diffusion-based photon propagation model** is employed
-to solve the **inverse problem of source localization**, integrating surface-detected signals with tissue optical properties.
-The resulting **3D fluorescence map** enables quantitative assessment of **probe concentration and depth**, providing a
-spatially resolved representation of fluorophore distribution.
+Three-dimensional (3D) fluorescence imaging tomography (FLIT) is a mesoscopic in vivo imaging technique that enables the
+**volumetric localization and semi-quantitative assessment of fluorescent probes** within live small animal models. This
+method is based on **transillumination scanning**, where excitation light is delivered from multiple positions beneath the
+subject, while fluorescence emission is detected from above using a sensitive CCD camera.
+During acquisition, a **series of 2D excitation and fluorescence images **are captured from **multiple illumination positions**
+underneath the imaging platform. While the excitation source is systematically repositioned, the detection geometry remains fixed.
+These **multiple excitation–emission pairings** allow the system to sample the optical properties across the full volume
+of interest. Prior to data collection, a **structured light scan** is performed to acquire the animal’s **surface topography**,
+which provides a 3D anatomical reference for reconstruction.
+To estimate fluorophore distribution, FLIT integrates the **transmitted excitation light images**, the **fluorescence emission images**
+together with the **3D topographic data**. These inputs are processed using a **diffusion-based photon propagation model**,
+which simulates light transport through scattering and absorbing tissues. The algorithm estimates both local excitation
+fluence (the photon density per unit area at each location) and emission propagation to the detector. The **inverse problem**
+is then solved to reconstruct the **3D spatial origin of the fluorescent signal**, resulting in a **semi-quantitative fluorescence**
+**map of fluorophore concentration and depth**.
+Importantly, FLIT assumes the tissue is homogeneous, treating the imaging volume as a uniformly scattering and absorbing
+medium. This simplification enables computationally efficient reconstructions but does not account for tissue heterogeneity
+(such as differences between organs like lung, liver, and muscle). As a result, while FLIT provides meaningful volumetric imaging,
+it lacks the anatomical precision of more advanced modeling approaches used in dedicated fluorescence molecular tomography
+(FMT) systems, which incorporate point-source laser scanning and finite-element or Monte Carlo light modeling
+for greater spatial accuracy and quantitative reliability.
+Despite these limitations, FLIT offers a robust, high-throughput, and non-invasive solution for 3D in vivo
+fluorescence imaging, making it particularly well-suited for longitudinal studies of tumor progression, biodistribution,
+and molecular tracking in preclinical models.
 
 Fluorescence tomography with transillumination scanning significantly enhances sensitivity to deep-tissue signals and
 enables non-invasive, quantitative imaging of biological processes over time. Despite its limited throughput and longer
@@ -209,6 +246,11 @@ and appropriate controls to isolate specific reporter signals.
 
 Bioluminescence imaging
 ***********************
+Bioluminescence imaging is a highly sensitive, non-invasive imaging modality that relies on the detection of light produced
+by **enzymatic reactions** within living organisms. In this process, genetically encoded enzymes known as luciferases catalyze
+the oxidation of small-molecule substrates (D-luciferin, coelenterazine) in the presence of ATP and oxygen, leading to the
+emission of visible photons.
+
 .. image:: ../_static/bioluminescence.png
    :alt: *Principle of bioluminescence*
    :width: 1000px
@@ -218,6 +260,14 @@ Bioluminescence imaging
 
 .. raw:: html
 
+In in vivo bioluminescence imaging systems, the substrate (D-luciferin) is systemically administered, typically via intraperitoneal
+or intravenous injection, prior to image acquisition. Once distributed to target tissues, the substrate is locally oxidized by
+luciferase-expressing cells, producing visible photons through an enzymatic reaction that requires ATP and oxygen.
+This light then diffuses through surrounding tissues and is captured by a cooled, high-sensitivity CCD camera positioned
+above the animal. Because bioluminescence produces inherently low photon output, cooled CCD detectors are essential to
+reduce electronic noise and enable detection of weak signals. Unlike fluorescence imaging, bioluminescence imaging does
+not require external excitation or spectral separation; as a result, optical filters are typically not required, and
+total photon emission can be collected directly across the full spectrum.
 
 .. image:: ../_static/2D-bioluminescence.png
    :alt: *2D in vivo bioluminescence imaging*
@@ -228,8 +278,14 @@ Bioluminescence imaging
 
 .. raw:: html
 
-2D versus 3D tomography
-=======================
+Bioluminescence imaging systems generally operate in a planar 2D acquisition mode, in which signal is integrated over
+the surface of the animal. The resulting images reflect the spatial distribution and magnitude of reporter gene expression
+or cell localization.
+
+Advanced techniques for in vivo bioluminescence imaging
+=======================================================
+Diffuse Light Imaging Tomography (DLIT)
+---------------------------------------
 .. image:: ../_static/3D-bioluminescence.png
    :alt: *3D in vivo Diffuse Light Imaging Tomography*
    :width: 1000px
@@ -238,6 +294,27 @@ Bioluminescence imaging
 *3D in vivo Diffuse Light Imaging Tomography*
 
 .. raw:: html
+
+Diffuse Light Imaging Tomography (DLIT) is a three-dimensional (3D) in vivo imaging technique designed to estimate the
+**volumetric distribution of bioluminescent sources** in small animal models. DLIT expands upon conventional 2D bioluminescence
+imaging by integrating **surface topography mapping** and **multi-spectral photon detection**, enabling the **tomographic**
+**reconstruction of light sources** within scattering tissues.
+In DLIT, the bioluminescent signal is acquired at **multiple emission wavelengths**, typically using a set of broadband spectral
+filters. Because the emission spectrum of the bioluminescent reporter is known, multi-spectral acquisition allows for
+**modeling how light of different wavelengths is scattered and absorbed by tissue**, which provides information critical
+for **estimating both the depth and location of the signal**. Before acquisition, a structured light scan is used to
+generate a **3D surface map of the animal**, which serves as the anatomical frame for photon propagation modeling.
+The reconstruction algorithm applies a **diffusion-based photon propagation model** to simulate how light travels from
+internal sources through scattering and absorbing tissue. By solving the inverse problem using surface photon data,
+the system estimates the 3D spatial origin and intensity of the bioluminescent signal. However, because bioluminescence
+is isotropically emitted (in all directions), the precision of depth localization is inherently lower than in FLIT, where
+directionally controlled excitation improves reconstruction accuracy.
+As a result, this approach enables depth localization of luciferase-expressing cells or regions, semi-quantitative three-dimensional
+mapping of signal intensity, and improved discrimination of overlapping signals in adjacent anatomical compartments.
+
+Although DLIT retains the high sensitivity and specificity of planar bioluminescence imaging, it adds valuable spatial
+context, enhancing biological interpretation—particularly in applications such as orthotopic tumor models, inflammation,
+and tissue-specific gene expression studies.
 
 Advantages of bioluminescence imaging
 =====================================
