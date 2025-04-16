@@ -7,18 +7,28 @@ body {
     color: #57068c !important;  /* NYU Purple */
     text-align: center !important;
     font-family: 'Gotham', sans-serif !important;
+    font-weight: bold !important;
 }
 
 .rst-content h2 {
     font-size: 2em !important;
-    color: #681f98 !important;  /* Deep Purple */
+    color: #8a51af !important;  /* Deep Purple */
     font-family: 'Gotham', sans-serif !important;
+    font-weight: bold !important;
 }
 
 .rst-content h3 {
     font-size: 1.5em !important;
-    color: #8a51af !important;  /* Slate Blue */
+    color: #ab83c6 !important;  /* Slate Blue */
     font-family: 'Gotham', sans-serif !important;
+    font-weight: bold !important;
+}
+
+.rst-content h3 {
+    font-size: 1em !important;
+    color: #cdb5dd !important;  /* Slate Blue */
+    font-family: 'Gotham', sans-serif !important;
+    font-weight: bold !important;
 }
 
 .rst-content p {
