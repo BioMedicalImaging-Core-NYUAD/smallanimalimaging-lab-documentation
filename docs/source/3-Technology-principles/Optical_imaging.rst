@@ -112,7 +112,7 @@ typically within the 650–900 nm spectral range, enhances imaging performance b
 signal interference from endogenous tissue autofluorescence.
 
 Traditionally, in vivo fluorescence imaging employs a **surface-based illumination** strategy, known as an **epi-illumination**
-configuration**, in which both excitation and emission light paths originate from the same side of the animal (typically from the top).
+**configuration**, in which both excitation and emission light paths originate from the same side of the animal (typically from the top).
 While this setup is effective for detecting superficial signals, it offers limited sensitivity to fluorophores located deeper within
 tissue. In contrast, some in vivo optical imaging systems implement a **transillumination-based configuration**, where
 excitation light is delivered from the side opposite the detector. As the excitation light propagates upward through the tissue,
@@ -130,6 +130,7 @@ critical in **multiplex imaging**, where several fluorescent reporters with dist
 are used simultaneously to monitor different biological processes. However, spectral unmixing is also highly
 beneficial in single-reporter (singleplex) studies, where it can **significantly improve the signal-to-noise ratio** (SNR) by
 reducing background fluorescence.
+
 It is important to recognize that the fluorescent signal detected by the camera is a **composite of both specific and non-specific fluorescence**.
 It includes photons emitted by the reporter of interest, as well as contributions from endogenous fluorophores (collagen, NADH, and elastin...),
 which contribute to tissue autofluorescence. Since the detector integrates all photons indiscriminately, **multi-spectral acquisition**
@@ -140,6 +141,7 @@ Although these spectra are characteristic of each fluorophore, they often partia
 In this workflow, the system acquires a **multi-spectral image dataset**, where each image corresponds to a defined
 excitation–emission wavelength combination. This generates a **spectral profile** for each pixel, reflecting the combined
 contributions of all fluorescent and background sources present in the tissue.
+
 To resolve these mixed signals, spectral unmixing algorithms are applied. These algorithms mathematically deconvolve the
 composite fluorescence spectrum using a set of reference spectra, typically derived from **reporter-negative control** animals
 (for background subtraction) and **single-reporter controls** or well-characterized standards (for signal identification).
@@ -171,12 +173,14 @@ underneath the imaging platform. While the excitation source is systematically r
 These **multiple excitation–emission pairings** allow the system to sample the optical properties across the full volume
 of interest. Prior to data collection, a **structured light scan** is performed to acquire the animal’s **surface topography**,
 which provides a 3D anatomical reference for reconstruction.
+
 To estimate fluorophore distribution, FLIT integrates the **transmitted excitation light images**, the **fluorescence emission images**
 together with the **3D topographic data**. These inputs are processed using a **diffusion-based photon propagation model**,
 which simulates light transport through scattering and absorbing tissues. The algorithm estimates both local excitation
 fluence (the photon density per unit area at each location) and emission propagation to the detector. The **inverse problem**
 is then solved to reconstruct the **3D spatial origin of the fluorescent signal**, resulting in a **semi-quantitative fluorescence**
 **map of fluorophore concentration and depth**.
+
 Importantly, FLIT assumes the tissue is homogeneous, treating the imaging volume as a uniformly scattering and absorbing
 medium. This simplification enables computationally efficient reconstructions but does not account for tissue heterogeneity
 (such as differences between organs like lung, liver, and muscle). As a result, while FLIT provides meaningful volumetric imaging,
@@ -299,6 +303,7 @@ Diffuse Light Imaging Tomography (DLIT) is a three-dimensional (3D) in vivo imag
 **volumetric distribution of bioluminescent sources** in small animal models. DLIT expands upon conventional 2D bioluminescence
 imaging by integrating **surface topography mapping** and **multi-spectral photon detection**, enabling the **tomographic**
 **reconstruction of light sources** within scattering tissues.
+
 In DLIT, the bioluminescent signal is acquired at **multiple emission wavelengths**, typically using a set of broadband spectral
 filters. Because the emission spectrum of the bioluminescent reporter is known, multi-spectral acquisition allows for
 **modeling how light of different wavelengths is scattered and absorbed by tissue**, which provides information critical
@@ -309,6 +314,7 @@ internal sources through scattering and absorbing tissue. By solving the inverse
 the system estimates the 3D spatial origin and intensity of the bioluminescent signal. However, because bioluminescence
 is isotropically emitted (in all directions), the precision of depth localization is inherently lower than in FLIT, where
 directionally controlled excitation improves reconstruction accuracy.
+
 As a result, this approach enables depth localization of luciferase-expressing cells or regions, semi-quantitative three-dimensional
 mapping of signal intensity, and improved discrimination of overlapping signals in adjacent anatomical compartments.
 
