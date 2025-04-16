@@ -6,13 +6,7 @@
 }
 
 /* Uniform font size and style across all text elements */
-.rst-content p,
-.rst-content ul li,
-.rst-content ul ul li,
-.rst-content ol li,
-.rst-content ol ol li,
-.rst-content ul ol li,
-.rst-content ol ul li {
+.rst-content p,{
     font-size: 1.5em !important;
     line-height: 1.6 !important;
     text-align: justify !important;
