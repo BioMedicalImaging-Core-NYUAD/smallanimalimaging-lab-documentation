@@ -1,8 +1,8 @@
 SAI General Policies
-####################
+====================
 
 Compliance
-**********
+----------
 Users are responsible for ensuring compliance with all applicable NYUAD policies, including those set by the **Institutional
 Animal Care and Use Committee** (IACUC), the **Institutional Biosafety Committee** (IBC), the **Controlled Substance Program,** and the
 **Radiation Safety Program**. Prior to conducting any imaging procedures, users must provide the core staff with a copy of their
@@ -12,7 +12,7 @@ Failure to comply with SAI policies, rules, and procedures may result in tempora
 
 
 Anesthesia
-**********
+----------
 Each imaging station within the core is equipped with an isoflurane anesthesia system. Imaging sessions are conducted
 with animals anesthetized using isoflurane, unless an alternative method is specifically requested and scientifically
 justified. Users are required to supply their own isoflurane bottles for imaging sessions and must adhere to NYUAD
@@ -22,9 +22,9 @@ Following each session, users must turn off the oxygen supply valve and anesthes
 
 
 SAI facility hygiene guidelines
-*******************************
+-------------------------------
 Surface and equipment decontamination
-=====================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Users are responsible for maintaining **cleanliness and organization** within the Small Animal Imaging Laboratory. All work
 areas, the anesthesia induction chamber, and any equipment or accessories that come into contact with animals must be
 cleaned and disinfected after imaging procedures. Direct spraying of disinfectant inside imaging equipment is strictly
@@ -32,14 +32,14 @@ prohibited; instead, all surfaces should be gently wiped using a tissue saturate
 is the imaging stage of the IVIS Spectrum, which must be cleaned using 70% ethanol.
 
 Post-use equipment standby
-==========================
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 Users are responsible for ensuring that all equipment is returned to its original **standby mode** after use. This includes
 recapping cameras when applicable, closing imaging chambers or lids, properly shutting down acquisition software, securing
 system components, and returning all accessories to their designated storage locations. These steps help maintain equipment integrity,
 prolong system lifespan, and ensure readiness for the next user.
 
 Material storage and sample containment
-=======================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To maintain a clean and controlled environment, users must minimize the number of items brought into the Small Animal
 Imaging facility. Live animal cages must remain closed and be sprayed with MB-10 solution before being returned to the vivarium.
 External samples must be sealed in appropriate containers and disinfected with MB-10 solution prior to exiting the room.
@@ -48,7 +48,7 @@ clearly labeled with the team’s name. No items should be left on laboratory be
 at any time.
 
 Animal transfer to husbandry room
-=================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The SAI room is considered a "dirty" area relative to the rest of the vivarium.
 To prevent cross-contamination, the following decontamination procedures must be followed:
 
@@ -57,9 +57,9 @@ To prevent cross-contamination, the following decontamination procedures must be
 
 
 SAI resource management
-***********************
+-----------------------
 Scheduling
-==========
+^^^^^^^^^^
 The Small Animal Imaging (SAI) facility uses the **CTP booking system** for centralized scheduling and management of imaging
 resources. All core users are required to utilize this system to reserve equipment prior to accessing services. To schedule
 an experiment in the SAI lab, visit https://corelabs.abudhabi.nyu.edu/, navigate to the Reservations section, select Schedule,
@@ -67,14 +67,14 @@ and from the upper drop-down menu choose Brain Imaging, then book the appropriat
 For additional details, please refer to the "Scheduling Policies" section.
 
 Data storage
-============
+^^^^^^^^^^^^
 Research data is available in the **shared SAI folder**, organized by individual researcher names. For access permissions,
 please contact maylis.boitet@nyu.edu.
 Access to subfolders is restricted based on user credentials. Users are encouraged to reorganize their data in accordance
 with their specific study to facilitate efficient data retrieval. All users are strongly encouraged to maintain their own backups.
 
 Data processing workstation
-===========================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 A dedicated **CTP processing workstation** is available for users to conduct data analysis. Users can directly access their data from the
 shared SAI folder on this common workstation.
 For remote access or to book the workstation, please contact maylis.boitet@nyu.edu.

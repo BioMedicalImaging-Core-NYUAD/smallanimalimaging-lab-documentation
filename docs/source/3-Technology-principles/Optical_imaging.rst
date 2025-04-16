@@ -1,8 +1,8 @@
 In vivo Optical Imaging
-#######################
+=======================
 
 Technology overview
-*******************
+-------------------
 In vivo optical imaging is a versatile, non-invasive, non-destructive modality that enables the visualization and quantification of biological
 processes in living organisms through the detection of emitted light generated from within the biological system.
 This approach offers unique advantages for small-animal imaging, including high sensitivity, real-time monitoring, and
@@ -17,7 +17,7 @@ molecular and physiological events over time.
 Two major emission-based imaging modalities dominate this field: fluorescence imaging and bioluminescence imaging.
 
 Challenges
-==========
+^^^^^^^^^^
 .. image:: ../_static/light_interaction.png
    :alt: *Light interaction with biological matter*
    :width: 1000px
@@ -74,7 +74,7 @@ which constrain the ability to perform simultaneous multi-reporter imaging.
 
 
 Fluorescence imaging
-********************
+--------------------
 Fluorescence imaging relies on the use of fluorophores (synthetic dyes, nanoparticles, or genetically encoded fluorescent
 proteins) which are molecules capable of emitting light upon the absorption of photons at specific excitation wavelengths.
 These fluorophores absorb light at a defined excitation wavelength and subsequently emit light at a longer wavelength due
@@ -120,9 +120,9 @@ it is absorbed by fluorophores that emit photons detectable at the surface. This
 tissue signals and enhances contrast and detection accuracy in 2D fluorescence imaging applications.
 
 Advanced techniques for in vivo fluorescence imaging
-====================================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Spectral unmixing
------------------
+"""""""""""""""""
 Spectral unmixing is an advanced analytical technique used in fluorescence imaging to **separate overlapping fluorescence signals**
 in vivo. It enables the discrimination of signals originating from multiple fluorophores within the same imaging field,
 or the isolation of specific reporter signals from endogenous tissue autofluorescence. This capability is particularly
@@ -154,7 +154,7 @@ measurement of fluorescent signals in complex biological tissues, supporting rob
 and single-target applications.
 
 Fluorescence Imaging Tomography (FLIT)
---------------------------------------
+""""""""""""""""""""""""""""""""""""""
 .. image:: ../_static/trans-illumination.png
    :alt: *3D in vivo Fluorescence Imaging Tomography: trans-illumination*
    :width: 1000px
@@ -197,7 +197,7 @@ acquisition time, this method is particularly well-suited for longitudinal studi
 in deep tissues, drug biodistribution, and cellular or molecular tracking in preclinical research settings.
 
 Advantages of fluorescence imaging
-==================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - **Multiplexing capability**
 Fluorescence imaging supports the simultaneous detection of multiple fluorophores through **spectral separation and unmixing**
 **algorithms**. This enables the tracking of several molecular targets or cell populations within the same animal.
@@ -225,7 +225,7 @@ Fluorescent reporters can be used across multiple imaging platforms, including i
 confocal microscopy and light-sheet microscopy, providing continuity from mesoscopic to microscopic resolution.
 
 Limitations of fluorescence imaging
-===================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - **High background signal**
 Fluorescence imaging is affected by endogenous tissue autofluorescence—particularly from skin, fur, and food, which drastically reduces
 signal-to-noise ratio, especially in the visible spectral range.
@@ -249,7 +249,7 @@ and appropriate controls to isolate specific reporter signals.
 
 
 Bioluminescence imaging
-***********************
+-----------------------
 Bioluminescence imaging is a highly sensitive, non-invasive imaging modality that relies on the detection of light produced
 by **enzymatic reactions** within living organisms. In this process, genetically encoded enzymes known as luciferases catalyze
 the oxidation of small-molecule substrates (D-luciferin, coelenterazine) in the presence of ATP and oxygen, leading to the
@@ -287,9 +287,9 @@ the surface of the animal. The resulting images reflect the spatial distribution
 or cell localization.
 
 Advanced techniques for in vivo bioluminescence imaging
-=======================================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Diffuse Light Imaging Tomography (DLIT)
----------------------------------------
+"""""""""""""""""""""""""""""""""""""""
 .. image:: ../_static/3D-bioluminescence.png
    :alt: *3D in vivo Diffuse Light Imaging Tomography*
    :width: 1000px
@@ -323,7 +323,7 @@ context, enhancing biological interpretation—particularly in applications such
 and tissue-specific gene expression studies.
 
 Advantages of bioluminescence imaging
-=====================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - **Exceptional sensitivity and low background**
 Bioluminescence imaging generates light through enzyme-catalyzed reactions (luciferase and substrate), producing signal
 only where the reporter is expressed. Since mammalian tissues do not express endogenous luciferase-type enzymes, there
@@ -359,7 +359,7 @@ Bioluminescence is ideal for tracking systemically distributed processes, such a
 infection, or gene expression across the entire organism.
 
 Limitations of bioluminescence imaging
-======================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - **Low spatial resolution**
 Bioluminescent photons are emitted isotropically and often originate from deeper tissues. As they scatter through biological
 structures, the resulting signal becomes diffuse and blurred, reducing spatial resolution, particularly in 2D imaging.
@@ -399,7 +399,7 @@ Due to the extremely low photon output of bioluminescent signals, imaging system
 cameras to detect signal reliably. This increases equipment cost compared to basic fluorescent systems.
 
 Comparison of in vivo fluorescence and bioluminescence imaging
-**************************************************************
+--------------------------------------------------------------
 .. image:: ../_static/comparison-fluorescence-bioluminescence.png
    :alt: *Comparison of in vivo fluorescence and bioluminescence imaging*
    :width: 1000px
@@ -410,16 +410,16 @@ Comparison of in vivo fluorescence and bioluminescence imaging
 .. raw:: html
 
 Best practices for optimizing in vivo optical imaging
-*****************************************************
+-----------------------------------------------------
 Imaging preparation
-===================
+^^^^^^^^^^^^^^^^^^^
 - Reduce light absorption by tissue: Use hairless or albino animals to minimize melanin-associated photon absorption. If using hairy or pigmented strains, fully shave the imaging area before acquisition to reduce photon loss due to melanin and hair scattering. If using chemical depilation, rinse thoroughly to avoid skin irritation that could impact signal
 - Limit tissue autofluorescence: Feed animals an alfalfa-free (chlorophyll-free) diet for at least 1 week prior to imaging. This minimizes gastrointestinal autofluorescence
 - Standardize physiological conditions: Use consistent anesthesia protocols and a heated stage to prevent hypothermia, which can affect probe biodistribution and signal intensity
 - Ensure consistent animal positioning: Position animals in the same orientation across imaging sessions to allow accurate and reproducible ROI placement
 
 Signal acquisition
-==================
+^^^^^^^^^^^^^^^^^^^
 - Avoid auto-exposure for raw signal quantification:
     - When working with uncalibrated photon counts, disable auto-exposure
     - Keep all camera settings (exposure time, binning, f/stop) constant for comparability
@@ -430,13 +430,13 @@ Signal acquisition
     - Essential for multi-center or multi-operator studies: Radiance allows for standardized data interpretation across labs using same systems, assuming proper calibration
 
 Imaging optimization
-====================
+^^^^^^^^^^^^^^^^^^^
 - Start with a pilot experiment: Define signal kinetics and substrate/probe timing, especially for bioluminescence imaging
 - Avoid imaging during circadian fluctuations: Image animals at consistent times of day to reduce variability in metabolism and gene expression
 - Allow imaging system warm-up: Let CCD cameras and optics stabilize thermally for consistent sensitivity and minimal signal drift
 
 Fluorescence-specific tips
-==========================
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Use far-red fluorophores: Prefer fluorophores emitting 650–900 nm for better tissue penetration and reduced autofluorescence
 - Apply spectral unmixing and background subtraction: Improve signal accuracy and SNR not only in multiplex but also in single-reporter imaging by:
     - Using reporter-negative control animals to characterize tissue autofluorescence
@@ -448,14 +448,14 @@ Fluorescence-specific tips
     - Use reporter-negative animals imaged with all channels to define baseline autofluorescence across filters
 
 Bioluminescence-specific tips
-=============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Use freshly prepared substrate
 - Store luciferin/coelenterazine at -80°C in the dark, and avoid repeated freeze-thaw cycles
 - Optimize substrate administration route: Choose IP or IV injection based on timing and biodistribution needs
 - Account for metabolic and physiological variability: Luciferase signal depends on ATP and oxygen availability, consider how disease state, perfusion, and tissue viability may affect interpretation
 
 Data quantification
-===================
+^^^^^^^^^^^^^^^^^^^
 - Define consistent ROIs: Use anatomical landmarks to apply identical ROI shape and placement across animals and time points
 - Use average or total signal appropriately:
     - Use total signal when ROIs vary in size (growing tumors)

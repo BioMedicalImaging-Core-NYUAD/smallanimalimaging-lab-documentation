@@ -1,5 +1,5 @@
 Small Animal Imaging Core
-#########################
+=========================
 
 The **Small Animal Imaging Lab**, in collaboration with the **NeuroWaves Lab** and the **Brain Imaging Lab**, forms the Biomedical
 Imaging Core, one of twelve specialized facilities within the **Core Technology Platforms** (CTP) at NYU Abu Dhabi.
@@ -29,7 +29,7 @@ https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platfor
 .. raw:: html
 
 Core team
-*********
+---------
 .. image:: _static/Maylis.jpg
    :alt: *Maylis Boitet, DVM, PhD*
    :width: 1000px
@@ -49,13 +49,13 @@ For any inquiries regarding the Small Animal Imaging Lab, please contact her at 
 
 
 Location
-********
+--------
 The Small Animal Imaging Core is located within the **AAALAC-accredited vivarium** in Basement Level 2 of the Experimental
 Research Building, C1 at New York University Abu Dhabi, UAE.
 
 
 Documentation content
-*********************
+---------------------
 
 .. toctree::
     :caption: Lab Overview

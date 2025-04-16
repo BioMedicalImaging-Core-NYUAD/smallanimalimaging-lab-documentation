@@ -1,5 +1,5 @@
 SAI Lab Presentation
-####################
+====================
 
 Established in 2023, the Small Animal Imaging Laboratory (SAI) at New York University Abu Dhabi (NYUAD) is a state-of-the-art
 research facility dedicated to advancing biomedical research through small animal imaging. Located within an **AAALAC-accredited**
@@ -17,9 +17,9 @@ investigations in preclinical models and are readily available to researchers at
 .. raw:: html
 
 SAI capabilities and services
-*****************************
+-----------------------------
 Imaging equipment
-=================
+^^^^^^^^^^^^^^^^^
 The SAI core facility houses the following advanced imaging systems:
 
 - **Optical Imaging System** – IVIS Spectrum (Revvity)
@@ -32,7 +32,7 @@ The IVIS Spectrum and SkyScan 1276 systems are equipped with integrated isoflura
 control, and physiological monitoring features, including ECG and respiratory monitoring (microCT only).
 
 Applications
-============
+^^^^^^^^^^^^
 The advanced imaging systems available at the SAI enable a wide range of preclinical research applications, including
 but not limited to:
 
@@ -51,7 +51,7 @@ but not limited to:
     - Biodistribution and pharmacokinetics of drugs
 
 Research support and services
-=============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In addition to imaging services, the facility offers expert consultation, specialized training in the operation of imaging
 equipment, and support for data acquisition, processing, and analysis. Furthermore, it provides researchers with secure
 data storage and access to high-performance computing resources. These comprehensive capabilities support the design
@@ -60,7 +60,7 @@ mechanisms in murine models (mice and rats).
 
 
 Core acknowledgements
-*********************
+---------------------
 All publications (manuscripts, abstracts, presentations, posters...) based on work conducted in the SAI CLab should
 acknowledge NYUAD Core Technology Platforms.
 A suggested statement is as follows:
