@@ -54,9 +54,6 @@ The Small Animal Imaging Core is located within the **AAALAC-accredited vivarium
 Research Building, C1 at New York University Abu Dhabi, UAE.
 
 
-Documentation content
----------------------
-
 .. toctree::
     :caption: Lab Overview
     :hidden:
