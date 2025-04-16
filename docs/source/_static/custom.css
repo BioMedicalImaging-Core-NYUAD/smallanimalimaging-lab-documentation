@@ -1,6 +1,9 @@
 /* ========================
    Content Container Layout
 =========================== */
+/* ========================
+   Main Content Container
+=========================== */
 .wy-nav-content {
     max-width: 1200px !important;
     width: 100% !important;
@@ -8,18 +11,23 @@
 }
 
 /* ========================
-   Paragraph Styling
+   Paragraphs
 =========================== */
 .rst-content p {
     font-size: 1.3em !important;
-    line-height: 1.5 !important;
+    line-height: 1.6 !important;
     text-align: justify !important;
     font-family: 'Roboto', sans-serif !important;
 }
 
-.rst-content ul > li > p:first-child {
-    font-size: 1.5em !important;
-    font-weight: bold !important;
+/* ========================
+   All List Items — same size as paragraphs
+=========================== */
+.rst-content ul li,
+.rst-content ol li {
+    font-size: 1.3em !important;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 1.6 !important;
 }
 
 /* ========================
