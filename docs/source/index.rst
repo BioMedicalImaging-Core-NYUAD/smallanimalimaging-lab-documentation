@@ -61,27 +61,27 @@ Documentation content
     :caption: Lab Overview
     :hidden:
 
-    1-lab-overview/SAI_lab_presentation
-    1-lab-overview/SAI_general_policies
-    1-lab-overview/SAI_scheduling
-    1-lab-overview/SAI_publications
-    1-lab-overview/SAI_useful_links
+    1-lab-overview/SAI_lab_presentation.rst
+    1-lab-overview/SAI_general_policies.rst
+    1-lab-overview/SAI_scheduling.rst
+    1-lab-overview/SAI_publications.rst
+    1-lab-overview/SAI_useful_links.rst
 
 
 .. toctree::
     :caption: Imaging Technology
     :hidden:
 
-    2-Available-technology/IVIS_Spectrum
-    2-Available-technology/SkyScan_1276
-    2-Available-technology/nVue-nVision
-    2-Available-technology/KarlStorz_small_animal_endoscope
+    2-Available-technology/IVIS_Spectrum.rst
+    2-Available-technology/SkyScan_1276.rst
+    2-Available-technology/nVue-nVision.rst
+    2-Available-technology/KarlStorz_small_animal_endoscope.rst
 
 .. toctree::
     :caption: Technology Principles
     :hidden:
 
-    3-Technology-principles/Optical_imaging
-    3-Technology-principles/MicroCT
-    3-Technology-principles/Miniscope_imaging
-    3-Technology-principles/Endoscopy
+    3-Technology-principles/Optical_imaging.rst
+    3-Technology-principles/MicroCT.rst
+    3-Technology-principles/Miniscope_imaging.rst
+    3-Technology-principles/Endoscopy.rst
