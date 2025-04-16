@@ -5,11 +5,10 @@
 }
 
 
-
 .rst-content p,
 .rst-content ul li,
 .rst-content ol li {
-    font-size: 1.15em !important;
+    font-size: 1.2em !important;
     line-height: 1.6 !important;
     text-align: justify !important;
     font-family: 'Roboto', sans-serif !important;
