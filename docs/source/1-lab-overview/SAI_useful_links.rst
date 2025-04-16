@@ -8,7 +8,6 @@ Manufacturer information
 - Customized Rodent Endoscope – Karl Storz https://www.karlstorz.com/ae/en/small-animals.htm
 - Miniscope and Behavioral Imaging Platform – nVue and nVision (Inscopix) https://iqlearning.inscopix.com/products/nvue-0
 
-
 NYUAD contacts
 --------------
 - Small Animal Imaging Lab: for any inquiry regarding SAI Lab, please contact maylis.boitet@nyu.edu
@@ -23,6 +22,7 @@ NYUAD contacts
 
 NYUAD links
 -----------
+
 Intranet
 ^^^^^^^^
 - CTP booking system https://corelabs.abudhabi.nyu.edu/

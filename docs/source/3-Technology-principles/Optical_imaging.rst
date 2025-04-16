@@ -72,7 +72,6 @@ While fluorescence imaging supports multiplexing through spectral unmixing, enab
 distinct reporters, bioluminescence imaging is limited by overlapping emission spectra and shared substrate requirements,
 which constrain the ability to perform simultaneous multi-reporter imaging.
 
-
 Fluorescence imaging
 --------------------
 Fluorescence imaging relies on the use of fluorophores (synthetic dyes, nanoparticles, or genetically encoded fluorescent
@@ -121,6 +120,7 @@ tissue signals and enhances contrast and detection accuracy in 2D fluorescence i
 
 Advanced techniques for in vivo fluorescence imaging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Spectral unmixing
 """""""""""""""""
 Spectral unmixing is an advanced analytical technique used in fluorescence imaging to **separate overlapping fluorescence signals**
@@ -288,6 +288,7 @@ or cell localization.
 
 Advanced techniques for in vivo bioluminescence imaging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Diffuse Light Imaging Tomography (DLIT)
 """""""""""""""""""""""""""""""""""""""
 .. image:: ../_static/3D-bioluminescence.png
@@ -411,6 +412,7 @@ Comparison of in vivo fluorescence and bioluminescence imaging
 
 Best practices for optimizing in vivo optical imaging
 -----------------------------------------------------
+
 Imaging preparation
 ^^^^^^^^^^^^^^^^^^^
 - Reduce light absorption by tissue: Use hairless or albino animals to minimize melanin-associated photon absorption. If using hairy or pigmented strains, fully shave the imaging area before acquisition to reduce photon loss due to melanin and hair scattering. If using chemical depilation, rinse thoroughly to avoid skin irritation that could impact signal
@@ -465,6 +467,3 @@ Data quantification
     - Saturated signals are clipped, meaning they do not represent true photon flux, and should be excluded from quantitative analysis
     - To prevent saturation: Use a shorter exposure time, increase the f/stop to reduce the aperture and hence reduce the light and reduce binning
 - Always keep your signal well within the dynamic range of the detector
-
-
-

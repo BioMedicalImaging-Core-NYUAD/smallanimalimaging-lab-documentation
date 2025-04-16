@@ -11,7 +11,6 @@ SkyScan 1276 (Bruker)
 
 For a comprehensive explanation of microCT principles, see :doc:`In vivo microCT <3-Technology Principles/MicroCT>`.
 
-
 SkyScan 1276 applications
 -------------------------
 The main application of the SkyScan 1276 is non-invasive in vivo micro-computed tomography (microCT) imaging for
@@ -81,9 +80,9 @@ Here are some biological research applications of microCT imaging:
     - Root system architecture
     - Leaf anatomy and venation patterns
 
-
 System specifications
 ---------------------
+
 X-ray source
 ^^^^^^^^^^^^
 - Type: Tungsten source
@@ -137,4 +136,3 @@ Available accessories
     - ex vivo sample
     - whole-body scans of mouse and rats
     - optimized specimen positioning
-

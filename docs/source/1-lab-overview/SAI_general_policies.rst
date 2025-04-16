@@ -10,7 +10,6 @@ approved IACUC protocol, and if applicable, an approved Institutional Biosafety 
 
 Failure to comply with SAI policies, rules, and procedures may result in temporary suspension of booking privileges.
 
-
 Anesthesia
 ----------
 Each imaging station within the core is equipped with an isoflurane anesthesia system. Imaging sessions are conducted
@@ -20,9 +19,9 @@ guidelines governing the use of Controlled Substances. Training on the operation
 as part of the mandatory imaging user training. Activated charcoal canisters must be weighed prior to the use of the anesthesia system.
 Following each session, users must turn off the oxygen supply valve and anesthesia vaporizer, and flush the system to ensure safe and proper maintenance.
 
-
 SAI facility hygiene guidelines
 -------------------------------
+
 Surface and equipment decontamination
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Users are responsible for maintaining **cleanliness and organization** within the Small Animal Imaging Laboratory. All work
@@ -55,9 +54,9 @@ To prevent cross-contamination, the following decontamination procedures must be
 - Before returning animal cages to the vivarium husbandry room using a trolley, spray each cage thoroughly with MB-10 disinfectant solution.
 - When entering the vivarium corridor from the SAI room, either spray your gloves with MB-10 solution or replace them with a fresh pair. Additionally, wear an extra pair of shoe covers.
 
-
 SAI resource management
 -----------------------
+
 Scheduling
 ^^^^^^^^^^
 The Small Animal Imaging (SAI) facility uses the **CTP booking system** for centralized scheduling and management of imaging

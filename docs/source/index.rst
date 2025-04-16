@@ -1,6 +1,5 @@
 Small Animal Imaging Core
 =========================
-
 The **Small Animal Imaging Lab**, in collaboration with the **NeuroWaves Lab** and the **Brain Imaging Lab**, forms the Biomedical
 Imaging Core, one of twelve specialized facilities within the **Core Technology Platforms** (CTP) at NYU Abu Dhabi.
 
@@ -46,7 +45,6 @@ imaging, with particular emphasis on the application of **advanced imaging modal
 models. Dr. Boitet also holds a **Doctor of Veterinary Medicine** (DVM) degree from VetAgro Sup in Lyon. At NYUAD, she actively
 collaborates with researchers to integrate **non-invasive imaging strategies** into preclinical research studies.
 For any inquiries regarding the Small Animal Imaging Lab, please contact her at `maylis.boitet@nyu.edu <mailto:maylis.boitet@nyu.edu>`_.
-
 
 Location
 --------

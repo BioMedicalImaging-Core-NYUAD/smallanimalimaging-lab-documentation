@@ -76,6 +76,7 @@ The following outlines the **general workflow** for initiating a standard study 
 
 Study initiation
 ----------------
+
 Initial consultation
 ^^^^^^^^^^^^^^^^^^^^
 To initiate a research project utilizing equipment from the SAI Lab, please contact maylis.boitet@nyu.edu to arrange an
@@ -88,7 +89,6 @@ Upon completion of the consultation, please submit the **online project registra
 You will then receive an email containing the relevant Standard Operating Procedures (SOPs) for SAI operations, imaging
 procedures, and material transfer. These documents must be reviewed and signed during your initial imaging session or training.
 
-
 Training and scheduling
 -----------------------
 The SAI Core offers both **user-operated** and **staff-assisted imaging** services, depending on the type of equipment and the
@@ -96,6 +96,7 @@ specific requirements of the study.
 
 User-operated imaging
 ^^^^^^^^^^^^^^^^^^^^^
+
 Equipment training
 """"""""""""""""""
 Users are required to schedule a **training session** with Maylis Boitet, which will cover equipment utilization, including
@@ -142,9 +143,9 @@ Daily Imaging Order (from lowest to highest contamination risk):
 
 Adherence to this imaging sequence is mandatory to ensure biosafety and preserve the health classification of vivarium environments.
 
-
 Scheduling policies
 -------------------
+
 Equipment booking
 ^^^^^^^^^^^^^^^^^
 Use of any SAI resource must be scheduled in advance through the designated booking system. Users are encouraged to reserve
@@ -159,7 +160,6 @@ Users must cancel any scheduled imaging sessions as early as possible to allow r
 should be made at least 24 hours in advance through the CTP booking system. Repeated last-minute cancellations or no-shows
 may result in temporary suspension of booking privileges. Please notify core staff immediately in the event of unavoidable
 delays or emergencies.
-
 
 Required documentation
 ----------------------
@@ -188,18 +188,3 @@ Radiation safety certificate
 Researchers seeking access to the microCT scanner must submit a valid **Radiation Safety Certificate** and comply with the
 NYUAD Radiation Safety Program.
 The online Radiation Safety Training can be accessed at: https://moodle.abudhabi.nyu.edu/course/view.php?id=72.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
