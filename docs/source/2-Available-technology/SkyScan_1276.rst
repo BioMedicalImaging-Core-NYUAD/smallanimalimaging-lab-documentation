@@ -19,8 +19,17 @@ The main application of the SkyScan 1276 is non-invasive in vivo micro-computed 
 **3D images of bone and soft tissue**, combined with fast scanning speeds and low radiation doses, makes it especially
 powerful for longitudinal studies of disease progression, treatment response, and physiological changes over time in live animals.
 
-.. image:: ../_static/microCT_applications.png
+.. image:: ../_static/microCT_invivo.png
    :alt: *Common applications of in vivo microCT*
+   :width: 1000px
+   :align: center
+
+*Common applications of in vivo microCT*
+
+.. raw:: html
+
+.. image:: ../_static/microCT_exvivo.png
+   :alt: *Common applications of microCT for biological and material science*
    :width: 1000px
    :align: center
 
@@ -34,7 +43,8 @@ System specifications
 
 Available accessories
 *********************
-- Phantoms of different diameters for BMD calibration
-- ECG patches for cardiac gating
-- Mouse Imaging Shuttle (MIS) for 3D multimodal co-registration with microCT or MRI systems
+- Hydroxyapatite phantoms for BMD calibration references over a 2-32mm diameter size rang
+- QRM phantom for spatial resolution calibration
+- ECG patches for cardiac gating and physiological monitoring during in vivo imaging
+- Imaging cassettes of various diameters designed to accommodate a wide range of specimen sizes (from ex vivo samples to full-body scans of mice and rats0 for optimal imaging flexibility
 
