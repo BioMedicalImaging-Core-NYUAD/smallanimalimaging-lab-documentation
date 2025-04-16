@@ -11,22 +11,22 @@ body {
 }
 
 .rst-content h2 {
-    font-size: 2em !important;
+    font-size: 2.5em !important;
     color: #8a51af !important;  /* Deep Purple */
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
 }
 
 .rst-content h3 {
-    font-size: 1.5em !important;
-    color: #ab83c6 !important;  /* Slate Blue */
+    font-size: 2em !important;
+    color: #ab83c6 !important;
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
 }
 
 .rst-content h3 {
-    font-size: 1em !important;
-    color: #cdb5dd !important;  /* Slate Blue */
+    font-size: 1.5em !important;
+    color: #7f7f7c !important;
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
 }
