@@ -1,6 +1,5 @@
 SAI Lab Presentation
-####################
-
+====================
 Established in 2023, the Small Animal Imaging Laboratory (SAI) at New York University Abu Dhabi (NYUAD) is a state-of-the-art
 research facility dedicated to advancing biomedical research through small animal imaging. Located within an **AAALAC-accredited**
 **vivarium**, the laboratory provides a comprehensive suite of **in vivo** and **ex vivo** imaging modalities, encompassing **anatomical,**
@@ -17,9 +16,10 @@ investigations in preclinical models and are readily available to researchers at
 .. raw:: html
 
 SAI capabilities and services
-*****************************
+-----------------------------
+
 Imaging equipment
-=================
+^^^^^^^^^^^^^^^^^
 The SAI core facility houses the following advanced imaging systems:
 
 - **Optical Imaging System** – IVIS Spectrum (Revvity)
@@ -32,35 +32,36 @@ The IVIS Spectrum and SkyScan 1276 systems are equipped with integrated isoflura
 control, and physiological monitoring features, including ECG and respiratory monitoring (microCT only).
 
 Applications
-============
+^^^^^^^^^^^^
 The advanced imaging systems available at the SAI enable a wide range of preclinical research applications, including
 but not limited to:
 
-- **Structural Imaging**
+- Structural Imaging
     - High-resolution bone and soft tissue imaging
     - Pulmonary and cardiovascular disease models
     - Anatomical assessment of implants and biomaterials
-- **Functional Imaging**
+
+- Functional Imaging
     - Brain activity in freely moving animals
     - Behavioral neuroscience and circuit-level studies
     - Pulmonary and gastrointestinal function assessment
-- **Molecular Imaging**
+
+- Molecular Imaging
     - Tumor growth, metastasis, and therapy monitoring
     - Immune response and inflammation tracking
     - Gene expression and reporter imaging
     - Biodistribution and pharmacokinetics of drugs
 
 Research support and services
-=============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In addition to imaging services, the facility offers expert consultation, specialized training in the operation of imaging
 equipment, and support for data acquisition, processing, and analysis. Furthermore, it provides researchers with secure
 data storage and access to high-performance computing resources. These comprehensive capabilities support the design
 and implementation of longitudinal studies investigating disease progression, therapeutic efficacy, and molecular
 mechanisms in murine models (mice and rats).
 
-
 Core acknowledgements
-*********************
+---------------------
 All publications (manuscripts, abstracts, presentations, posters...) based on work conducted in the SAI CLab should
 acknowledge NYUAD Core Technology Platforms.
 A suggested statement is as follows:
@@ -69,5 +70,3 @@ A suggested statement is as follows:
 In addition, if CTP Scientists/Specialists provide significant experimental design, data interpretation, or other
 intellectual contribution as evaluated by the PI, then it is appreciated if these individuals are considered as coauthors
 on the publications.
-
-

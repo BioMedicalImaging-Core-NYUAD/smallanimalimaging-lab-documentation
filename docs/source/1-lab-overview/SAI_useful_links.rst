@@ -1,16 +1,15 @@
 SAI Useful Links and Contacts
-#############################
+=============================
 
 Manufacturer information
-************************
+------------------------
 - Optical Imaging System – IVIS Spectrum (Revvity) https://resources.revvity.com/pdfs/prd-advanced-pre-clinical-optical-imaging-ivis-spectrum.pdf
 - Micro-Computed Tomography (microCT) – SkyScan 1276 (Bruker) https://www.bruker.com/en/products-and-solutions/preclinical-imaging/micro-ct/skyscan-1276.html
 - Customized Rodent Endoscope – Karl Storz https://www.karlstorz.com/ae/en/small-animals.htm
 - Miniscope and Behavioral Imaging Platform – nVue and nVision (Inscopix) https://iqlearning.inscopix.com/products/nvue-0
 
-
 NYUAD contacts
-**************
+--------------
 - Small Animal Imaging Lab: for any inquiry regarding SAI Lab, please contact maylis.boitet@nyu.edu
 - more information regarding related Cores:
     - Mostafa Khair at mrk6@nyu.edu for Cellular and Molecular Biology
@@ -22,9 +21,10 @@ NYUAD contacts
     - Fatin Qamash fq5@nyu.edu (Attending veterinarian) for questions regarding controlled substances or animal health and welfare
 
 NYUAD links
-***********
+-----------
+
 Intranet
-========
+^^^^^^^^
 - CTP booking system https://corelabs.abudhabi.nyu.edu/
 - CTP training attendance https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform
 - NYUAD Core Technology Platforms
@@ -39,7 +39,7 @@ Intranet
     - https://www.aalaslearninglibrary.org/ (online resources for working with research animals)
 
 Internet
-========
+^^^^^^^^
 - NYUAD Core Technology Platforms
     - https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platforms.html
 - NYUAD Environmental Health and safety

@@ -1,6 +1,5 @@
 Small Animal Imaging Core
-#########################
-
+=========================
 The **Small Animal Imaging Lab**, in collaboration with the **NeuroWaves Lab** and the **Brain Imaging Lab**, forms the Biomedical
 Imaging Core, one of twelve specialized facilities within the **Core Technology Platforms** (CTP) at NYU Abu Dhabi.
 
@@ -29,7 +28,7 @@ https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platfor
 .. raw:: html
 
 Core team
-*********
+---------
 .. image:: _static/Maylis.jpg
    :alt: *Maylis Boitet, DVM, PhD*
    :width: 1000px
@@ -47,38 +46,37 @@ models. Dr. Boitet also holds a **Doctor of Veterinary Medicine** (DVM) degree f
 collaborates with researchers to integrate **non-invasive imaging strategies** into preclinical research studies.
 For any inquiries regarding the Small Animal Imaging Lab, please contact her at `maylis.boitet@nyu.edu <mailto:maylis.boitet@nyu.edu>`_.
 
-
 Location
-********
+--------
 The Small Animal Imaging Core is located within the **AAALAC-accredited vivarium** in Basement Level 2 of the Experimental
 Research Building, C1 at New York University Abu Dhabi, UAE.
 
 
-Documentation content
-*********************
-
 .. toctree::
     :caption: Lab Overview
+    :hidden:
 
-    1-lab-overview/SAI_lab_presentation
-    1-lab-overview/SAI_general_policies
-    1-lab-overview/SAI_scheduling
-    1-lab-overview/SAI_publications
-    1-lab-overview/SAI_useful_links
+    1-lab-overview/SAI_lab_presentation.rst
+    1-lab-overview/SAI_general_policies.rst
+    1-lab-overview/SAI_scheduling.rst
+    1-lab-overview/SAI_publications.rst
+    1-lab-overview/SAI_useful_links.rst
 
 
 .. toctree::
     :caption: Imaging Technology
+    :hidden:
 
-    2-Available-technology/IVIS_Spectrum
-    2-Available-technology/SkyScan_1276
-    2-Available-technology/nVue-nVision
-    2-Available-technology/KarlStorz_small_animal_endoscope
+    2-Available-technology/IVIS_Spectrum.rst
+    2-Available-technology/SkyScan_1276.rst
+    2-Available-technology/nVue-nVision.rst
+    2-Available-technology/KarlStorz_small_animal_endoscope.rst
 
 .. toctree::
     :caption: Technology Principles
+    :hidden:
 
-    3-Technology-principles/Optical_imaging
-    3-Technology-principles/MicroCT
-    3-Technology-principles/Miniscope_imaging
-    3-Technology-principles/Endoscopy
+    3-Technology-principles/Optical_imaging.rst
+    3-Technology-principles/MicroCT.rst
+    3-Technology-principles/Miniscope_imaging.rst
+    3-Technology-principles/Endoscopy.rst
