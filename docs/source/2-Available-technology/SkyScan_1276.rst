@@ -31,6 +31,7 @@ In vivo microCT imaging
 .. raw:: html
 
 Here are common applications of in vivo microCT imaging:
+
 - Bone morphometry
     - Analysis of bone microarchitecture and bone mineral density (BMD)
     - Studies of osteoporosis, bone healing, growth, and regeneration
