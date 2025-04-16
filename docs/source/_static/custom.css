@@ -26,7 +26,7 @@ body {
     text-align: center !important;
     font-weight: bold !important;
     margin-top: 0 !important;          /* Remove space above */
-    margin-bottom: 0.3em !important;   /* Keep tight below */
+    margin-bottom: 2em !important;   /* Keep tight below */
 }
 
 .rst-content h2 {
