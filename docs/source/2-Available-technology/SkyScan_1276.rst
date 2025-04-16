@@ -81,14 +81,6 @@ Here are some biological research applications of microCT imaging:
     - Root system architecture
     - Leaf anatomy and venation patterns
 
-Here are some material science applications of microCT imaging:
-
-- Drug structure analysis
-    - Evaluation of drug uniformity, density, distribution, and micro-cracks
-- Porous material characterization
-    - Quantification of porosity and pore size distribution
-    - Analysis of internal architecture in materials like foams, ceramics, or scaffolds
-
 
 System specifications
 *********************
