@@ -59,6 +59,7 @@ Documentation content
 
 .. toctree::
     :caption: Lab Overview
+    :hidden:
 
     1-lab-overview/SAI_lab_presentation
     1-lab-overview/SAI_general_policies
@@ -69,6 +70,7 @@ Documentation content
 
 .. toctree::
     :caption: Imaging Technology
+    :hidden:
 
     2-Available-technology/IVIS_Spectrum
     2-Available-technology/SkyScan_1276
@@ -77,6 +79,7 @@ Documentation content
 
 .. toctree::
     :caption: Technology Principles
+    :hidden:
 
     3-Technology-principles/Optical_imaging
     3-Technology-principles/MicroCT
