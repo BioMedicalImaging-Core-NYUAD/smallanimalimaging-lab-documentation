@@ -98,7 +98,7 @@ Imaging chamber
 
 Software
 ^^^^^^^^
-- Radiometric calibration of mesurements in radiance  (bioluminescence) and radiance efficiency (fluorescence) for reproducible results
+- Radiometric calibration of measurements in radiance  (bioluminescence) and radiance efficiency (fluorescence) for reproducible results
 - Spectral unmixing for separating multiple fluorescent or bioluminescent signals and background subtraction
 - Co-registration with anatomical atlases or CT/MRI for overlaying structural and functional data
 - 3D bioluminescence and fluorescence tomography with depth estimation and quantitative analysis
