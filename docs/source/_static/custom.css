@@ -7,7 +7,7 @@
 
 /* Uniform font size and style across all text elements */
 .rst-content p,{
-    font-size: 1.5em !important;
+    font-size: 1.8em !important;
     line-height: 1.6 !important;
     text-align: justify !important;
     font-family: 'Roboto', sans-serif !important;
