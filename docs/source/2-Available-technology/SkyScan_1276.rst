@@ -67,6 +67,7 @@ Additional microCT applications
 .. raw:: html
 
 Here are some biological research applications of microCT imaging:
+
 - Hard tissue micro-architecture
     - Comparative anatomy studies
     - Dental structure and development
@@ -81,6 +82,7 @@ Here are some biological research applications of microCT imaging:
     - Leaf anatomy and venation patterns
 
 Here are some material science applications of microCT imaging:
+
 - Drug structure analysis
     - Evaluation of drug uniformity, density, distribution, and micro-cracks
 - Porous material characterization
