@@ -33,7 +33,7 @@ powerful for longitudinal studies of disease progression, treatment response, an
    :width: 1000px
    :align: center
 
-*Common applications of in vivo microCT*
+*Common applications of microCT for biological and material science*
 
 .. raw:: html
 
