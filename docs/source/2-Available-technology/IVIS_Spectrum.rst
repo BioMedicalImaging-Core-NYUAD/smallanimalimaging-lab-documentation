@@ -14,8 +14,8 @@ For a comprehensive explanation of optical imaging principles, see :doc:`In vivo
 
 IVIS Spectrum applications
 **************************
-The main application of the IVIS Spectrum is non-invasive in vivo optical imaging for tracking biological processes in
-small animal models using bioluminescence and fluorescence. Its high sensitivity, spectral unmixing and 3D imaging
+The main application of the IVIS Spectrum is non-invasive in vivo optical imaging for **tracking biological processes** in
+small animal models using **bioluminescence** and **fluorescence**. Its high sensitivity, spectral unmixing and 3D imaging
 capabilities for bioluminescence and fluorescence approaches make it especially powerful for longitudinal studies in live animals.
 
 .. image:: ../_static/reporter_types.png
@@ -90,14 +90,15 @@ Optical path
 - 18 high-efficiency narrow bandpass emission filters (490–850 nm, 20 nm bandwidth)
 - Optical switch enabling both epi-illumination and trans-illumination fluorescence modes
 
-Imaging stage
-=============
+Imaging chamber
+===============
 - Temperature-controlled platform for maintaining physiological temperature during imaging
 - Integrated RAS-4 gas anesthesia system
 - light tight chamber
 
 Software
 ========
+- Radiometric calibration of mesurements in radiance  (bioluminescence) and radiance efficiency (fluorescence) for reproducible results
 - Spectral unmixing for separating multiple fluorescent or bioluminescent signals and background subtraction
 - Co-registration with anatomical atlases or CT/MRI for overlaying structural and functional data
 - 3D bioluminescence and fluorescence tomography with depth estimation and quantitative analysis
