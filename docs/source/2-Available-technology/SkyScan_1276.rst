@@ -34,5 +34,7 @@ System specifications
 
 Available accessories
 *********************
-
+- Phantoms of different diameters for BMD calibration
+- ECG patches for cardiac gating
+- Mouse Imaging Shuttle (MIS) for 3D multimodal co-registration with microCT or MRI systems
 
