@@ -1,21 +1,21 @@
-.wy-nav-content {
-    max-width: 1200px !important;
-    width: 100% !important;
-    margin: 0 auto !important;
-}
-
-/* ================
-   Paragraphs & Lists
-=================== */
 .rst-content p,
 .rst-content ul li,
 .rst-content ol li {
-    font-size: 1.3em !important;
+    font-size: 1.15em !important;
     line-height: 1.6 !important;
     text-align: justify !important;
     font-family: 'Roboto', sans-serif !important;
     font-weight: normal !important;
 }
+
+/* Prevent nested lists from being oversized */
+.rst-content ul ul li,
+.rst-content ol ol li,
+.rst-content ul ol li,
+.rst-content ol ul li {
+    font-size: 1em !important;
+}
+
 /* ========================
    Heading Styling
 =========================== */
