@@ -6,18 +6,23 @@ body {
     font-size: 3em !important;
     color: #57068c !important;  /* NYU Purple */
     text-align: center !important;
+    font-family: 'Gotham', sans-serif !important;
 }
 
 .rst-content h2 {
     font-size: 2em !important;
-    color: #681f98 !important;  /* Steelblue */
+    color: #681f98 !important;  /* Deep Purple */
+    font-family: 'Gotham', sans-serif !important;
 }
 
 .rst-content h3 {
     font-size: 1.5em !important;
     color: #8a51af !important;  /* Slate Blue */
+    font-family: 'Gotham', sans-serif !important;
 }
 
 .rst-content p {
-    text-align: justify !important; /* text justification*/
+    text-align: justify !important; /* Justify paragraph text */
+    font-family: 'Gotham', sans-serif !important;
 }
+
