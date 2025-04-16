@@ -1,5 +1,5 @@
 IVIS Spectrum (Revvity)
-#######################
+======================
 .. image:: ../_static/IVIS.jpg
    :alt: *IVIS Spectrum*
    :width: 1000px
@@ -13,7 +13,7 @@ For a comprehensive explanation of optical imaging principles, see :doc:`In vivo
 
 
 IVIS Spectrum applications
-**************************
+--------------------------
 The main application of the IVIS Spectrum is non-invasive in vivo optical imaging for **tracking biological processes** in
 small animal models using **bioluminescence** and **fluorescence**. Its high sensitivity, spectral unmixing and 3D imaging
 capabilities for bioluminescence and fluorescence approaches make it especially powerful for longitudinal studies in live animals.
@@ -28,7 +28,7 @@ capabilities for bioluminescence and fluorescence approaches make it especially 
 .. raw:: html
 
 Probe injection (transient signal)
-==================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This approach involves the use of exogenous imaging agents that emit optical signals for a limited duration following administration.
 These agents enable real-time imaging of dynamic biological processes without requiring genetic modification of the subject.
 
@@ -45,7 +45,7 @@ These tools are widely used to investigate inflammation, infection, metabolic ac
 efficacy in live animal models.
 
 Genetic engineering (stable expression)
-=======================================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This strategy relies on the stable integration of reporter genes into the genome of host organisms, cells, or pathogens
 to enable longitudinal and repeated imaging over time. Endogenous expression of bioluminescent or fluorescent reporters
 provides continuous signal generation under specific promoters.
@@ -62,9 +62,9 @@ particularly in the fields of oncology, immunology, and neuroscience.
 
 
 System specifications
-*********************
+---------------------
 CCD camera
-==========
+^^^^^^^^^^
 - Back-thinned, back-illuminated Grade 1 CCD sensor
 - Thermoelectric cooling to -90°C for low dark current and noise
 - Pixel size: 13.5 µm
@@ -76,7 +76,7 @@ CCD camera
     - 30% in the 400–900 nm range
 
 Lens
-====
+^^^^
 - 6-inch diameter optics
 - Numerical aperture adjustable from f/1 to f/8
 - Discrete magnifications: 1.5×, 2.5×, 5×, and 8.7×
@@ -84,20 +84,20 @@ Lens
 - High-resolution imaging down to 20 µm with small field of view
 
 Optical path
-============
+^^^^^^^^^^^^
 - High-throughput imaging with a large field of view (up to 5 mice or 2 rats simultaneously)
 - 10 high-efficiency narrow bandpass excitation filters (415–760 nm, 30 nm bandwidth)
 - 18 high-efficiency narrow bandpass emission filters (490–850 nm, 20 nm bandwidth)
 - Optical switch enabling both epi-illumination and trans-illumination fluorescence modes
 
 Imaging chamber
-===============
+^^^^^^^^^^^^^^^
 - Temperature-controlled platform for maintaining physiological temperature during imaging
 - Integrated RAS-4 gas anesthesia system
 - light tight chamber
 
 Software
-========
+^^^^^^^^
 - Radiometric calibration of mesurements in radiance  (bioluminescence) and radiance efficiency (fluorescence) for reproducible results
 - Spectral unmixing for separating multiple fluorescent or bioluminescent signals and background subtraction
 - Co-registration with anatomical atlases or CT/MRI for overlaying structural and functional data
@@ -106,7 +106,7 @@ Software
 
 
 Available accessories
-*********************
+---------------------
 - Fluorescence and bioluminescence phantom mouse for calibration, validation, quality control
 - Mouse Imaging Shuttle (MIS) for 3D multimodal co-registration with microCT or MRI systems
 

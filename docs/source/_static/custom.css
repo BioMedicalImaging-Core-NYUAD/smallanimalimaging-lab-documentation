@@ -3,7 +3,7 @@ body {
 }
 
 .rst-content h1 {
-    font-size: 3em !important;
+    font-size: 2.5em !important;
     color: #57068c !important;  /* NYU Purple */
     text-align: center !important;
     font-family: 'Gotham', sans-serif !important;
@@ -11,7 +11,7 @@ body {
 }
 
 .rst-content h2 {
-    font-size: 2.5em !important;
+    font-size: 2.25em !important;
     color: #57068c !important;  /* Deep Purple */
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
@@ -25,14 +25,14 @@ body {
 }
 
 .rst-content h3 {
-    font-size: 1.5em !important;
+    font-size: 1.75em !important;
     color: #ab83c6 !important;
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
 }
 
 .rst-content h4 {
-    font-size: 1em !important;
+    font-size: 1.5em !important;
     color: #7f7f7c !important;
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
