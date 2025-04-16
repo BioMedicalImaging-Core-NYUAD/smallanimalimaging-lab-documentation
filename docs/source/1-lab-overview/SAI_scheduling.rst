@@ -3,7 +3,7 @@ SAI Study Scheduling
 
 Study general workflow
 **********************
-The following outlines the general workflow for initiating a standard study using the SAI Core.
+The following outlines the **general workflow** for initiating a standard study using the SAI Core.
 
 .. mermaid::
 
@@ -78,31 +78,31 @@ Study initiation
 ****************
 Initial consultation
 ====================
-To initiate a research project utilizing equipment from the SAI Core, please contact maylis.boitet@nyu.edu to arrange an
-initial consultation and assess project feasibility. The email should include a concise project description and specify
+To initiate a research project utilizing equipment from the SAI Lab, please contact maylis.boitet@nyu.edu to arrange an
+**initial consultation** and assess **project feasibility**. The email should include a concise project description and specify
 the imaging resource intended for use.
 
 Project registration
 ====================
-Upon completion of the consultation, please submit the online project registration form https://forms.gle/d3xRyphopVUj6PwW6.
+Upon completion of the consultation, please submit the **online project registration** form https://forms.gle/d3xRyphopVUj6PwW6.
 You will then receive an email containing the relevant Standard Operating Procedures (SOPs) for SAI operations, imaging
 procedures, and material transfer. These documents must be reviewed and signed during your initial imaging session or training.
 
 
 Training and scheduling
 ***********************
-The SAI Core offers both user-operated and staff-assisted imaging services, depending on the type of equipment and the
+The SAI Core offers both **user-operated** and **staff-assisted imaging** services, depending on the type of equipment and the
 specific requirements of the study.
 
 User-operated imaging
 =====================
 Equipment training
 -------------------
-Users are required to schedule a training session with Maylis Boitet, which will cover equipment utilization, including
+Users are required to schedule a **training session** with Maylis Boitet, which will cover equipment utilization, including
 a technology overview, data acquisition and analysis procedures, and emergency shutdown protocols. Upon completion of the
 training, users must submit the training attendance request form
 https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform.
-Once the completed attendance sheet is received, the corresponding Standard Operating Procedures (SOPs) and Risk Assessments (RAs)
+Once the completed attendance sheet is received, the corresponding **Standard Operating Procedures (SOPs) and Risk Assessments (RAs)**
 for equipment use will be shared and must be thoroughly reviewed and signed by the registered individual.
 Strict adherence to the SOPs is mandatory when operating the equipment to ensure the safety and security of both the
 operator and the animal during imaging sessions.
@@ -128,7 +128,7 @@ for live animal imaging.
 
 Daily equipment scheduling strategy
 ===================================
-The NYUAD vivarium houses animals with varying health statuses, including Specific Pathogen-Free (SPF), conventional, and
+The NYUAD vivarium houses animals with **varying health statuses**, including Specific Pathogen-Free (SPF), conventional, and
 biohazard categories. To minimize the risk of cross-contamination and maintain the health status integrity of the husbandry
 environment, an equipment scheduling strategy has been implemented. This strategy prioritizes sample cleanliness and reduces
 contamination risk by adhering to a defined daily imaging order.
@@ -167,7 +167,7 @@ All research projects must obtain the requisite regulatory approvals and certifi
 
 Animal protocol (IACUC)
 =======================
-All live animal imaging studies must receive prior approval from the Institutional Animal Care and Use Committee (IACUC).
+All **live animal imaging studies** must receive prior approval from the **Institutional Animal Care and Use Committee (IACUC)**.
 If your study involves in vivo imaging, it is recommended that you amend your existing IACUC protocol as early as possible
 to ensure compliance and avoid delays.
 The SAI Core maintains an approved IACUC protocol encompassing standard imaging procedures, which may be utilized
@@ -178,14 +178,14 @@ inquiries related to IACUC protocol submission or regulatory matters, please rea
 
 Biosafety protocol (IBC)
 ========================
-All research involving the use of hazardous materials, including tumor cell lines and adeno-associated viral (AAV) vectors,
-must obtain prior approval from the Institutional Biosafety Committee (IBC) before initiation.
+All research involving the use of **hazardous materials**, including tumor cell lines and adeno-associated viral (AAV) vectors,
+must obtain prior approval from the **Institutional Biosafety Committee (IBC)** before initiation.
 
 For any assistance, please contact Mir Hussain Nawaz hussain@nyu.edu.
 
 Radiation safety certificate
 ============================
-Researchers seeking access to the microCT scanner must submit a valid Radiation Safety Certificate and comply with the
+Researchers seeking access to the microCT scanner must submit a valid **Radiation Safety Certificate** and comply with the
 NYUAD Radiation Safety Program.
 The online Radiation Safety Training can be accessed at: https://moodle.abudhabi.nyu.edu/course/view.php?id=72.
 
