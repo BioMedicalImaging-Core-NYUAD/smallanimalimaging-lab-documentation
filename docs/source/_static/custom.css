@@ -11,7 +11,7 @@ body {
 
 /* Uniform font size and style across all text elements */
 .rst-content p {
-    font-size: 1.2em !important;
+    /*font-size: 1.2em !important;*/
     line-height: 1.5 !important;
     text-align: justify !important;
     font-weight: normal !important;
@@ -46,7 +46,7 @@ body {
 }
 
 .rst-content h4 {
-    /*font-size: 1.75em !important;*/
+   /*. font-size: 1.75em !important;*/
     color: #7f7f7c !important;
     font-weight: bold !important;
     margin-top: 1.5em !important;

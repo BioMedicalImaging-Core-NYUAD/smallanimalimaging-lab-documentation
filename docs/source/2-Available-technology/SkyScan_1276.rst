@@ -132,7 +132,4 @@ Available accessories
 - QRM phantom for spatial resolution calibration
 - ECG patches for cardiac gating and physiological monitoring during in vivo imaging
 - Real-time dose meter inside chamber for dose tracking
-- Imaging cassettes of various diameters to accommodate
-    - ex vivo sample
-    - whole-body scans of mouse and rats
-    - optimized specimen positioning
+- Imaging cassettes of various diameters to accommodate ex vivo samples and whole-body scans of mouse and rats with optimized specimen positioning

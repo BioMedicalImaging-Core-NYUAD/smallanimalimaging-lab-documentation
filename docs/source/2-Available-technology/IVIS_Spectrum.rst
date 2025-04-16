@@ -70,9 +70,7 @@ CCD camera
 - Minimum pixel resolution: 20 µm
 - Sensor dimensions: 2048 × 2048 pixels
 - Maximum sensor binning: 16
-- Quantum efficiency
-    - 85% in the 500–700 nm range
-    - 30% in the 400–900 nm range
+- Quantum efficiency: 85% in the 500–700 nm range and 30% in the 400–900 nm range
 
 Lens
 ^^^^
