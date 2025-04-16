@@ -1,20 +1,42 @@
-body {
-    background-color: #ADFF2F; /* Replace with your desired color */
+/* ========================
+   Content Container Layout
+=========================== */
+.wy-nav-content {
+    max-width: 1200px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
 }
 
+/* ========================
+   Paragraph Styling
+=========================== */
+.rst-content p {
+    font-size: 1.2em !important;
+    line-height: 1.5 !important;
+    text-align: justify !important;
+    font-family: 'Gotham', sans-serif !important;
+}
+
+/* ========================
+   Heading Styling
+=========================== */
 .rst-content h1 {
     font-size: 2.5em !important;
-    color: #57068c !important;  /* NYU Purple */
+    color: #57068c !important;         /* NYU Purple */
     text-align: center !important;
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
+    margin-top: 2em !important;
+    margin-bottom: 0.3em !important;
 }
 
 .rst-content h2 {
     font-size: 2.25em !important;
-    color: #57068c !important;  /* Deep Purple */
+    color: #57068c !important;         /* Deep Purple */
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
+    margin-top: 2em !important;
+    margin-bottom: 0.3em !important;
 }
 
 .rst-content h3 {
@@ -22,32 +44,15 @@ body {
     color: #8a51af !important;
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
-}
-
-.rst-content h3 {
-    font-size: 1.75em !important;
-    color: #ab83c6 !important;
-    font-family: 'Gotham', sans-serif !important;
-    font-weight: bold !important;
+    margin-top: 2em !important;
+    margin-bottom: 0.3em !important;
 }
 
 .rst-content h4 {
-    font-size: 1.5em !important;
+    font-size: 1.75em !important;
     color: #7f7f7c !important;
     font-family: 'Gotham', sans-serif !important;
     font-weight: bold !important;
-}
-
-.rst-content p {
-    font-size: 1.1em !important;
-    line-height: 1.5 !important;
-    text-align: justify !important; /* Justify paragraph text */
-    max-width: 1200px !important;
-    margin: 0 auto !important;
-}
-
-.wy-nav-content {
-    max-width: 1200px !important;
-    width: 100% !important;
-    margin: 0 auto !important;
+    margin-top: 2em !important;
+    margin-bottom: 0.3em !important;
 }
