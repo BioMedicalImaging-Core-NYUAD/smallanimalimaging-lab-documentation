@@ -11,10 +11,15 @@
    Paragraph Styling
 =========================== */
 .rst-content p {
-    font-size: 1.5em !important;
+    font-size: 1.3em !important;
     line-height: 1.5 !important;
     text-align: justify !important;
     font-family: 'Roboto', sans-serif !important;
+}
+
+.rst-content ul > li > p:first-child {
+    font-size: 1.5em !important;
+    font-weight: bold !important;
 }
 
 /* ========================

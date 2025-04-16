@@ -36,17 +36,15 @@ Applications
 The advanced imaging systems available at the SAI enable a wide range of preclinical research applications, including
 but not limited to:
 
-Structural Imaging
+- Structural Imaging
     - High-resolution bone and soft tissue imaging
     - Pulmonary and cardiovascular disease models
     - Anatomical assessment of implants and biomaterials
-
-Functional Imaging
+- Functional Imaging
     - Brain activity in freely moving animals
     - Behavioral neuroscience and circuit-level studies
     - Pulmonary and gastrointestinal function assessment
-
-Molecular Imaging
+- Molecular Imaging
     - Tumor growth, metastasis, and therapy monitoring
     - Immune response and inflammation tracking
     - Gene expression and reporter imaging
