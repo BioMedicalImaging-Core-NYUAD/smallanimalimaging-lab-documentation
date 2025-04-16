@@ -45,3 +45,6 @@ body {
     font-family: 'Gotham', sans-serif !important;
 }
 
+.wy-nav-content {
+    max-width: 100% !important;  /* or set a specific value like 1200px */
+    width: 100% !important;
