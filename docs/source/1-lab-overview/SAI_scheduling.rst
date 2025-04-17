@@ -10,11 +10,11 @@ The following outlines the **general workflow** for initiating a standard study 
     graph TD
 
     %% Styles
-    classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
-    classDef invivo fill:#cfe2f3,stroke:#0b5394,stroke-width:1px;
-    classDef user fill:#ea9999,stroke:#cc0000,stroke-width:1px;     %% red for user-operated
-    classDef staff fill:#fff2cc,stroke:#b45f06,stroke-width:1px;     %% yellow for staff
-    classDef consult fill:#d9d9d9,stroke:#666,stroke-width:1px;      %% grey for consultation
+    classDef consult fill:#d9c9eb,stroke:#7148af,stroke-width:1px;       %% Lavender purple for initial step
+    classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;        %% Light sage green
+    classDef invivo fill:#e8dff3,stroke:#7148af,stroke-width:1px;        %% Softer lavender for contrast
+    classDef staff fill:#f3e1c7,stroke:#b56b2d,stroke-width:1px;         %% Soft beige
+    classDef user fill:#c6c9f5,stroke:#434aa3,stroke-width:1px;          %% Blue-purple tone
 
     %% Nodes
     A["Initial Consultation"]:::consult
