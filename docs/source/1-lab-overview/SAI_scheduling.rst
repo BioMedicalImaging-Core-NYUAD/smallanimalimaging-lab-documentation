@@ -14,7 +14,7 @@ The following outlines the **general workflow** for initiating a standard study 
     classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;        %% Light sage green
     classDef invivo fill:#c4ddf5,stroke:#2f5e87,stroke-width:1px;        %% Light steel blue
     classDef staff fill:#f3e1c7,stroke:#b56b2d,stroke-width:1px;         %% Soft beige
-    classDef user fill:#c6c9f5,stroke:#434aa3,stroke-width:1px;          %% Blue-purple tone
+    classDef user fill:#f5baf4,stroke:#c441ba,stroke-width:1px;          %% Bubblegum pink with magenta border
 
     %% Nodes
     A["Initial Consultation"]:::consult
