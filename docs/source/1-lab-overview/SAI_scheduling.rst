@@ -7,65 +7,65 @@ The following outlines the **general workflow** for initiating a standard study 
 
 .. mermaid::
 
-    graph TD
+     graph TD
 
     %% Styles
     classDef consult fill:#d9c9eb,stroke:#7148af,stroke-width:1px;       %% Lavender purple for initial step
     classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;        %% Light sage green
     classDef invivo fill:#c4ddf5,stroke:#2f5e87,stroke-width:1px;        %% Light steel blue
-    classDef staff fill:#f3e1c7,stroke:#b56d2d,stroke-width:1px;         %% Soft beige
+    classDef staff fill:#f3e1c7,stroke:#b56b2d,stroke-width:1px;         %% Soft beige
     classDef user fill:#f5baf4,stroke:#c441ba,stroke-width:1px;          %% Bubblegum pink with magenta border
 
-    %% Central node
+    %% Nodes
     A["Initial Consultation"]:::consult
-    style A width:220px
 
-    %% Subgraph: Ex Vivo Flow
-    subgraph ExVivo[ ]
-        B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
-        D1["Project Feasibility?"]:::exvivo
-        E["Staff-Assisted Imaging"]:::staff
-        F["Project Request Submission"]:::staff
-        G["SOPs Signature"]:::staff
-        H["Calendar Invitation"]:::staff
-        I["Data Acquisition with Maylis"]:::staff
-        J["Data Transfer to SAI Folder"]:::staff
-        K["Data Analysis"]:::staff
-    end
+    %% Group 1: Ex vivo path
+    B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
+    D1["Project Feasibility?"]:::exvivo
 
-    %% Subgraph: In Vivo Flow
-    subgraph InVivo[ ]
-        C["In vivo"]:::invivo
-        L1["Project Feasibility?"]:::invivo
-        M["Vivarium Access?"]:::invivo
-        N["IACUC/IBC Approved?"]:::invivo
-        O["Animals Ready?"]:::invivo
-    end
+    %% Group 2: In vivo path
+    C["In vivo"]:::invivo
+    L1["Project Feasibility?"]:::invivo
+    M["Vivarium Access?"]:::invivo
+    N["IACUC/IBC Approved?"]:::invivo
+    O["Animals Ready?"]:::invivo
 
-    %% Subgraph: User-Operated Flow
-    subgraph UserOperated[ ]
-        P["User-Operated Imaging"]:::user
-        Q["Project Request Submission"]:::user
-        R["Schedule Training with Maylis"]:::user
-        S["Training Attendance Form"]:::user
-        T["SOPs/RAs Signature"]:::user
-        U["Access to Equipment Booking"]:::user
-        V["Data Acquisition by User"]:::user
-        W["Data Transfer to SAI Folder"]:::user
-        X["Data Analysis"]:::user
-    end
+    %% Group 3: Staff-handled
+    E["Staff-Assisted Imaging"]:::staff
+    F["Project Request Submission"]:::staff
+    G["SOPs Signature"]:::staff
+    H["Calendar Invitation"]:::staff
+    I["Data Acquisition with Maylis"]:::staff
+    J["Data Transfer to SAI Folder"]:::staff
+    K["Data Analysis"]:::staff
+
+    %% Group 4: User-operated
+    P["User-Operated Imaging"]:::user
+    Q["Project Request Submission"]:::user
+    R["Schedule Training with Maylis"]:::user
+    S["Training Attendance Form"]:::user
+    T["SOPs/RAs Signature"]:::user
+    U["Access to Equipment Booking"]:::user
+    V["Data Acquisition by User"]:::user
+    W["Data Transfer to SAI Folder"]:::user
+    X["Data Analysis"]:::user
 
     %% Flow
     A --> B
     A --> C
 
+    %% Ex vivo flow
     B --> D1 --> E
     E --> F --> G --> H --> I --> J --> K
 
-    C --> L1 --> M --> N --> O
+    %% In vivo flow
+    C --> L1 --> M
+    M --✅ Yes --> N
+    N --✅ Yes --> O
     O --✅ Yes --> E
     O --✅ Yes --> P
 
+    %% User-operated flow
     P --> Q --> R --> S --> T --> U --> V --> W --> X
 
     %% Clickable Nodes
