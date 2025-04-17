@@ -18,8 +18,10 @@ body {
 }
 
 .mermaid {
-    display: flex;
-    justify-content: center;
+    width: 100% !important;
+    max-width: none !important;
+    display: block !important;
+    margin: 0 auto !important;
 }
 
 /* ========================
