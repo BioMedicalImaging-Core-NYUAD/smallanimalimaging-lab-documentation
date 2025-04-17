@@ -7,20 +7,21 @@ The following outlines the **general workflow** for initiating a standard study 
 
 .. mermaid::
 
-   graph TD
+    graph TD
 
     %% Styles
-    classDef consult fill:#d9c9eb,stroke:#7148af,stroke-width:1px;
-    classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;
-    classDef invivo fill:#c4ddf5,stroke:#2f5e87,stroke-width:1px;
-    classDef staff fill:#f3e1c7,stroke:#b56d2d,stroke-width:1px;
-    classDef user fill:#f5baf4,stroke:#c441ba,stroke-width:1px;
+    classDef consult fill:#d9c9eb,stroke:#7148af,stroke-width:1px;       %% Lavender purple for initial step
+    classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;        %% Light sage green
+    classDef invivo fill:#c4ddf5,stroke:#2f5e87,stroke-width:1px;        %% Light steel blue
+    classDef staff fill:#f3e1c7,stroke:#b56d2d,stroke-width:1px;         %% Soft beige
+    classDef user fill:#f5baf4,stroke:#c441ba,stroke-width:1px;          %% Bubblegum pink with magenta border
 
     %% Central node
     A["Initial Consultation"]:::consult
+    style A width:220px
 
-    %% Subgraph: Ex Vivo
-    subgraph ExVivo
+    %% Subgraph: Ex Vivo Flow
+    subgraph ExVivo[ ]
         B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
         D1["Project Feasibility?"]:::exvivo
         E["Staff-Assisted Imaging"]:::staff
@@ -32,8 +33,8 @@ The following outlines the **general workflow** for initiating a standard study 
         K["Data Analysis"]:::staff
     end
 
-    %% Subgraph: In Vivo
-    subgraph InVivo
+    %% Subgraph: In Vivo Flow
+    subgraph InVivo[ ]
         C["In vivo"]:::invivo
         L1["Project Feasibility?"]:::invivo
         M["Vivarium Access?"]:::invivo
@@ -41,8 +42,8 @@ The following outlines the **general workflow** for initiating a standard study 
         O["Animals Ready?"]:::invivo
     end
 
-    %% Subgraph: User Operated
-    subgraph UserFlow
+    %% Subgraph: User-Operated Flow
+    subgraph UserOperated[ ]
         P["User-Operated Imaging"]:::user
         Q["Project Request Submission"]:::user
         R["Schedule Training with Maylis"]:::user
@@ -62,12 +63,12 @@ The following outlines the **general workflow** for initiating a standard study 
     E --> F --> G --> H --> I --> J --> K
 
     C --> L1 --> M --> N --> O
-    O --> E
-    O --> P
+    O --✅ Yes --> E
+    O --✅ Yes --> P
 
     P --> Q --> R --> S --> T --> U --> V --> W --> X
 
-    %% Links
+    %% Clickable Nodes
     click A "mailto:maylis.boitet@nyu.edu"
     click Q "https://forms.gle/d3xRyphopVUj6PwW6"
     click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
