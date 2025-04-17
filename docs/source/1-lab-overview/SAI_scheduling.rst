@@ -74,6 +74,32 @@ click Q "https://forms.gle/d3xRyphopVUj6PwW6"
 click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
 click U "https://corelabs.abudhabi.nyu.edu/"
 
+%% Box width consistency
+style A width:220px
+style B width:220px
+style C width:220px
+style D1 width:220px
+style E width:220px
+style F width:220px
+style G width:220px
+style H width:220px
+style I width:220px
+style J width:220px
+style K width:220px
+style L1 width:220px
+style M width:220px
+style N width:220px
+style O width:220px
+style P width:220px
+style Q width:220px
+style R width:220px
+style S width:220px
+style T width:220px
+style U width:220px
+style V width:220px
+style W width:220px
+style X width:220px
+
 Study initiation
 ----------------
 
