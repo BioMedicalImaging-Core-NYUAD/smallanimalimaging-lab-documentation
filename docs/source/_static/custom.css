@@ -17,6 +17,11 @@ body {
     font-weight: normal !important;
 }
 
+.mermaid {
+    display: flex;
+    justify-content: center;
+}
+
 /* ========================
    Heading Styling
 =========================== */
