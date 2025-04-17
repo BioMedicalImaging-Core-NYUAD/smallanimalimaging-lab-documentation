@@ -17,6 +17,13 @@ body {
     font-weight: normal !important;
 }
 
+.mermaid {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    padding: 1em 0;
+}
+
 /* ========================
    Heading Styling
 =========================== */

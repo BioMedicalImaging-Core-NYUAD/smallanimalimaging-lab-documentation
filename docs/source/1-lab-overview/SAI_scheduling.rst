@@ -7,14 +7,20 @@ The following outlines the **general workflow** for initiating a standard study 
 
 .. mermaid::
 
+.. raw:: html
+
+   <div style="width: 100%;">
+
+.. mermaid::
+
     graph TD
 
     %% Styles
-    classDef exvivo fill:#d9ead3,stroke:#38761d,stroke-width:1px;
-    classDef invivo fill:#cfe2f3,stroke:#0b5394,stroke-width:1px;
-    classDef user fill:#ea9999,stroke:#cc0000,stroke-width:1px;     %% red for user-operated
-    classDef staff fill:#fff2cc,stroke:#b45f06,stroke-width:1px;     %% yellow for staff
-    classDef consult fill:#d9d9d9,stroke:#666,stroke-width:1px;      %% grey for consultation
+    classDef consult fill:#d9c9eb,stroke:#7148af,stroke-width:1px;
+    classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;
+    classDef invivo fill:#c4ddf5,stroke:#2f5e87,stroke-width:1px;
+    classDef staff fill:#f3e1c7,stroke:#b56b2d,stroke-width:1px;
+    classDef user fill:#f5baf4,stroke:#c441ba,stroke-width:1px;
 
     %% Nodes
     A["Initial Consultation"]:::consult
@@ -73,6 +79,10 @@ The following outlines the **general workflow** for initiating a standard study 
     click Q "https://forms.gle/d3xRyphopVUj6PwW6"
     click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
     click U "https://corelabs.abudhabi.nyu.edu/"
+
+.. raw:: html
+
+   </div>
 
 Study initiation
 ----------------
