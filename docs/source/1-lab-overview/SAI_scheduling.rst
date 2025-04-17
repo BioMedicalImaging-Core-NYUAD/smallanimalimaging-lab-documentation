@@ -12,7 +12,7 @@ The following outlines the **general workflow** for initiating a standard study 
     %% Styles
     classDef consult fill:#d9c9eb,stroke:#7148af,stroke-width:1px;       %% Lavender purple for initial step
     classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;        %% Light sage green
-    classDef invivo fill:#e8dff3,stroke:#7148af,stroke-width:1px;        %% Softer lavender for contrast
+    classDef invivo fill:#c4ddf5,stroke:#2f5e87,stroke-width:1px;        %% Light steel blue
     classDef staff fill:#f3e1c7,stroke:#b56b2d,stroke-width:1px;         %% Soft beige
     classDef user fill:#c6c9f5,stroke:#434aa3,stroke-width:1px;          %% Blue-purple tone
 
