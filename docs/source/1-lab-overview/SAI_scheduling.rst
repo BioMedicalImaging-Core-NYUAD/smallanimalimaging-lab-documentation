@@ -9,96 +9,69 @@ The following outlines the **general workflow** for initiating a standard study 
 
    graph TD
 
-%% Styles
-classDef consult fill:#d9c9eb,stroke:#7148af,stroke-width:1px;       %% Lavender purple for initial step
-classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;        %% Light sage green
-classDef invivo fill:#c4ddf5,stroke:#2f5e87,stroke-width:1px;        %% Light steel blue
-classDef staff fill:#f3e1c7,stroke:#b56d2d,stroke-width:1px;         %% Soft beige
-classDef user fill:#f5baf4,stroke:#c441ba,stroke-width:1px;          %% Bubblegum pink with magenta border
+    %% Styles
+    classDef consult fill:#d9c9eb,stroke:#7148af,stroke-width:1px;
+    classDef exvivo fill:#bfe7d0,stroke:#3a7f5c,stroke-width:1px;
+    classDef invivo fill:#c4ddf5,stroke:#2f5e87,stroke-width:1px;
+    classDef staff fill:#f3e1c7,stroke:#b56d2d,stroke-width:1px;
+    classDef user fill:#f5baf4,stroke:#c441ba,stroke-width:1px;
 
-%% Central node
-A["Initial Consultation"]:::consult
-style A width:220px
+    %% Central node
+    A["Initial Consultation"]:::consult
 
-%% Subgraph: Ex Vivo Flow
-subgraph ExVivo[ ]
-    B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
-    D1["Project Feasibility?"]:::exvivo
-    E["Staff-Assisted Imaging"]:::staff
-    F["Project Request Submission"]:::staff
-    G["SOPs Signature"]:::staff
-    H["Calendar Invitation"]:::staff
-    I["Data Acquisition with Maylis"]:::staff
-    J["Data Transfer to SAI Folder"]:::staff
-    K["Data Analysis"]:::staff
-end
+    %% Subgraph: Ex Vivo
+    subgraph ExVivo
+        B["Ex vivo<br>Biological Sample<br>Material Science"]:::exvivo
+        D1["Project Feasibility?"]:::exvivo
+        E["Staff-Assisted Imaging"]:::staff
+        F["Project Request Submission"]:::staff
+        G["SOPs Signature"]:::staff
+        H["Calendar Invitation"]:::staff
+        I["Data Acquisition with Maylis"]:::staff
+        J["Data Transfer to SAI Folder"]:::staff
+        K["Data Analysis"]:::staff
+    end
 
-%% Subgraph: In Vivo Flow
-subgraph InVivo[ ]
-    C["In vivo"]:::invivo
-    L1["Project Feasibility?"]:::invivo
-    M["Vivarium Access?"]:::invivo
-    N["IACUC/IBC Approved?"]:::invivo
-    O["Animals Ready?"]:::invivo
-end
+    %% Subgraph: In Vivo
+    subgraph InVivo
+        C["In vivo"]:::invivo
+        L1["Project Feasibility?"]:::invivo
+        M["Vivarium Access?"]:::invivo
+        N["IACUC/IBC Approved?"]:::invivo
+        O["Animals Ready?"]:::invivo
+    end
 
-%% Subgraph: User-Operated Flow
-subgraph UserOperated[ ]
-    P["User-Operated Imaging"]:::user
-    Q["Project Request Submission"]:::user
-    R["Schedule Training with Maylis"]:::user
-    S["Training Attendance Form"]:::user
-    T["SOPs/RAs Signature"]:::user
-    U["Access to Equipment Booking"]:::user
-    V["Data Acquisition by User"]:::user
-    W["Data Transfer to SAI Folder"]:::user
-    X["Data Analysis"]:::user
-end
+    %% Subgraph: User Operated
+    subgraph UserFlow
+        P["User-Operated Imaging"]:::user
+        Q["Project Request Submission"]:::user
+        R["Schedule Training with Maylis"]:::user
+        S["Training Attendance Form"]:::user
+        T["SOPs/RAs Signature"]:::user
+        U["Access to Equipment Booking"]:::user
+        V["Data Acquisition by User"]:::user
+        W["Data Transfer to SAI Folder"]:::user
+        X["Data Analysis"]:::user
+    end
 
-%% Flow
-A --> B
-A --> C
+    %% Flow
+    A --> B
+    A --> C
 
-B --> D1 --> E
-E --> F --> G --> H --> I --> J --> K
+    B --> D1 --> E
+    E --> F --> G --> H --> I --> J --> K
 
-C --> L1 --> M --> N --> O
-O --✅ Yes --> E
-O --✅ Yes --> P
+    C --> L1 --> M --> N --> O
+    O --> E
+    O --> P
 
-P --> Q --> R --> S --> T --> U --> V --> W --> X
+    P --> Q --> R --> S --> T --> U --> V --> W --> X
 
-%% Clickable Nodes
-click A "mailto:maylis.boitet@nyu.edu"
-click Q "https://forms.gle/d3xRyphopVUj6PwW6"
-click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
-click U "https://corelabs.abudhabi.nyu.edu/"
-
-%% Box width consistency
-style A width:220px
-style B width:220px
-style C width:220px
-style D1 width:220px
-style E width:220px
-style F width:220px
-style G width:220px
-style H width:220px
-style I width:220px
-style J width:220px
-style K width:220px
-style L1 width:220px
-style M width:220px
-style N width:220px
-style O width:220px
-style P width:220px
-style Q width:220px
-style R width:220px
-style S width:220px
-style T width:220px
-style U width:220px
-style V width:220px
-style W width:220px
-style X width:220px
+    %% Links
+    click A "mailto:maylis.boitet@nyu.edu"
+    click Q "https://forms.gle/d3xRyphopVUj6PwW6"
+    click S "https://docs.google.com/forms/d/e/1FAIpQLScLW1MOvo-9aAwX2_04FcyLGPR9xtDso9hu9SEixUy2VzuAiw/viewform"
+    click U "https://corelabs.abudhabi.nyu.edu/"
 
 Study initiation
 ----------------
