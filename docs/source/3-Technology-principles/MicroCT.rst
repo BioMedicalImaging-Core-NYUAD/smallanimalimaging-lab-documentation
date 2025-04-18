@@ -65,7 +65,7 @@ axis, minimizing image blurring and improving spatial accuracy. This effect is p
 where abrupt changes in density or composition lead to edge enhancement. These transitions enhance boundaries between
 adjacent voxels, creating both perceived and true spatial resolution gains in the final image. However, the photoelectric
 effect also contributes significantly to radiation dose and localized ionization. The energy deposited by photoelectrons
-and subsequent secondary interactions may lead to tissue damage, particularly in radiosensitive organs (bone marrow, osteogenic tissue)).
+and subsequent secondary interactions may lead to tissue damage, particularly in radiosensitive organs (bone marrow, osteogenic tissue).
 Therefore, its benefits must be balanced against biological risks, especially in longitudinal or high-dose imaging protocols.
 
 .. image:: ../_static/comparison-Xray-interaction.png
