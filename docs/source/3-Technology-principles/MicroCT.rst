@@ -68,7 +68,7 @@ effect also contributes significantly to radiation dose and localized ionization
 and subsequent secondary interactions may lead to tissue damage, particularly in radiosensitive organs (bone marrow, osteogenic tissue)).
 Therefore, its benefits must be balanced against biological risks, especially in longitudinal or high-dose imaging protocols.
 
-.. image:: ../_static/comparison-Xray_interaction.png
+.. image:: ../_static/comparison-Xray-interaction.png
    :alt: *Comparative overview of X-ray interactions with biological tissue*
    :width: 1000px
    :align: center
