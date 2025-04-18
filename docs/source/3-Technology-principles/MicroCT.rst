@@ -17,7 +17,7 @@ requires careful management of radiation dose for repeated in vivo applications.
 
 Important considerations
 ^^^^^^^^^^^^^^^^^^^^^^^^
-.. image:: ../_static/light_interaction.png
+.. image:: ../_static/Xray_interaction.png
    :alt: *Xray interaction with biological matter*
    :width: 1000px
    :align: center
