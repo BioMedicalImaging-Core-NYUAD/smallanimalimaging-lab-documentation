@@ -3,8 +3,8 @@ In vivo Optical Imaging
 
 Technology overview
 -------------------
-In vivo optical imaging is a versatile, non-invasive, non-destructive modality that enables the visualization and quantification of biological
-processes in living organisms through the detection of emitted light generated from within the biological system.
+In vivo optical imaging is a versatile, non-invasive, non-destructive modality that enables the **visualization and quantification of biological
+processes in living organisms** through the **detection of emitted light** generated from within the biological system.
 This approach offers unique advantages for small-animal imaging, including high sensitivity, real-time monitoring, and
 longitudinal assessment under physiological conditions.
 
@@ -16,14 +16,14 @@ molecular and physiological events over time.
 
 Two major emission-based imaging modalities dominate this field: fluorescence imaging and bioluminescence imaging.
 
-Challenges
-^^^^^^^^^^
+Important considerations
+^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: ../_static/light_interaction.png
-   :alt: *Light interaction with biological matter*
+   :alt: *Visible light interaction with biological matter*
    :width: 1000px
    :align: center
 
-*Light interaction with biological matter*
+*Visible light interaction with biological matter*
 
 .. raw:: html
 
