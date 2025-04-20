@@ -64,7 +64,7 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
 
 
 .. toctree::
-    :caption: IVIS-Spectrum
+    :caption: IVIS Spectrum
     :hidden:
 
     2-IVIS-Spectrum/main-applications.rst
@@ -73,7 +73,7 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     2-IVIS-Spectrum/best-practices.rst
 
 .. toctree::
-    :caption: SkyScan-1276
+    :caption: SkyScan 1276
     :hidden:
 
     3-SkyScan-1276/main-applications.rst
@@ -91,7 +91,7 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     4-nVue-nVision/best-practices.rst
 
 .. toctree::
-    :caption: KS-endoscope
+    :caption: KS endoscope
     :hidden:
 
     5-KS-endoscope/main-applications.rst

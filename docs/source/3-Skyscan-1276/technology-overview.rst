@@ -1,8 +1,5 @@
-In vivo microCT
-===============
+SkyScan 1276 - Technology overview
 
-Technology overview
--------------------
 In vivo micro-computed tomography (microCT) is a powerful, non-invasive, non-destructive and high-resolution imaging modality
 that allows for the **visualization and quantification of anatomical structures and physiological changes** in live animal models.
 It operates by acquiring a **series of X-ray projections from multiple angles**. 2D projections are secondly reconstructed
@@ -16,7 +13,7 @@ contrast agents. Compared to optical imaging, microCT provides superior anatomic
 requires careful management of radiation dose for repeated in vivo applications.
 
 Important considerations
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 .. image:: ../_static/Xray_interaction.png
    :alt: *Xray interaction with biological matter*
    :width: 1000px
@@ -377,10 +374,5 @@ Recognizing major CT artifacts
 - **Beam-hardening artifact**
 
 - **Metal artifact**
-
-
-Best practices for optimizing microCT scanning
-----------------------------------------------
-
 
 

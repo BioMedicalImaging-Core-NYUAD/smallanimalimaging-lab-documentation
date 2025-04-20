@@ -10,8 +10,6 @@ IVIS Spectrum - System specifications
 
 .. raw:: html
 
-For a comprehensive explanation of optical imaging principles, see :doc:`In vivo Optical Imaging <3-Technology Principles/Optical imaging>`.
-
 CCD camera
 ----------
 - Back-thinned, back-illuminated Grade 1 CCD sensor

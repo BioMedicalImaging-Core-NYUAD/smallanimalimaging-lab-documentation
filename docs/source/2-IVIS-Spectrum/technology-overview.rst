@@ -1,4 +1,4 @@
-IVIS Spectrum -Technology overview
+IVIS Spectrum - Technology overview
 ==================================
 
 In vivo optical imaging is a versatile, non-invasive, non-destructive modality that enables the **visualization and quantification**
