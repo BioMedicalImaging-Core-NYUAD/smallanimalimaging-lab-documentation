@@ -288,11 +288,8 @@ The reconstruction process produces cubic voxels, ensuring isotropic spatial res
 measurements in all directions.
 
 - **Quantitative accuracy**
-MicroCT enables direct, calibrated measurement of tissue properties such as:
-
-    - Bone mineral density (BMD) / Tissue mineral density (TMD)
-    - Tissue volume and surface area
-    - Trabecular/cortical thickness, porosity, and anisotropy
+MicroCT enables direct, calibrated measurement of tissue properties such as bone mineral density (BMD), tissue mineral density (TMD),
+tissue volume and surface area and trabecular/cortical thickness, porosity, and anisotropy.
 
 - **Moderate soft tissue sensitivity**
 Lean tissues show low native contrast. However, with iodinated, gold-based, or nanoparticle exogenous contrast agents, microCT
@@ -307,12 +304,16 @@ within-subject comparisons across time.
 - **High reproducibility**
 Fixed geometries and standardized workflows (consistent reconstruction parameters) ensure high reproducibility across scans and studies.
 
-- **Adjustable trade-offs between dose, resolution, and time**
-Operators can tailor protocols to balance spatial resolution, radiation dose, and acquisition time.
-
 - **3D volumetric output**
 MicroCT produces complete, voxel-based 3D datasets suitable for downstream processing such as segmentation, registration,
 3D rendering, and quantitative analysis.
+
+- **Standardized grayscale calibration (Hounsfield Units)**
+MicroCT systems support grayscale calibration to Hounsfield Units (HU) or equivalent standardized attenuation values using
+reference phantoms (air, water, hydroxyapatite). This standardization facilitates direct comparison of scans across different
+systems, sessions, or laboratories, and improves the reproducibility of quantitative measurements such as BMD,
+tissue composition, and contrast agent uptake. HU calibration also enables co-registration with clinical CT datasets in
+translational research workflows.
 
 Limitations of microCT
 ^^^^^^^^^^^^^^^^^^^^^^
