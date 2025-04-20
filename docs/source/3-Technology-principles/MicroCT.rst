@@ -369,8 +369,8 @@ anesthesia time in live animals and extending the total experimental workflow.
 High-resolution scans generate large 3D datasets, requiring significant storage capacity, image processing time, and specialized
 software for reconstruction and quantitative analysis.
 
-Major artifacts
-^^^^^^^^^^^^^^^
+Recognizing major CT artifacts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - **Ring artifact**
 
 - **Motion artifact**
