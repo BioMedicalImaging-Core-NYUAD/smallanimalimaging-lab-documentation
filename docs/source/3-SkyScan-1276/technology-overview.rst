@@ -374,5 +374,3 @@ Recognizing major CT artifacts
 - **Beam-hardening artifact**
 
 - **Metal artifact**
-
-

@@ -67,5 +67,3 @@ Here are some biological research applications of microCT imaging:
     - Seed morphology and development
     - Root system architecture
     - Leaf anatomy and venation patterns
-
-Sy
