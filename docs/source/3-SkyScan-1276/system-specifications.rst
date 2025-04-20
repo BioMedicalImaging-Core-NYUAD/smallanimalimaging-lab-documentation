@@ -13,19 +13,15 @@ SkyScan 1276 - System specifications
 X-ray source
 ------------
 - Type: Tungsten source
-- Adjustable output:
-    - Power: Up to 20W
-    - Voltage: 40–100 kV
+- Adjustable output: power Up to 20W and voltage between 40–100 kV
 - Spot size: < 5 µm at 4 W
-- Automated 6-position filter changer
-    - No filter, Al 0.25mm, Al 0.5mm, Al 1mm, Al+Cu, low dose
+- Automated 6-position filter changer: no filter, Al 0.25mm, Al 0.5mm, Al 1mm, Al+Cu, low dose
 
 X-ray detector
 --------------
 - Sensor type: 16 megapixels CMOS camera
-- Resolution:
-    - Sensor dimensions: 4096 × 4096 pixels
-    - Pixel size: 2.8 µm to 75 µm
+- Sensor dimensions: 4096 × 4096 pixels
+- Pixel size: 2.8 µm to 75 µm
 - Spatial resolution: 6 µm
 - Sensor binning: up to 8x (512 x 512 pixels)
 - Capability: Wide scan mode for large object

@@ -261,13 +261,45 @@ and treatment evaluation in preclinical research.
 Advanced techniques for microCT imaging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Respiratory gating
-""""""""""""""""""
+4D gated microCT
+""""""""""""""""
+Conventional micro-computed tomography (microCT) acquires a single projection per angular position to reconstruct a static
+three-dimensional (3D) image of anatomical structures. While this method is effective for visualizing rigid tissues or
+organs with minimal motion, it is highly susceptible to motion artifacts when imaging dynamic organs such as the lungs or heart.
+To overcome these limitations, 4D microCT incorporates **physiological gating, synchronizing image acquisition with intrinsic biological rhythms**, namely
+respiratory and cardiac cycles.
+In gated 4D microCT, **multiple low-dose projections** are acquired at **each rotation angle** and **temporally tagged to specific phases**
+of the breathing or heartbeat cycle. These **phase-resolved projections** are subsequently sorted and reconstructed into
+a series of 3D volumes, each representing a discrete point in the physiological cycle. The result is a time-resolved four-dimensional
+dataset (3D + time) that captures both anatomical structure and dynamic function with high temporal fidelity.
 
+This methodology enables **motion-artifact-free visualization of moving organs**, such as the lungs during ventilation or
+the heart during systole and diastole. It facilitates quantitative assessment of functional parameters, including lung aeration,
+tidal volume changes, airway recruitment, and regional ventilation heterogeneity in **respiratory-gated studies**. Likewise,
+**cardiac-gated imaging** allows for precise quantification of left ventricular ejection fraction, myocardial wall motion,
+stroke volume, and chamber volumes. From a translational perspective, 4D microCT enables longitudinal tracking of disease
+progression in preclinical models of pulmonary fibrosis, emphysema, or heart failure, and supports robust, non-invasive
+evaluation of therapeutic interventions. The ability to monitor functional dynamics within the same animal over time significantly
+reduces inter-animal variability and enhances the statistical power of experimental studies.
+However, successful 4D imaging requires careful optimization of several interdependent parameters, including X-ray exposure
+time, the number of temporal bins per physiological cycle, the quality of respiratory or ECG signals, and the chosen gating
+strategy. These factors directly influence temporal resolution, signal-to-noise ratio, and radiation dose, which must be
+balanced to meet the biological and ethical requirements of the study.
 
-Cardiac gating
-""""""""""""""
+Two primary gating approaches are employed in 4D microCT:
 
+- **Sensor-based (prospective) gating**
+In prospective gating, the system **synchronizes image acquisition in real time with physiological signals**, such as respiratory
+motion detected by a pressure-sensitive sensor or cardiac motion detected via electrocardiography (ECG). Projections are
+acquired only during a predefined, motion-minimized phase of the cycle (end-expiration for lungs, diastole for the heart).
+This approach reduces motion blur and limits radiation dose but may result in an uneven number of projections per phase
+due to physiological variability, potentially affecting reconstruction uniformity.
+
+- **Image-sorted (retrospective) gating**
+In retrospective gating, projection images are acquired **continuously and independently of physiological signals**. These
+data are then **sorted post-acquisition** into phase bins using concurrently recorded respiratory or ECG waveforms, or via
+**image-based motion** detection algorithms. This strategy allows full-cycle coverage and flexibility, especially for cardiac
+imaging where heartbeat intervals vary, but comes at the cost of longer scan times, increased radiation exposure, and greater computational demands.
 
 Advantages of microCT
 ---------------------

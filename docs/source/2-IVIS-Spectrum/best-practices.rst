@@ -28,10 +28,10 @@ Imaging optimization
 Fluorescence-specific tips
 --------------------------
 - **Use far-red fluorophores:** Prefer fluorophores emitting 650–900 nm for better tissue penetration and reduced autofluorescence
-- **Apply spectral unmixing and background subtraction:** Improve signal accuracy and SNR not only in multiplex but also in single-reporter imaging by:
-    - Using reporter-negative control animals to characterize tissue autofluorescence
-    - Defining background ROIs in non-targeted regions (contralateral tissue) for subtraction
-    - Ensuring consistent ROI placement and size across background and target areas
+- **Apply spectral unmixing and background subtraction:**
+    - Use reporter-negative control animals to characterize tissue autofluorescence
+    - Define background ROIs in non-targeted regions (contralateral tissue) for subtraction
+    - Ensure consistent ROI placement and size across background and target areas
 - Ensure proper controls for multiplex imaging:
     - Include single-reporter control animals for each fluorophore to establish accurate spectral fingerprints and avoid cross-channel bleed-through
     - Use contralateral tissue or a background ROI within the same animal as internal reference region to estimate and subtract non-specific signal
