@@ -245,7 +245,6 @@ Fluorescence intensity is influenced by excitation light distribution, tissue op
 making quantitative analysis more challenging. Accurate quantification requires careful normalization, background subtraction,
 and appropriate controls to isolate specific reporter signals.
 
-
 Bioluminescence imaging
 -----------------------
 Bioluminescence imaging is a highly sensitive, non-invasive imaging modality that relies on the detection of light produced

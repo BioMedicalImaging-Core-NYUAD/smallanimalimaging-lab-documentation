@@ -1,4 +1,5 @@
 SkyScan 1276 - Technology overview
+==================================
 
 In vivo micro-computed tomography (microCT) is a powerful, non-invasive, non-destructive and high-resolution imaging modality
 that allows for the **visualization and quantification of anatomical structures and physiological changes** in live animal models.
@@ -366,7 +367,7 @@ High-resolution scans generate large 3D datasets, requiring significant storage 
 software for reconstruction and quantitative analysis.
 
 Recognizing major CT artifacts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 - **Ring artifact**
 
 - **Motion artifact**
