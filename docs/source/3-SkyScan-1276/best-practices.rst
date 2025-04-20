@@ -41,7 +41,7 @@ Ex vivo sample hydration and stabilisation
 ------------------------------------------
 - **Immobilize the sample inside the tube**
     - Wrap the sample in a moist gauze, sponge, or soft foam soaked with 70% ethanol or PBS.
-    - Alternatively, embed delicate tissues inc1–2% agarose gel (excellent support and hydration) or low-melting-point paraffin (scanning after dehydration).
+    - Alternatively, embed delicate tissues in 1–2% agarose gel (excellent support and hydration) or low-melting-point paraffin (scanning after dehydration).
     - This combination of hydration and mechanical stabilization prevents drift during scanning.
     - Use only low-density, X-ray transparent materials (polystyrene foam, Kapton) to avoid imaging artifacts.
 - **Use custom or sealed containers**
