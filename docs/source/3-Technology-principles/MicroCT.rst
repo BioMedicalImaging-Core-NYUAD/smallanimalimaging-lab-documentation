@@ -104,8 +104,25 @@ cathode and **accelerated toward the anode under a high-voltage potential**, typ
 accelerated electron beam is directed onto a **tungsten target**, selected for its high atomic number (Z = 74) and high melting point,
 which together enable efficient X-ray production (0.01 - 10 nm) through two primary mechanisms:
 
-- **Bremsstrahlung radiation** (Braking radiation) resulting from electron deceleration in the nuclear electric field
-- **characteristic radiation** produced by inner-shell electron ionization followed by electron shell transitions
+- **Bremsstrahlung radiation**
+Bremsstrahlung radiation is produced when high-speed electrons are rapidly **decelerated or deflected** by the strong electric
+field of atomic nuclei within the anode target material, such as **tungsten**. As the negatively charged electrons approach
+the positively charged nucleus, their change in velocity results in the **emission of X-ray photons**. The energy of these
+photons varies continuously depending on how close the electron comes to the nucleus and how much kinetic energy is lost
+during the interaction. This process generates a **broad, continuous spectrum of X-ray energies* ranging from near zero up
+to the maximum energy defined by the tube voltage (100 keV for a 100 kV tube). Bremsstrahlung radiation is the dominant form
+of X-ray emission in most tubes, particularly at higher tube voltages, and serves as the **primary background radiation** used
+in imaging applications.
+
+- **characteristic radiation**
+Characteristic radiation only occurs when an incident electron has sufficient energy to **ionize a tightly bound inner-shell**
+**electron**, typically from the K-shell, of a target atom. This ejection creates a vacancy, which is then filled by an
+electron from a higher-energy shell (L or M shell). The difference in binding energy between these shells is emitted as
+**an X-ray photon with a discrete, element-specific energy**. These emissions are referred to as "characteristic" because
+they correspond to the unique electronic structure of the target material. For tungsten, the most common target material
+in microCT, characteristic peaks are observed at approximately 59 keV (Kα) and 67 keV (Kβ). Unlike Bremsstrahlung radiation,
+which is continuous, characteristic radiation appears as **sharp peaks** superimposed on the X-ray spectrum and contributes
+to **enhanced contrast** when the tube voltage exceeds the binding energy of the K-shell.
 
 .. image:: ../_static/Xray-generation.png
    :alt: *Mechanisms of X-ray generation in a microfocus X-ray tube*
@@ -173,7 +190,71 @@ minimizes beam hardening artifacts and improves the accuracy of quantitative mea
 strong energy-dependent attenuation. Although not yet widely available in conventional microCT systems due to the complexity
 and cost of monochromatic X-ray generation, this method offers significant advantages in high-precision material analysis and advanced contrast imaging.
 
+Gantry rotation
+^^^^^^^^^^^^^^^
+The main distinction between X-ray radiography and computed tomography (CT) lies in the acquisition strategy. While conventional
+X-ray imaging captures a single 2D projection of the object from a fixed angle, CT imaging acquires **multiple projections**
+at **varying angular positions around the subject**. These projections are then **computationally reconstructed** into a three-dimensional
+volume, enabling detailed visualization of internal structures with depth and spatial context.
+In contrast, 3D fluorescence imaging typically reconstructs volumetric data from a series of 2D surface-weighted images
+acquired using a scanning light source and a fixed detector. CT, however, achieves true tomographic imaging through a
+**rotational acquisition geometry**, enabling depth-resolved imaging throughout the volume.
 
+Two primary acquisition geometries are employed in CT systems, depending on the application and system design:
+
+- **Rotating Sample Geometry**
+Common in material science and ex vivo microCT systems, this configuration maintains a **stationary X-ray source and detector**,
+while the sample is mounted on a rotating stage. This setup enables higher spatial resolution, reduced system size, and
+greater mechanical stability. It is particularly advantageous for imaging small specimens with minimal motion and maximizing image detail.
+
+- **Rotating Gantry Geometry**
+Utilized in in vivo CT systems—including clinical scanners and some preclinical setups—the X-ray source and detector
+rotate around a **stationary subject**. This geometry is ideal for live imaging, as rotating a living specimen is impractical
+and may induce motion artifacts. Rotating gantry systems also allow for larger field-of-view imaging and faster scan
+acquisition times. However, due to their mechanical complexity and reduced geometric magnification, these systems generally
+offer lower resolution compared to stationary-source designs.
+
+In both geometries, rotational acquisition is fundamental to tomographic imaging and is essential for accurate 3D reconstruction.
+It enables **isotropic resolution** throughout the reconstructed volume, which is critical for quantitative and anatomical accuracy.
+
+Image reconstruction
+^^^^^^^^^^^^^^^^^^^^
+Following acquisition, the series of two-dimensional X-ray projections (collectively referred to as a **sinogram**) are mathematically
+reconstructed into **cross-sectional images** (slices) using algorithms such as **filtered back projection** that demonstrates high
+computational efficiency and reconstruction accuracy. In certain cases, particularly under low-dose or noisy acquisition conditions,
+**iterative reconstruction algorithms** may be applied to improve image quality and reduce artifacts.
+
+**Pre-processing steps** applied prior to image reconstruction are fundamental for enhancing projection quality and ensuring
+the accuracy of tomographic reconstruction. These operations correct for acquisition-related artifacts and optimize the raw
+dataset before reconstruction algorithms are applied. Common pre-processing procedures include:
+
+- **Misalignment compensation** corrects for **slight spatial discrepancies between projections** caused by mechanical
+tolerances or stage instability during rotation, ensuring **consistent alignment** across all angular views.
+- **Ring artifact suppression** addresses **radial artifacts** caused by defective or uneven detector pixels that produce
+constant signals across projections, resulting in **ring-shaped distortions** in reconstructed slices.
+- **Beam hardening correction** compensates for the **nonlinear attenuation of low-energy photons** in polychromatic X-ray beams, particularly in dense or high atomic number materials. This correction reduces cupping artifacts and improves the accuracy of grayscale representation in reconstructed images.
+
+Additional steps may include image thresholding, smoothing filters to reduce noise, and pixel binning, which improves signal-to-noise
+ratio at the cost of spatial resolution.
+The resulting slices represent **sequential planes** through the scanned volume and are subsequently stacked to generate
+a **three-dimensional volumetric dataset**. The spatial resolution of this dataset is defined by the **in-plane pixel size**
+of the 2D detector and the **slice thickness**, both of which determine the **voxel pitch** (the smallest resolvable unit
+of volume in the reconstructed image). In most microCT systems, the slice thickness is typically equal to the in-plane pixel
+dimension, leading to the formation of **isotropic voxels**. This isotropic geometry allows for accurate three-dimensional
+visualization and quantitative analysis of internal structures with uniform resolution across all spatial axes, depending
+on the imaging configuration and acquisition parameters.
+
+Data analysis
+^^^^^^^^^^^^^
+Data analysis in microCT refers to the **post-processing steps** that follow image reconstruction and involve operations such
+as **image segmentation, thresholding, registration, and quantitative extraction of structural and morphological parameters**.
+These steps are critical for translating volumetric image data into meaningful biological or material metrics. In in vivo microCT,
+data analysis is commonly used to quantify **bone mineral density** (BMD) or **tissue mineral density** (TMD), as well as to
+evaluate **tissue volume, microarchitecture, and morphology**. Additional applications include the quantification of
+adipose tissue, assessment of implant integrity and stability, and monitoring of tissue regeneration or remodeling over time.
+Accurate segmentation is essential for **isolating regions of interest**, and downstream quantification relies on voxel-based
+measurements derived from the reconstructed 3D dataset. These analyses form the basis for longitudinal monitoring, phenotyping,
+and treatment evaluation in preclinical research.
 
 Advanced techniques for microCT imaging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -185,11 +266,118 @@ Respiratory gating
 Cardiac gating
 """"""""""""""
 
+
 Advantages of microCT
 ^^^^^^^^^^^^^^^^^^^^^
+- **High spatial resolution**
+Typical in vivo microCT systems achieve 6–75 µm voxel resolution, enabling precise visualization of small-scale anatomical
+structures such as trabecular bone, implants, or calcified tissues.
+
+- **Strong signal-to-noise ratio**
+High-quality detectors, X-ray flux optimization, and proper reconstruction filtering contribute to high SNR, especially
+in dense and mineralized tissues.
+
+- **High anatomical specificity**
+Native tissue contrast in microCT is governed by X-ray attenuation, which depends on both tissue density and effective
+atomic number. This makes the modality inherently well-suited for imaging bone, teeth, and other calcified structures,
+where attenuation is high and signal contrast is strong. In addition, segmentation of lung, lean tissue, and adipose tissue
+is feasible based on their differential attenuation properties and relative composition. Soft tissue visualization can be
+further enhanced through the use of exogenous contrast agents, enabling targeted imaging of organs, vasculature, tumors,
+or biomaterials.
+
+- **Isotropic resolution**
+The reconstruction process produces cubic voxels, ensuring isotropic spatial resolution and allowing for unbiased 3D
+measurements in all directions.
+
+- **Quantitative accuracy**
+MicroCT enables direct, calibrated measurement of tissue properties such as:
+
+    - Bone mineral density (BMD) / Tissue mineral density (TMD)
+    - Tissue volume and surface area
+    - Trabecular/cortical thickness, porosity, and anisotropy
+
+- **Moderate soft tissue sensitivity**
+Lean tissues show low native contrast. However, with iodinated, gold-based, or nanoparticle exogenous contrast agents, microCT
+can visualize and quantify soft tissue morphology, perfusion, or tumor burden.
+
+- **Non-destructive and repeatable**
+MicroCT enables longitudinal, non-invasive imaging of the same subject over multiple time points, allowing researchers to monitor
+biological processes such as disease progression, healing, or treatment response in vivo. This approach significantly reduces
+inter-subject variability, lowers the number of animals required per study, and increases statistical power by enabling
+within-subject comparisons across time.
+
+- **High reproducibility**
+Fixed geometries and standardized workflows (consistent reconstruction parameters) ensure high reproducibility across scans and studies.
+
+- **Adjustable trade-offs between dose, resolution, and time**
+Operators can tailor protocols to balance spatial resolution, radiation dose, and acquisition time.
+
+- **3D volumetric output**
+MicroCT produces complete, voxel-based 3D datasets suitable for downstream processing such as segmentation, registration,
+3D rendering, and quantitative analysis.
 
 Limitations of microCT
 ^^^^^^^^^^^^^^^^^^^^^^
+- **Exposure to ionizing radiation**
+In vivo microCT involves exposure to ionizing X-rays, which can induce DNA damage and affect radiosensitive tissues such
+as bone marrow, gonads, and the intestinal epithelium. This necessitates careful dose optimization, particularly in longitudinal or developmental studies.
+
+- **Radiation-induced biological effects in longitudinal studies**
+Even under low-dose protocols, repeated exposure can affect cell viability, tissue regeneration, or tumor response, potentially
+confounding biological outcomes in sensitive models.
+
+- **Limited soft tissue contrast (without contrast agents)**
+Soft tissues with similar X-ray attenuation cannot be easily distinguished without the use of exogenous contrast agents.
+This limits native soft tissue visualization and may complicate interpretation in non-contrast-enhanced protocols.
+
+- **Motion artifacts in live imaging**
+Respiration, cardiac motion, or general animal movement can degrade image quality, particularly for soft tissue imaging.
+While respiratory and cardiac gating reduce motion blur, these require additional hardware and setup time and may not fully
+eliminate motion-induced artifacts.
+
+- **Low molecular specificity**
+Unlike optical imaging modalities, microCT does not inherently provide molecular or functional information. It primarily
+reflects anatomical and structural characteristics unless combined with specialized contrast agents targeting molecular features.
+
+- **Contrast agent limitations**
+Soft tissue imaging often depends on iodinated or nanoparticle-based contrast agents, which introduce variability in uptake,
+clearance, and tissue retention. Their use may also raise concerns about toxicity, vascular leakage, or immune response.
+
+- **Limited field of view (at high resolution)**
+High-resolution imaging typically comes with a reduced field of view, making whole-body or multi-region scanning impractical
+without sequential acquisitions or image stitching, which adds time and complexity.
+
+- **Limited penetration through thick, dense, or high-Z samples**
+X-ray transmission is inherently constrained by the energy output of the X-ray source and the attenuation characteristics
+of the sample, which depend on its thickness, density, and atomic composition. In large or highly attenuating specimens,
+such as obese animals, dense biomaterials, or metal-rich implants, X-ray photons may be excessively absorbed or scattered
+before reaching the detector. This results in poor signal transmission, reduced contrast, and increased noise, ultimately
+compromising image quality and quantitative reliability. While filters and higher voltage settings can partially compensate,
+these adjustments may come at the cost of increased radiation dose or reduced soft tissue sensitivity.
+
+- **Susceptibility to metal artifacts**
+High-density materials such as surgical implants or metallic probes cause severe beam hardening and scattering effects,
+resulting in streaking, blooming, or signal voids. These metal artifacts can obscure adjacent structures and impair both
+visual interpretation and quantitative analysis. Although beam hardening correction and artifact reduction algorithms exist,
+they often cannot fully eliminate these distortions, particularly in high-resolution imaging contexts.
+
+- **High acquisition and reconstruction time for high resolution**
+Achieving high-resolution imaging (≤10 µm voxel size) requires longer scan durations and slower rotation steps, increasing
+anesthesia time in live animals and extending the total experimental workflow.
+
+- **Large data volume and computational requirements**
+High-resolution scans generate large 3D datasets, requiring significant storage capacity, image processing time, and specialized
+software for reconstruction and quantitative analysis.
+
+Major artifacts
+^^^^^^^^^^^^^^^
+- **Ring artifact**
+
+- **Motion artifact**
+
+- **Beam-hardening artifact**
+
+- **Metal artifact**
 
 
 Best practices for optimizing microCT scanning
@@ -197,3 +385,5 @@ Best practices for optimizing microCT scanning
 
 
 
+Improving image resolution
+--------------------------
