@@ -228,10 +228,8 @@ computational efficiency and reconstruction accuracy. In certain cases, particul
 the accuracy of tomographic reconstruction. These operations correct for acquisition-related artifacts and optimize the raw
 dataset before reconstruction algorithms are applied. Common pre-processing procedures include:
 
-- **Misalignment compensation** corrects for **slight spatial discrepancies between projections** caused by mechanical
-tolerances or stage instability during rotation, ensuring **consistent alignment** across all angular views.
-- **Ring artifact suppression** addresses **radial artifacts** caused by defective or uneven detector pixels that produce
-constant signals across projections, resulting in **ring-shaped distortions** in reconstructed slices.
+- **Misalignment compensation** corrects for **slight spatial discrepancies between projections** caused by mechanical tolerances or stage instability during rotation, ensuring **consistent alignment** across all angular views.
+- **Ring artifact suppression** addresses **radial artifacts** caused by defective or uneven detector pixels that produce constant signals across projections, resulting in **ring-shaped distortions** in reconstructed slices.
 - **Beam hardening correction** compensates for the **nonlinear attenuation of low-energy photons** in polychromatic X-ray beams, particularly in dense or high atomic number materials. This correction reduces cupping artifacts and improves the accuracy of grayscale representation in reconstructed images.
 
 Additional steps may include image thresholding, smoothing filters to reduce noise, and pixel binning, which improves signal-to-noise
