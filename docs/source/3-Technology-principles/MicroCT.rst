@@ -89,6 +89,15 @@ conducted during sensitive developmental windows.
 MicroCT imaging
 ---------------
 
+.. image:: ../_static/microCT.png
+   :alt: *In vivo microCT*
+   :width: 1000px
+   :align: center
+
+*In vivo microCT*
+
+.. raw:: html
+
 Xray generation
 ^^^^^^^^^^^^^^^
 X-ray generation is a complex process in which electrons are thermionically emitted from a heated tungsten filament at the
@@ -164,6 +173,8 @@ or advanced laboratory-based monochromators that filter polychromatic beams. By 
 minimizes beam hardening artifacts and improves the accuracy of quantitative measurements, especially in materials with
 strong energy-dependent attenuation. Although not yet widely available in conventional microCT systems due to the complexity
 and cost of monochromatic X-ray generation, this method offers significant advantages in high-precision material analysis and advanced contrast imaging.
+
+
 
 Advanced techniques for microCT imaging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
