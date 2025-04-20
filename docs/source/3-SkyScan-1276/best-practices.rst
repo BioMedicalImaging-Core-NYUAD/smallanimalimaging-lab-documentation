@@ -36,3 +36,19 @@ General recommendations
 - **Pilot scan before full study:** Run a small test cohort to define scan parameters, and analysis workflow.
 - **Schedule imaging consistently:** Perform scans at the same time of day to control for circadian effects on physiology and biodistribution.
 - **Document all scan parameters and animal metadata:** Include anesthesia protocol, positioning details, scan settings, and animal weight/condition in each imaging session log to enable accurate interpretation and troubleshooting.
+
+Ex vivo sample hydration and stabilisation
+------------------------------------------
+- **Immobilize the sample inside the tube**
+    - Wrap the sample in a moist gauze, sponge, or soft foam soaked with 70% ethanol or PBS.
+    - Alternatively, embed delicate tissues inc1–2% agarose gel (excellent support and hydration) or low-melting-point paraffin (scanning after dehydration).
+    - This combination of hydration and mechanical stabilization prevents drift during scanning.
+    - Use only low-density, X-ray transparent materials (polystyrene foam, Kapton) to avoid imaging artifacts.
+- **Use custom or sealed containers**
+    - Place the sample in sealed tubes or containers (microcentrifuge tubes, Kapton tubing...) or when using Falcon tubes, add a custom insert (3D-printed or foam) to cradle the sample snugly.
+    - **Limit liquid volume:** Use only enough to cover the sample, and fill air gaps to minimize turbulence.
+    - Ensure a tight fit to eliminate sample floating or shifting during rotation.
+- **Seal and maintain a moist environment**
+    - Seal containers with parafilm or caps to prevent evaporation.
+    - If scanning without full sealing, place a moist cotton or sponge pad nearby inside the chamber to maintain humidity.
+    - Minimize scan time for sensitive tissues to reduce dehydration risk.
