@@ -88,7 +88,6 @@ conducted during sensitive developmental windows.
 
 MicroCT imaging
 ---------------
-
 .. image:: ../_static/microCT.png
    :alt: *In vivo microCT*
    :width: 1000px
