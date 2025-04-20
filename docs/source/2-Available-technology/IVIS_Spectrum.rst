@@ -101,13 +101,8 @@ Software
 - 3D bioluminescence and fluorescence tomography with depth estimation and quantitative analysis
 - Exportation of DICOM image format for 3D co-registration
 
-Available accessories
----------------------
-- Fluorescence and bioluminescence phantom mouse for calibration, validation, quality control
-- Mouse Imaging Shuttle (MIS) for 3D multimodal co-registration with microCT or MRI systems
-
 Why IVIS Spectrum
------------------
+^^^^^^^^^^^^^^^^^
 .. image:: ../_static/comparison-opticalsystems.png
    :alt: *Comparison table of the specifications of the main in vivo optical imaging systems*
    :width: 1000px
@@ -124,3 +119,9 @@ The system represents the current state-of-the-art in optical imaging technology
 Diffuse Luminescence Imaging Tomography (DLIT), Fluorescence Imaging Tomography (FLIT), and advanced spectral unmixing capabilities.
 These features collectively allow for enhanced sensitivity, quantitative accuracy, and the ability to resolve complex multiplexed
 signals in living subjects.
+
+Available accessories
+---------------------
+- Fluorescence and bioluminescence phantom mouse for calibration, validation, quality control
+- Mouse Imaging Shuttle (MIS) for 3D multimodal co-registration with microCT or MRI systems
+
