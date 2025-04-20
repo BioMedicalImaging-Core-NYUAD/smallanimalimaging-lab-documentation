@@ -28,7 +28,8 @@ In vivo microCT enables high-resolution anatomical imaging in live animals, but 
 of ionizing X-rays (electromagnetic wavelengths between 0.01 - 10 nm) with biological tissues. These interactions affect
 image contrast, radiation dose, and the reliability of longitudinal data, especially in soft tissue and high-resolution studies:
 
-- **Rayleigh scattering**
+Rayleigh scattering
+^^^^^^^^^^^^^^^^^^^
 Rayleigh scattering occurs predominantly at low photon energies, typically below 30 keV. In this process, X-ray photons are
 coherently scattered—deflected by atoms without any energy loss or ionization. It is most prominent in low-density biological
 tissues, such as fat and soft connective tissue, where loosely bound electron clouds enable elastic scattering through
@@ -36,7 +37,8 @@ induced dipole oscillations. Although no energy is transferred, the change in ph
 signal and spatial blurring. This effect is particularly noticeable at tissue interfaces and ultimately leads to a reduction
 in spatial resolution.
 
-- **Compton scattering**
+Compton scattering
+^^^^^^^^^^^^^^^^^^
 Compton scattering is the dominant interaction within the typical energy range of in vivo microCT imaging, approximately
 30 to 150 keV. It involves an inelastic collision between an X-ray photon and a loosely bound outer-shell electron. A
 portion of the photon’s energy is transferred to the electron, which is ejected from the atom as a recoil electron. The
@@ -48,7 +50,8 @@ in highly proliferative tissues such as bone marrow, gonads, skin, and intestina
 impaired tissue regeneration, or cell death. Additionally, Compton scattering reduces image contrast and spatial resolution
 due to photon absorption and angular deviation, ultimately contributing to signal degradation and image noise.
 
-- **Photoelectric effect**
+Photoelectric effect
+^^^^^^^^^^^^^^^^^^^^
 The photoelectric effect is an ionizing interaction that occurs predominantly at lower photon energies, typically between
 20 and 60 keV, and is strongly dependent on the atomic number (Z) of the absorbing material. In this process, an X-ray
 photon is fully absorbed by a tightly bound inner-shell electron, which is then ejected as a photoelectron. The resulting
@@ -75,7 +78,8 @@ Therefore, its benefits must be balanced against biological risks, especially in
 
 .. raw:: html
 
-- **Biological impact of ionizing radiation**
+Biological impact of ionizing radiation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Ionizing radiation occurring during in vivo microCT imaging leads to the formation of ROS and induces direct DNA strand
 breaks. These effects directly contribute to genetic mutations, impaired tissue regeneration, and cell death. In highly
 proliferative tissues, these outcomes are particularly detrimental. Repeated or excessive exposure in these radiosensitive
@@ -102,7 +106,8 @@ cathode and **accelerated toward the anode under a high-voltage potential**, typ
 accelerated electron beam is directed onto a **tungsten target**, selected for its high atomic number (Z = 74) and high melting point,
 which together enable efficient X-ray production (0.01 - 10 nm) through two primary mechanisms:
 
-- **Bremsstrahlung radiation**
+Bremsstrahlung radiation
+""""""""""""""""""""""""
 Bremsstrahlung radiation is produced when high-speed electrons are rapidly **decelerated or deflected** by the strong electric
 field of atomic nuclei within the anode target material, such as **tungsten**. As the negatively charged electrons approach
 the positively charged nucleus, their change in velocity results in the **emission of X-ray photons**. The energy of these
@@ -112,7 +117,8 @@ to the maximum energy defined by the tube voltage (100 keV for a 100 kV tube). B
 of X-ray emission in most tubes, particularly at higher tube voltages, and serves as the **primary background radiation** used
 in imaging applications.
 
-- **characteristic radiation**
+Characteristic radiation
+""""""""""""""""""""""""
 Characteristic radiation only occurs when an incident electron has sufficient energy to **ionize a tightly bound inner-shell**
 **electron**, typically from the K-shell, of a target atom. This ejection creates a vacancy, which is then filled by an
 electron from a higher-energy shell (L or M shell). The difference in binding energy between these shells is emitted as
@@ -264,7 +270,7 @@ Cardiac gating
 
 
 Advantages of microCT
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 - **High spatial resolution**
 Typical in vivo microCT systems achieve 6–75 µm voxel resolution, enabling precise visualization of small-scale anatomical
 structures such as trabecular bone, implants, or calcified tissues.
@@ -314,7 +320,7 @@ tissue composition, and contrast agent uptake. HU calibration also enables co-re
 translational research workflows.
 
 Limitations of microCT
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 - **Exposure to ionizing radiation**
 In vivo microCT involves exposure to ionizing X-rays, which can induce DNA damage and affect radiosensitive tissues such
 as bone marrow, gonads, and the intestinal epithelium. This necessitates careful dose optimization, particularly in longitudinal or developmental studies.
