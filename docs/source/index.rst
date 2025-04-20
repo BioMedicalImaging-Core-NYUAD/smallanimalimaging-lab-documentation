@@ -91,7 +91,7 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     4-nVue-nVision/best-practices.rst
 
 .. toctree::
-    :caption: KS endoscope
+    :caption: Karl Storz endoscope
     :hidden:
 
     5-KS-endoscope/main-applications.rst
