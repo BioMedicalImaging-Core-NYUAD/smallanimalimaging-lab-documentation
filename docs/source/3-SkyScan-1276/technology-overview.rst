@@ -274,7 +274,7 @@ a series of 3D volumes, each representing a discrete point in the physiological 
 dataset (3D + time) that captures both anatomical structure and dynamic function with high temporal fidelity.
 
 This methodology enables **motion-artifact-free visualization of moving organs**, such as the lungs during ventilation or
-the heart during systole and diastole. It facilitates quantitative assessment of functional parameters, including lung aeration,
+the heart during systole and diastole. It facilitates **quantitative assessment of functional parameters**, including lung aeration,
 tidal volume changes, airway recruitment, and regional ventilation heterogeneity in **respiratory-gated studies**. Likewise,
 **cardiac-gated imaging** allows for precise quantification of left ventricular ejection fraction, myocardial wall motion,
 stroke volume, and chamber volumes. From a translational perspective, 4D microCT enables longitudinal tracking of disease
