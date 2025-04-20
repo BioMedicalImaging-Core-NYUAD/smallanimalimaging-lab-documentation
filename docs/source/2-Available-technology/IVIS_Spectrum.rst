@@ -101,7 +101,6 @@ Software
 - 3D bioluminescence and fluorescence tomography with depth estimation and quantitative analysis
 - Exportation of DICOM image format for 3D co-registration
 
-
 Available accessories
 ---------------------
 - Fluorescence and bioluminescence phantom mouse for calibration, validation, quality control
