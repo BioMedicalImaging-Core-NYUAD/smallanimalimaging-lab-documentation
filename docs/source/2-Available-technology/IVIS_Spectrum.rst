@@ -101,24 +101,6 @@ Software
 - 3D bioluminescence and fluorescence tomography with depth estimation and quantitative analysis
 - Exportation of DICOM image format for 3D co-registration
 
-Why IVIS Spectrum
------------------
-.. image:: ../_static/comparison-opticalsystems.png
-   :alt: *Comparison table of the specifications of the main in vivo optical imaging systems*
-   :width: 1000px
-   :align: center
-
-*Comparison table of the specifications of the main in vivo optical imaging systems*
-
-.. raw:: html
-
-As illustrated in the comparison table, the IVIS Spectrum stands out as the most versatile platform for in vivo optical
-imaging. It is equipped with a comprehensive array of excitation and emission filters, enabling detection across the full
-spectrum of commonly used bioluminescent and fluorescent reporters, including those emitting in the visible to far-red range.
-The system represents the current state-of-the-art in optical imaging technology, being the only platform that integrates
-Diffuse Luminescence Imaging Tomography (DLIT), Fluorescence Imaging Tomography (FLIT), and advanced spectral unmixing capabilities.
-These features collectively allow for enhanced sensitivity, quantitative accuracy, and the ability to resolve complex multiplexed
-signals in living subjects.
 
 Available accessories
 ---------------------
