@@ -102,7 +102,7 @@ Software
 - Exportation of DICOM image format for 3D co-registration
 
 Why IVIS Spectrum
-^^^^^^^^^^^^^^^^^
+-----------------
 .. image:: ../_static/comparison-opticalsystems.png
    :alt: *Comparison table of the specifications of the main in vivo optical imaging systems*
    :width: 1000px
