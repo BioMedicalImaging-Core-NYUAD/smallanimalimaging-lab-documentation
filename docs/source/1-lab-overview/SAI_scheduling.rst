@@ -123,7 +123,7 @@ Equipment scheduling
 Once all the required documentation is signed and provided, users will be granted access to the booking system to schedule
 their imaging sessions https://corelabs.abudhabi.nyu.edu/.
 SAI resources can be accessed through the "Reservations" or "Schedule" sections, as well as from the upper drop-down menu
-under "Brain Imaging." Prior to using any equipment, users must schedule their session through the CTP booking system and
+under "Biomedical Imaging." Prior to using any equipment, users must schedule their session through the CTP booking system and
 adhere to the SAI scheduling policies.
 
 Staff-assisted imaging

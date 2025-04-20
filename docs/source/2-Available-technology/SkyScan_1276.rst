@@ -130,6 +130,7 @@ Available accessories
 ---------------------
 - Hydroxyapatite phantoms for BMD calibration with a 2-32 mm diameter range
 - QRM phantom for spatial resolution calibration
+- Measurements calibration in Hounsfield Units (HU)
 - ECG patches for cardiac gating and physiological monitoring during in vivo imaging
 - Real-time dose meter inside chamber for dose tracking
 - Imaging cassettes of various diameters to accommodate ex vivo samples and whole-body scans of mouse and rats with optimized specimen positioning

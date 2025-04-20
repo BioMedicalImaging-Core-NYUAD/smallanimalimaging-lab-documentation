@@ -105,3 +105,4 @@ Available accessories
 ---------------------
 - Fluorescence and bioluminescence phantom mouse for calibration, validation, quality control
 - Mouse Imaging Shuttle (MIS) for 3D multimodal co-registration with microCT or MRI systems
+
