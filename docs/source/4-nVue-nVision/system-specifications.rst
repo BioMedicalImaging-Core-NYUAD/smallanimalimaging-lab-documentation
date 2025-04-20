@@ -1,3 +1,3 @@
-Karl Storz endoscope - System specifications
-============================================
+nVue-nVision - System specifications
+====================================
 

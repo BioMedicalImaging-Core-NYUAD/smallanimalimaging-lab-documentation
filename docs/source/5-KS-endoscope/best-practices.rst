@@ -1,2 +1,2 @@
-nVue-nVision - Best practices
-=============================
+Karl Storz endoscope - Best practices
+=====================================
