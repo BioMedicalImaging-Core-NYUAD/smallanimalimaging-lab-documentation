@@ -147,6 +147,11 @@ cooled to maintain focal spot sharpness and system stability during prolonged sc
 a diaphragm and passes through a motorized filter changer, which enables the **selection of beam-hardening filters** (aluminum,
 copper, or Al+Cu combinations) to tailor spectral energy and minimize low-energy artifacts.
 
+This entire process occurs within a **vacuum-sealed glass envelope**, ensuring efficient electron acceleration and minimizing
+scattering losses. This configuration enables microCT systems to generate highly stable, low-noise X-ray
+beams with adjustable resolution, dose, and energy settings, making them suitable for a **wide range of in vivo and ex vivo**
+**biological imaging applications**.
+
 .. image:: ../_static/Xray-penetration.png
    :alt: *Effects of voltage and filtration on X-ray spectrum and penetration*
    :width: 1000px
@@ -156,10 +161,10 @@ copper, or Al+Cu combinations) to tailor spectral energy and minimize low-energy
 
 .. raw:: html
 
-This entire process occurs within a **vacuum-sealed glass envelope**, ensuring efficient electron acceleration and minimizing
-scattering losses. This configuration enables microCT systems to generate highly stable, low-noise X-ray
-beams with adjustable resolution, dose, and energy settings, making them suitable for a **wide range of in vivo and ex vivo**
-**biological imaging applications**.
+Sample penetration is directly influenced by the **X-ray tube voltage** (kV), which determines both the **intensity and maximum**
+**energy** of the X-rays produced. Additionally, **filtering** plays a key role by selectively absorbing low-energy photons
+through beam-hardening, effectively **shifting the X-ray spectrum toward higher (harder) energies**. This alters the energy
+distribution of the beam, enhancing its ability to penetrate denser materials.
 
 Xray attenuation
 ^^^^^^^^^^^^^^^^
@@ -309,10 +314,6 @@ In retrospective gating, projection images are acquired **continuously and indep
 data are then **sorted post-acquisition** into phase bins using concurrently recorded respiratory or ECG waveforms, or via
 **image-based motion** detection algorithms. This strategy allows full-cycle coverage and flexibility, especially for cardiac
 imaging where heartbeat intervals vary, but comes at the cost of longer scan times, increased radiation exposure, and greater computational demands.
-
-Understanding filtering and voltage
------------------------------------
-
 
 Image resolution
 ----------------
