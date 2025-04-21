@@ -53,10 +53,6 @@ Ex vivo sample hydration and stabilisation
     - If scanning without full sealing, place a moist cotton or sponge pad nearby inside the chamber to maintain humidity.
     - Minimize scan time for sensitive tissues to reduce dehydration risk.
 
-Image resolution
-----------------
-
-
 Understanding major CT artifacts
 --------------------------------
 Ring artifact
