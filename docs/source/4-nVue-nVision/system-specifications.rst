@@ -57,6 +57,7 @@ Camera
 - Sensor size: 5.63 × 3.17 mm
 - Sensor format: Up to 1920 × 1080 pixels (Full HD)
 - Frame rate: Up to 30 FPS
+- Real-time animal tracking
 
 Lens
 ^^^^
@@ -85,6 +86,6 @@ Performance
 
 Software suite
 --------------
-- Inscopix Data Acquisition Software IDAS - data acquisition platform
+- Inscopix Data Acquisition Software IDAS - data acquisition platform and automated synchronization of nVue and nVision
 - Inscopix Data Processing Software IDPS - pre-processing pipeline
 - Inscopix Data Exploration, Analysis & Sharing Software IDEAS - Data analysis & interpretation
