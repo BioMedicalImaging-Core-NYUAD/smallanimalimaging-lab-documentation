@@ -147,6 +147,15 @@ cooled to maintain focal spot sharpness and system stability during prolonged sc
 a diaphragm and passes through a motorized filter changer, which enables the **selection of beam-hardening filters** (aluminum,
 copper, or Al+Cu combinations) to tailor spectral energy and minimize low-energy artifacts.
 
+.. image:: ../_static/Xray-penetration.png
+   :alt: *Effects of voltage and filtration on X-ray spectrum and penetration*
+   :width: 1000px
+   :align: center
+
+*Effects of voltage and filtration on X-ray spectrum and penetration*
+
+.. raw:: html
+
 This entire process occurs within a **vacuum-sealed glass envelope**, ensuring efficient electron acceleration and minimizing
 scattering losses. This configuration enables microCT systems to generate highly stable, low-noise X-ray
 beams with adjustable resolution, dose, and energy settings, making them suitable for a **wide range of in vivo and ex vivo**
@@ -164,15 +173,6 @@ and the **energy of the incident X-ray beam**. This **partial and differential a
 tissues or materials forms the **physical basis of image contrast** in both X-ray radiography and computed tomography (CT).
 Differences in attenuation coefficients among adjacent structures enable the visualization and distinction of internal
 features, making attenuation a critical determinant of image quality.
-
-.. image:: ../_static/Xray-penetration.png
-   :alt: *Effects of voltage and filtration on X-ray spectrum and penetration*
-   :width: 1000px
-   :align: center
-
-*Effects of voltage and filtration on X-ray spectrum and penetration*
-
-.. raw:: html
 
 Xray projection and detection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
