@@ -55,7 +55,7 @@ Ex vivo sample hydration and stabilisation
 
 Image quality
 -------------
-In mmicroCT, achieving high image quality involves balancing multiple factors that influence spatial resolution, signal-to-noise ratio,
+In microCT, achieving high image quality involves balancing multiple factors that influence spatial resolution, signal-to-noise ratio,
 and artifact suppression. Below is an integrated overview of how each parameter contributes to overall image quality.
 
 - **Pixel/Voxel size**
@@ -83,8 +83,17 @@ and artifact suppression. Below is an integrated overview of how each parameter 
     - Bringing the X-ray source closer increases magnification, reducing effective voxel size and improving spatial resolution.
     - Increased magnification may amplify motion artifacts and reduce SNR if photon flux is not adjusted.
     - Use for high-resolution scans of small features, ensuring other parameters (exposure, averaging) support good SNR.
-- **Non-binning versus inning (detector settings)
+- **Non-binning versus inning (detector settings)**
     - Non-binning retains full detector resolution, capturing maximum spatial detail.
     - It collects fewer photons per pixel, resulting in lower SNR.
     - Binning (2×2) combines adjacent pixels, improving SNR at the cost of spatial resolution.
     - Use non-binning when high detail is essential and SNR can be managed through other settings.
+
+.. image:: ../_static/Skyscan-image-quality.png
+   :alt: *Imaging parameters affecting microCT quality*
+   :width: 1000px
+   :align: center
+
+*Imaging parameters affecting microCT quality*
+
+.. raw:: html

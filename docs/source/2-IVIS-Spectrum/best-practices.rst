@@ -55,3 +55,50 @@ Data quantification
     - Saturated signals are clipped, meaning they do not represent true photon flux, and should be excluded from quantitative analysis
     - To prevent saturation: Use a shorter exposure time, increase the f/stop to reduce the aperture and hence reduce the light and reduce binning
 - Always keep your signal well within the dynamic range of the detector
+
+Image quality
+-------------
+In vivo optical imaging relies on detecting low-intensity light emitted from within biological tissues. Achieving high
+image quality requires optimizing the signal-to-noise ratio (SNR), spatial resolution, and light sensitivity of the imaging
+system. The key tunable parameters are outlined below:
+
+- **Binning**
+    - It consists in combining adjacent pixels on the CCD or CMOS sensor into a single “superpixel”.
+    - It increases SNr as more photons are collected per binned pixel.
+    - It decreases spatial resolution as each superpixel covers a larger area.
+    - It speeds up the data acquisition leading to faster scans with lower read noise.
+    - Use 4×4 or 8×8 binning for very weak bioluminescent signals; use lower binning for high-detail fluorescence.
+- **Exposure time**
+    - Longer exposures collect more photons, increasing signal strength and SNR.
+    - It is especially critical in bioluminescence, where the signal is inherently weaker than in fluorescence.
+    - It increases the risk of motion blur in live animals.
+    - There is a potential of signal saturation if exposure is too long for bright fluorescent reporters.
+- **Aperture opening of the lens (f/stop)**
+    - Low f/stop corresponds to wide aperture enabling the collection of more light.
+    - High f/stop corresponds to narrow aperture collecting less light but offering a greater depth of field.
+    - Lower f/stops increase light sensitivity and improve SNR but reduce depth of field and may blur regions slightly out of focus.
+    - Higher f/stops improve sharpness across depth but require longer exposure.
+    - Use low f/stop (f/1.2–f/2.8) for dim signals; increase if you need more DOF for large subjects.
+    - Do not use f/1.2 for fluorescence as there is a risk of signal saturation.
+- **Cooling temperature**
+    - Lower Camera temperature reduce thermal noise (dark current noise), improving SNR during long exposure.
+    - It is crucial in bioluminescence imaging due to the long integration time and the weak signals.
+    - Always ensure maximum cooling for low-light bioluminescence imaging.
+- **Light source power**
+    - High excitation leads to stronger signals.
+    - It also increases background autofluorescence, the risk of photobleaching or phototoxicity.
+    - Use the minimum excitation power necessary to achieve acceptable SNR.
+- **Background substraction and calibration**
+    - Dark current subtraction, flat-field correction, and background ROI calibration improve final image clarity and quantification accuracy.
+    - This reduces artifacts and enhances perceived contrast and SNR.
+- **Bioluminescence:** long exposure, high binning, low f/stop, and deep sensor cooling to maximize SNR
+- **Fluorescence:** balance exposure, binning, and excitation power to avoid saturation while maintaining spatial clarity
+
+.. image:: ../_static/IVIS-image-quality.png
+   :alt: *Imaging parameters affecting optical imaging quality*
+   :width: 1000px
+   :align: center
+
+*Imaging parameters affecting optical imaging quality*
+
+.. raw:: html
