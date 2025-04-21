@@ -7,7 +7,7 @@ This approach offers unique advantages for small-animal imaging, including high 
 longitudinal assessment under physiological conditions.
 
 In the context of preclinical biomedical research, in vivo optical imaging systems have become widely adopted for whole-body
-imaging in small animal models such as mice and rats. Operating in the visible to far-red spectral range (450-900nm), these
+imaging in small animal models such as mice and rats. Operating in the **visible to far-red spectral range (450-900nm)**, these
 systems provide an effective balance between spatial resolution, tissue penetration, high sensitivity, and minimal physiological disruption.
 Their ability to conduct non-invasive, high-throughput, and longitudinal imaging makes them indispensable tools for **monitoring**
 **molecular and physiological events** over time.
@@ -26,12 +26,12 @@ Important considerations
 .. raw:: html
 
 Non-invasive in vivo optical imaging provides a powerful platform for monitoring biological processes in live animals.
-However, it faces several interrelated challenges, primarily arising from the interactions between visible-range photons
+However, it faces several **interrelated challenges**, primarily arising from the **interactions between visible-range photons**
 and biological tissues, which can affect imaging performance, spatial accuracy, and data interpretability:
 
 - **Limited tissue penetration**
-Both excitation and emission photons are subject to significant absorption and scattering by biological tissues.
-This dramatically restricts photon penetration depth, particularly for visible-wavelength fluorophores or reporters,
+Both excitation and emission photons are subject to **significant absorption and scattering** by biological tissues.
+This dramatically restricts **photon penetration depth**, particularly for visible-wavelength fluorophores or reporters,
 thereby limiting the modality’s utility for imaging deep anatomical structures. To mitigate this limitation, far-red fluorescent
 reporters with high brightness should be prioritized, as far-red signals (650–900 nm) penetrate more deeply into tissues (brain, lung, and liver).
 
@@ -45,20 +45,20 @@ reporters with high brightness should be prioritized, as far-red signals (650–
 .. raw:: html
 
 - **Limited spatial resolution**
-Photon scattering in biological tissues limits the spatial resolution of in vivo optical imaging by reducing localization
-accuracy, particularly for deep-seated emission sources. The deeper the signal origin, the more pronounced the scattering,
-resulting in increased signal blurring and decreased anatomical precision. Bioluminescence imaging avoids autofluorescence
+Photon scattering in biological tissues limits the **spatial resolution** of in vivo optical imaging by **reducing localization**
+**accuracy**, particularly for deep-seated emission sources. The deeper the signal origin, the more pronounced the scattering,
+resulting in **increased signal blurring** and **decreased anatomical precision**. Bioluminescence imaging avoids autofluorescence
 but suffers from low photon output and tissue scattering, which contribute to low spatial resolution and reduced signal localization accuracy.
 
 - **Autofluorescence and background noise**
-Endogenous tissue autofluorescence, primarily from skin, fur, and diet, reduces signal-to-noise ratios in fluorescence imaging.
+Endogenous tissue autofluorescence, primarily from skin, fur, and diet, **reduces signal-to-noise ratios** in fluorescence imaging.
 
 - **Quantitative limitations**
 Signal intensity is influenced by reporter brightness, depth, biological variability, and animal positioning, making
-fluorescence and bioluminescence data semi-quantitative unless normalized with appropriate controls.
+fluorescence and bioluminescence **data semi-quantitative** unless normalized with appropriate controls.
 
 - **Substrate and probe delivery issues**
-Bioluminescence imaging requires substrate administration (D-luciferin), and signal intensity is influenced by
+Bioluminescence imaging requires **substrate administration** (D-luciferin), and signal intensity is influenced by
 delivery efficiency, biodistribution, metabolism, and perfusion. Moreover, because luciferase activity is dependent on
 intracellular ATP and oxygen, the signal is sensitive to hypoxic or necrotic environments, potentially leading to variability
 across tissues or in disease states. Similarly, fluorescent probes may suffer from non-specific distribution, poor bioavailability,
@@ -72,8 +72,8 @@ which constrain the ability to perform simultaneous multi-reporter imaging.
 
 Fluorescence imaging
 --------------------
-Fluorescence imaging relies on the use of fluorophores (synthetic dyes, nanoparticles, or genetically encoded fluorescent
-proteins) which are molecules capable of emitting light upon the absorption of photons at specific excitation wavelengths.
+Fluorescence imaging relies on the use of **fluorophores** (synthetic dyes, nanoparticles, or genetically encoded fluorescent
+proteins) which are **molecules capable of emitting light upon the absorption of photons** at specific excitation wavelengths.
 These fluorophores absorb light at a defined excitation wavelength and subsequently emit light at a longer wavelength due
 to energy dissipation.
 
@@ -247,8 +247,8 @@ and appropriate controls to isolate specific reporter signals.
 
 Bioluminescence imaging
 -----------------------
-Bioluminescence imaging is a highly sensitive, non-invasive imaging modality that relies on the detection of light produced
-by **enzymatic reactions** within living organisms. In this process, genetically encoded enzymes known as luciferases catalyze
+Bioluminescence imaging is a highly sensitive, non-invasive imaging modality that relies on the **detection of light produced**
+**by enzymatic reactions** within living organisms. In this process, genetically encoded enzymes known as **luciferases** catalyze
 the oxidation of small-molecule substrates (D-luciferin, coelenterazine) in the presence of ATP and oxygen, leading to the
 emission of visible photons.
 
