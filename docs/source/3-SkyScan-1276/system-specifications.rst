@@ -15,16 +15,17 @@ X-ray source
 - Type: Tungsten source
 - Adjustable output: power Up to 20W and voltage between 40–100 kV
 - Spot size: < 5 µm at 4 W
-- Automated 6-position filter changer: no filter, Al 0.25mm, Al 0.5mm, Al 1mm, Al+Cu, low dose
+- Automated 6-position filter changer: no filter, Al 0.25mm, Al 0.5mm, Al 1mm, Al 1mm +Cu 0.03mm, low dose (dose reducing filter)
 
 X-ray detector
 --------------
-- Sensor type: 16 megapixels CMOS camera
+- Sensor type: 16 megapixels cooled CMOS camera with coupling to scintillator by 1.8:1 fiber optic taper
 - Sensor dimensions: 4096 × 4096 pixels
 - Pixel size: 2.8 µm to 75 µm
 - Spatial resolution: 6 µm
 - Sensor binning: up to 8x (512 x 512 pixels)
 - Capability: Wide scan mode for large object
+- Readout rate: 4 frames/s full format and17 frames/s at 8x8 binning
 
 Imaging chamber
 ---------------

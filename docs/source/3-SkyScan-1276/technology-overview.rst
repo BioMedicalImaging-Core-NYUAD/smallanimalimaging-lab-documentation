@@ -165,6 +165,15 @@ tissues or materials forms the **physical basis of image contrast** in both X-ra
 Differences in attenuation coefficients among adjacent structures enable the visualization and distinction of internal
 features, making attenuation a critical determinant of image quality.
 
+.. image:: ../_static/Xray-penetration.png
+   :alt: *Effects of voltage and filtration on X-ray spectrum and penetration*
+   :width: 1000px
+   :align: center
+
+*Effects of voltage and filtration on X-ray spectrum and penetration*
+
+.. raw:: html
+
 Xray projection and detection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 After passing through the specimen, the transmitted X-rays are incident on a **digital detector**, which converts the attenuated
