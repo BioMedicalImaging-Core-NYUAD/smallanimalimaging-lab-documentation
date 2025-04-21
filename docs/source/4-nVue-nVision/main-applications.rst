@@ -40,6 +40,7 @@ Single modality imaging (nVue)
 Multimodal imaging (nVue + nVision)
 -----------------------------------
 The synchronization of both nVue and nVision cameras enable the real time combination of neuronal signal imaging with behavior.
+
 - **Brain-behavior coupling**
     - Enables real-time correlation between neuronal ensemble dynamics and specific motor, cognitive, or emotional behaviors.
     - Critical for identifying functional neural correlates of decision-making, navigation, or social interaction.
