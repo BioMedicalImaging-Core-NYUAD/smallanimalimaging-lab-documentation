@@ -80,6 +80,7 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     3-SkyScan-1276/system-specifications.rst
     3-SkyScan-1276/technology-overview.rst
     3-SkyScan-1276/best-practices.rst
+    3-SkyScan-1276/CT-artifacts.rst
 
 .. toctree::
     :caption: nVue-nVision
