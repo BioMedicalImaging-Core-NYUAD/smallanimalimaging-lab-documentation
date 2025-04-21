@@ -53,8 +53,8 @@ Ex vivo sample hydration and stabilisation
     - If scanning without full sealing, place a moist cotton or sponge pad nearby inside the chamber to maintain humidity.
     - Minimize scan time for sensitive tissues to reduce dehydration risk.
 
-Understanding major CT artifacts
---------------------------------
+Major CT artifacts
+------------------
 Ring artifact
 ^^^^^^^^^^^^^
 Ring artifacts are visual anomalies that appear in reconstructed 2D slices of CT data as **circular or concentric rings**
@@ -207,7 +207,7 @@ Main causes of metal artifact
 
 Reducing metal artifact
 """""""""""""""""""""""
-- **Use high tube voltage:** This increases phton energy so more Xrays can penetrate the metal 80–100 kV for bone with implants.
+- **Use high tube voltage:** This increases photon energy so more Xrays can penetrate the metal 80–100 kV for bone with implants.
 - **Apply a beam-hardening filter:** Use 1 mm Al or Cu filters to pre-harden the beam which reduces differential absorption and softens artifact severity.
 - **Apply beam-hardening correction in reconstruction:** Set correction to 30–60% for metal-bearing samples. Adjust iteratively based on visual artifact reduction.
 - **Increase frame averaging:** Reduces random noise and improves signal uniformity in high-attenuation regions.
