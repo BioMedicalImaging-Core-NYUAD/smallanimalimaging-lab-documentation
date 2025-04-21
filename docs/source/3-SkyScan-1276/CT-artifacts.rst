@@ -1,49 +1,20 @@
 SkyScan 1276 - CT artifacts
 ===========================
 
-Ring artifact
--------------
-Ring artifacts are visual anomalies that appear in reconstructed 2D slices of CT data as **circular or concentric rings**
-centered on the rotation axis. These rings can vary in intensity and thickness and may appear across many or all reconstructed slices.
-They are an **artifact of the detector system and acquisition geometry**, not actual features of the scanned object.
-Ring artifacts are a result of the fixed detector geometry in cone-beam CT systems and inconsistent detector pixel responses.
-In a in vivo microCT, which use a rotating gantry design where the X-ray source and detector rotate around a fixed sample,
-these artifacts typically originate from **inconsistencies in the detector's pixel response**. If certain pixels are overly
-sensitive, under-responsive, or noisy, they introduce systematic intensity errors in every projection image acquired
-during the scan. As the source-detector pair rotates, these fixed-pattern inconsistencies are projected through the
-stationary sample at different angles. When the 2D projections are reconstructed into cross-sectional images, the **consistent**
-**pixel-based errors** from the rotating detector manifest as **ring-shaped patterns**. These artifacts do not correspond
-to real structures in the sample and can obscure or distort important details, especially in homogeneous or low-contrast regions.
-Mitigation strategies include detector calibration, proper flat-field correction, and post-scan ring artifact suppression
-during reconstruction.
-
-Principal causes
-^^^^^^^^^^^^^^^^
-- **Detector pixel inhomogeneity:** Each pixel has a slightly different gain and response. Over time (or with aging), these differences can grow—especially if not properly gain-corrected or flat-field corrected.
-- **Defective or noisy pixels:** "Hot pixels" (pixels stuck at a high value) and "cold pixels" (unresponsive) will leave consistent trails across projections. These linear inconsistencies become concentric rings after reconstruction.
-- **Beam instability:** Small fluctuations in the X-ray tube output (thermal drift, voltage instability) during scan acquisition can cause projection variability.
-- **Scintillator imperfections:** The scintillator screen may accumulate dust, have aging patches, or develop minor defects that translate to signal bias. These local inconsistencies cause persistent error lines in projections.
-- **Misaligned center of rotation:** Even slight errors in aligning the rotation axis with the reconstruction center will exaggerate rings or cause them to shift position.
-- **Sample centering errors:** If the sample is far off-center, it can result in shadowing that affects how individual pixels respond, leading to localized rings in the reconstruction.
-
-Minimizing ring artifact
-^^^^^^^^^^^^^^^^^^^^^^^^
-- Acquisition (prevention)
-    - **detector warm-up**: Always allow 10–20 minutes warm-up before scanning to stabilize detector response.
-    - **Flat-field correction**: Take new bright-field (X-ray on, no object) reference images regularly.
-    - **Beam stability:** Ensure X-ray source is warmed up and consistent—use high-quality power supply and avoid rapid scan starts/stops.
-    - **Sample centering:** Keep the sample aligned to the rotation axis. Avoid mounting near the edges of the field of view.
-    - **Use Frame Averaging:** Averaging 3–5 frames per projection reduces random noise and softens minor detector differences.
-- Reconstruction (correction)
-    - **Misalignment correction:** Corrects off-axis rotation to apply if ring centers drift or tilt
-    - **Ring artifact correction:** Removes consistent circular bands
-    - **Smoothing:** Blurs out sharp ring edges	to apply cautiously
-
 Motion artifact
 ---------------
 Motion artifacts are **distortions** in microCT images caused by voluntary or unvoluntary **sample movement during scanning**.
 Instead of appearing as clear structures, the reconstructed image shows blurring, double edges or ghosting, radial streaks.
 These artifacts compromise image sharpness, morphometric accuracy, and interpretability.
+
+.. image:: ../_static/motion-artifact.png
+   :alt: *Example of motion artifacts*
+   :width: 1000px
+   :align: center
+
+*Example of motion artifacts*
+
+.. raw:: html
 
 Principal causes
 ^^^^^^^^^^^^^^^^
@@ -80,6 +51,54 @@ Preventing motion artifact
         - Monitor respiration and vital signs to detect restlessness or shallow breathing.
     - Use Respiratory gating (if available)
         - If scanning organs affected by motion (lungs), use gated acquisition to synchronize image capture with the breathing cycle.
+
+Ring artifact
+-------------
+Ring artifacts are visual anomalies that appear in reconstructed 2D slices of CT data as **circular or concentric rings**
+centered on the rotation axis. These rings can vary in intensity and thickness and may appear across many or all reconstructed slices.
+They are an **artifact of the detector system and acquisition geometry**, not actual features of the scanned object.
+Ring artifacts are a result of the fixed detector geometry in cone-beam CT systems and inconsistent detector pixel responses.
+In a in vivo microCT, which use a rotating gantry design where the X-ray source and detector rotate around a fixed sample,
+these artifacts typically originate from **inconsistencies in the detector's pixel response**. If certain pixels are overly
+sensitive, under-responsive, or noisy, they introduce systematic intensity errors in every projection image acquired
+during the scan. As the source-detector pair rotates, these fixed-pattern inconsistencies are projected through the
+stationary sample at different angles. When the 2D projections are reconstructed into cross-sectional images, the **consistent**
+**pixel-based errors** from the rotating detector manifest as **ring-shaped patterns**. These artifacts do not correspond
+to real structures in the sample and can obscure or distort important details, especially in homogeneous or low-contrast regions.
+Mitigation strategies include detector calibration, proper flat-field correction, and post-scan ring artifact suppression
+during reconstruction.
+
+.. image:: ../_static/ring-artifact.png
+   :alt: *Example of ring and windmill artifacts*
+   :width: 1000px
+   :align: center
+
+*Example of ring and windmill artifacts*
+
+.. raw:: html
+
+Principal causes
+^^^^^^^^^^^^^^^^
+- **Detector pixel inhomogeneity:** Each pixel has a slightly different gain and response. Over time (or with aging), these differences can grow—especially if not properly gain-corrected or flat-field corrected.
+- **Defective or noisy pixels:** "Hot pixels" (pixels stuck at a high value) and "cold pixels" (unresponsive) will leave consistent trails across projections. These linear inconsistencies become concentric rings after reconstruction.
+- **Beam instability:** Small fluctuations in the X-ray tube output (thermal drift, voltage instability) during scan acquisition can cause projection variability.
+- **Scintillator imperfections:** The scintillator screen may accumulate dust, have aging patches, or develop minor defects that translate to signal bias. These local inconsistencies cause persistent error lines in projections.
+- **Misaligned center of rotation:** Even slight errors in aligning the rotation axis with the reconstruction center will exaggerate rings or cause them to shift position.
+- **Sample centering errors:** If the sample is far off-center, it can result in shadowing that affects how individual pixels respond, leading to localized rings in the reconstruction.
+
+Minimizing ring artifact
+^^^^^^^^^^^^^^^^^^^^^^^^
+- Acquisition (prevention)
+    - **detector warm-up**: Always allow 10–20 minutes warm-up before scanning to stabilize detector response.
+    - **Flat-field correction**: Take new bright-field (X-ray on, no object) reference images regularly.
+    - **Beam stability:** Ensure X-ray source is warmed up and consistent—use high-quality power supply and avoid rapid scan starts/stops.
+    - **Sample centering:** Keep the sample aligned to the rotation axis. Avoid mounting near the edges of the field of view.
+    - **Use Frame Averaging:** Averaging 3–5 frames per projection reduces random noise and softens minor detector differences.
+- Reconstruction (correction)
+    - **Misalignment correction:** Corrects off-axis rotation to apply if ring centers drift or tilt
+    - **Ring artifact correction:** Removes consistent circular bands
+    - **Smoothing:** Blurs out sharp ring edges	to apply cautiously
+
 
 Windmill artifact
 -----------------
@@ -123,6 +142,14 @@ The resulting artifacts can manifest as **cupping effects** (where the center of
 metal, or high-density materials, and is commonly corrected using a combination of pre-filtering, optimized scan settings,
 and beam hardening correction algorithms during reconstruction.
 
+.. image:: ../_static/beam-hardening.png
+   :alt: *Example of beam hardening and metal artifacts*
+   :width: 1000px
+   :align: center
+
+*Example of beam hardening and metal artifacts*
+
+.. raw:: html
 Main causes of beam-hardening
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - **Polychromatic Xray beam:** Standard microCT systems polychromatic (broad-spectrum) X-ray beams. As the beam passes through matter, low-energy photons are preferentially absorbed. This shifts the energy distribution toward higher average energy and the beam becomes “hardened".
