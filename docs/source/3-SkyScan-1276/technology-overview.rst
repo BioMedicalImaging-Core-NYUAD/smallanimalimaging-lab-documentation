@@ -1,8 +1,6 @@
-In vivo microCT
-===============
+SkyScan 1276 - Technology overview
+==================================
 
-Technology overview
--------------------
 In vivo micro-computed tomography (microCT) is a powerful, non-invasive, non-destructive and high-resolution imaging modality
 that allows for the **visualization and quantification of anatomical structures and physiological changes** in live animal models.
 It operates by acquiring a **series of X-ray projections from multiple angles**. 2D projections are secondly reconstructed
@@ -16,7 +14,7 @@ contrast agents. Compared to optical imaging, microCT provides superior anatomic
 requires careful management of radiation dose for repeated in vivo applications.
 
 Important considerations
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 .. image:: ../_static/Xray_interaction.png
    :alt: *Xray interaction with biological matter*
    :width: 1000px
@@ -30,7 +28,8 @@ In vivo microCT enables high-resolution anatomical imaging in live animals, but 
 of ionizing X-rays (electromagnetic wavelengths between 0.01 - 10 nm) with biological tissues. These interactions affect
 image contrast, radiation dose, and the reliability of longitudinal data, especially in soft tissue and high-resolution studies:
 
-- **Rayleigh scattering**
+Rayleigh scattering
+^^^^^^^^^^^^^^^^^^^
 Rayleigh scattering occurs predominantly at low photon energies, typically below 30 keV. In this process, X-ray photons are
 coherently scattered—deflected by atoms without any energy loss or ionization. It is most prominent in low-density biological
 tissues, such as fat and soft connective tissue, where loosely bound electron clouds enable elastic scattering through
@@ -38,7 +37,8 @@ induced dipole oscillations. Although no energy is transferred, the change in ph
 signal and spatial blurring. This effect is particularly noticeable at tissue interfaces and ultimately leads to a reduction
 in spatial resolution.
 
-- **Compton scattering**
+Compton scattering
+^^^^^^^^^^^^^^^^^^
 Compton scattering is the dominant interaction within the typical energy range of in vivo microCT imaging, approximately
 30 to 150 keV. It involves an inelastic collision between an X-ray photon and a loosely bound outer-shell electron. A
 portion of the photon’s energy is transferred to the electron, which is ejected from the atom as a recoil electron. The
@@ -50,7 +50,8 @@ in highly proliferative tissues such as bone marrow, gonads, skin, and intestina
 impaired tissue regeneration, or cell death. Additionally, Compton scattering reduces image contrast and spatial resolution
 due to photon absorption and angular deviation, ultimately contributing to signal degradation and image noise.
 
-- **Photoelectric effect**
+Photoelectric effect
+^^^^^^^^^^^^^^^^^^^^
 The photoelectric effect is an ionizing interaction that occurs predominantly at lower photon energies, typically between
 20 and 60 keV, and is strongly dependent on the atomic number (Z) of the absorbing material. In this process, an X-ray
 photon is fully absorbed by a tightly bound inner-shell electron, which is then ejected as a photoelectron. The resulting
@@ -77,7 +78,8 @@ Therefore, its benefits must be balanced against biological risks, especially in
 
 .. raw:: html
 
-- **Biological impact of ionizing radiation**
+Biological impact of ionizing radiation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Ionizing radiation occurring during in vivo microCT imaging leads to the formation of ROS and induces direct DNA strand
 breaks. These effects directly contribute to genetic mutations, impaired tissue regeneration, and cell death. In highly
 proliferative tissues, these outcomes are particularly detrimental. Repeated or excessive exposure in these radiosensitive
@@ -104,7 +106,8 @@ cathode and **accelerated toward the anode under a high-voltage potential**, typ
 accelerated electron beam is directed onto a **tungsten target**, selected for its high atomic number (Z = 74) and high melting point,
 which together enable efficient X-ray production (0.01 - 10 nm) through two primary mechanisms:
 
-- **Bremsstrahlung radiation**
+Bremsstrahlung radiation
+""""""""""""""""""""""""
 Bremsstrahlung radiation is produced when high-speed electrons are rapidly **decelerated or deflected** by the strong electric
 field of atomic nuclei within the anode target material, such as **tungsten**. As the negatively charged electrons approach
 the positively charged nucleus, their change in velocity results in the **emission of X-ray photons**. The energy of these
@@ -114,7 +117,8 @@ to the maximum energy defined by the tube voltage (100 keV for a 100 kV tube). B
 of X-ray emission in most tubes, particularly at higher tube voltages, and serves as the **primary background radiation** used
 in imaging applications.
 
-- **characteristic radiation**
+Characteristic radiation
+""""""""""""""""""""""""
 Characteristic radiation only occurs when an incident electron has sufficient energy to **ionize a tightly bound inner-shell**
 **electron**, typically from the K-shell, of a target atom. This ejection creates a vacancy, which is then filled by an
 electron from a higher-energy shell (L or M shell). The difference in binding energy between these shells is emitted as
@@ -147,6 +151,20 @@ This entire process occurs within a **vacuum-sealed glass envelope**, ensuring e
 scattering losses. This configuration enables microCT systems to generate highly stable, low-noise X-ray
 beams with adjustable resolution, dose, and energy settings, making them suitable for a **wide range of in vivo and ex vivo**
 **biological imaging applications**.
+
+.. image:: ../_static/Xray-penetration.png
+   :alt: *Effects of voltage and filtration on X-ray spectrum and penetration*
+   :width: 1000px
+   :align: center
+
+*Effects of voltage and filtration on X-ray spectrum and penetration*
+
+.. raw:: html
+
+Sample penetration is directly influenced by the **X-ray tube voltage** (kV), which determines both the **intensity and maximum**
+**energy** of the X-rays produced. Additionally, **filtering** plays a key role by selectively absorbing low-energy photons
+through beam-hardening, effectively **shifting the X-ray spectrum toward higher (harder) energies**. This alters the energy
+distribution of the beam, enhancing its ability to penetrate denser materials.
 
 Xray attenuation
 ^^^^^^^^^^^^^^^^
@@ -257,16 +275,48 @@ and treatment evaluation in preclinical research.
 Advanced techniques for microCT imaging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Respiratory gating
-""""""""""""""""""
+4D gated microCT
+""""""""""""""""
+Conventional micro-computed tomography (microCT) acquires a single projection per angular position to reconstruct a static
+three-dimensional (3D) image of anatomical structures. While this method is effective for visualizing rigid tissues or
+organs with minimal motion, it is highly susceptible to motion artifacts when imaging dynamic organs such as the lungs or heart.
+To overcome these limitations, 4D microCT incorporates **physiological gating, synchronizing image acquisition with intrinsic biological rhythms**, namely
+respiratory and cardiac cycles.
+In gated 4D microCT, **multiple low-dose projections** are acquired at **each rotation angle** and **temporally tagged to specific phases**
+of the breathing or heartbeat cycle. These **phase-resolved projections** are subsequently sorted and reconstructed into
+a series of 3D volumes, each representing a discrete point in the physiological cycle. The result is a time-resolved four-dimensional
+dataset (3D + time) that captures both anatomical structure and dynamic function with high temporal fidelity.
 
+This methodology enables **motion-artifact-free visualization of moving organs**, such as the lungs during ventilation or
+the heart during systole and diastole. It facilitates **quantitative assessment of functional parameters**, including lung aeration,
+tidal volume changes, airway recruitment, and regional ventilation heterogeneity in **respiratory-gated studies**. Likewise,
+**cardiac-gated imaging** allows for precise quantification of left ventricular ejection fraction, myocardial wall motion,
+stroke volume, and chamber volumes. From a translational perspective, 4D microCT enables longitudinal tracking of disease
+progression in preclinical models of pulmonary fibrosis, emphysema, or heart failure, and supports robust, non-invasive
+evaluation of therapeutic interventions. The ability to monitor functional dynamics within the same animal over time significantly
+reduces inter-animal variability and enhances the statistical power of experimental studies.
+However, successful 4D imaging requires careful optimization of several interdependent parameters, including X-ray exposure
+time, the number of temporal bins per physiological cycle, the quality of respiratory or ECG signals, and the chosen gating
+strategy. These factors directly influence temporal resolution, signal-to-noise ratio, and radiation dose, which must be
+balanced to meet the biological and ethical requirements of the study.
 
-Cardiac gating
-""""""""""""""
+Two primary gating approaches are employed in 4D microCT:
 
+- **Sensor-based (prospective) gating**
+In prospective gating, the system **synchronizes image acquisition in real time with physiological signals**, such as respiratory
+motion detected by a pressure-sensitive sensor or cardiac motion detected via electrocardiography (ECG). Projections are
+acquired only during a predefined, motion-minimized phase of the cycle (end-expiration for lungs, diastole for the heart).
+This approach reduces motion blur and limits radiation dose but may result in an uneven number of projections per phase
+due to physiological variability, potentially affecting reconstruction uniformity.
+
+- **Image-sorted (retrospective) gating**
+In retrospective gating, projection images are acquired **continuously and independently of physiological signals**. These
+data are then **sorted post-acquisition** into phase bins using concurrently recorded respiratory or ECG waveforms, or via
+**image-based motion** detection algorithms. This strategy allows full-cycle coverage and flexibility, especially for cardiac
+imaging where heartbeat intervals vary, but comes at the cost of longer scan times, increased radiation exposure, and greater computational demands.
 
 Advantages of microCT
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 - **High spatial resolution**
 Typical in vivo microCT systems achieve 6–75 µm voxel resolution, enabling precise visualization of small-scale anatomical
 structures such as trabecular bone, implants, or calcified tissues.
@@ -316,7 +366,7 @@ tissue composition, and contrast agent uptake. HU calibration also enables co-re
 translational research workflows.
 
 Limitations of microCT
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 - **Exposure to ionizing radiation**
 In vivo microCT involves exposure to ionizing X-rays, which can induce DNA damage and affect radiosensitive tissues such
 as bone marrow, gonads, and the intestinal epithelium. This necessitates careful dose optimization, particularly in longitudinal or developmental studies.
@@ -368,21 +418,3 @@ anesthesia time in live animals and extending the total experimental workflow.
 High-resolution scans generate large 3D datasets, requiring significant storage capacity, image processing time, and specialized
 software for reconstruction and quantitative analysis.
 
-Recognizing major CT artifacts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- **Ring artifact**
-
-- **Motion artifact**
-
-- **Beam-hardening artifact**
-
-- **Metal artifact**
-
-
-Best practices for optimizing microCT scanning
-----------------------------------------------
-
-
-
-Improving image resolution
---------------------------

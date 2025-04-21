@@ -64,19 +64,38 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
 
 
 .. toctree::
-    :caption: Imaging Technology
+    :caption: IVIS Spectrum
     :hidden:
 
-    2-Available-technology/IVIS_Spectrum.rst
-    2-Available-technology/SkyScan_1276.rst
-    2-Available-technology/nVue-nVision.rst
-    2-Available-technology/KarlStorz_small_animal_endoscope.rst
+    2-IVIS-Spectrum/main-applications.rst
+    2-IVIS-Spectrum/system-specifications.rst
+    2-IVIS-Spectrum/technology-overview.rst
+    2-IVIS-Spectrum/best-practices.rst
 
 .. toctree::
-    :caption: Technology Principles
+    :caption: SkyScan 1276
     :hidden:
 
-    3-Technology-principles/Optical_imaging.rst
-    3-Technology-principles/MicroCT.rst
-    3-Technology-principles/Miniscope_imaging.rst
-    3-Technology-principles/Endoscopy.rst
+    3-SkyScan-1276/main-applications.rst
+    3-SkyScan-1276/system-specifications.rst
+    3-SkyScan-1276/technology-overview.rst
+    3-SkyScan-1276/best-practices.rst
+    3-SkyScan-1276/CT-artifacts.rst
+
+.. toctree::
+    :caption: nVue-nVision
+    :hidden:
+
+    4-nVue-nVision/main-applications.rst
+    4-nVue-nVision/system-specifications.rst
+    4-nVue-nVision/technology-overview.rst
+    4-nVue-nVision/best-practices.rst
+
+.. toctree::
+    :caption: Karl Storz endoscope
+    :hidden:
+
+    5-KS-endoscope/main-applications.rst
+    5-KS-endoscope/system-specifications.rst
+    5-KS-endoscope/technology-overview.rst
+    5-KS-endoscope/best-practices.rst
