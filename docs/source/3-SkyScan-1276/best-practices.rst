@@ -52,3 +52,39 @@ Ex vivo sample hydration and stabilisation
     - Seal containers with parafilm or caps to prevent evaporation.
     - If scanning without full sealing, place a moist cotton or sponge pad nearby inside the chamber to maintain humidity.
     - Minimize scan time for sensitive tissues to reduce dehydration risk.
+
+Image quality
+-------------
+In mmicroCT, achieving high image quality involves balancing multiple factors that influence spatial resolution, signal-to-noise ratio,
+and artifact suppression. Below is an integrated overview of how each parameter contributes to overall image quality.
+
+- **Pixel/Voxel size**
+    - Smaller voxel size improves spatial resolution, allowing finer detail to be captured.
+    - Small pixel size reduces the number of X-ray photons per voxel, potentially lowering SNR unless compensated by longer exposure or averaging.
+    - Optimize by choosing the smallest voxel size that still provides sufficient SNR for your sample.
+- **Rotation step (angular increment)**
+    - Smaller angular steps yield more projection images per rotation.
+    - Low rotation step improves image consistency and reconstruction quality, reduces noise, and helps minimize artifacts.
+    - Very large steps can cause undersampling, degrading both resolution and SNR.
+    - Use finer steps (<0.5°) for high-detail samples; larger steps for faster scans where ultra-fine detail isn’t needed.
+- **Frame averaging**
+    - Averaging multiple frames per projection reduces random noise and enhances SNR.
+    - Particularly valuable when scanning at lower voltages or with small voxel sizes.
+    - Typically, 3–5 frames per projection (ex vivo) offer a good SNR improvement without excessive scan time.
+- **Filter selection**
+    - Filters (Al, Cu) remove low-energy X-rays that contribute to noise and beam hardening.
+    - This hardens the X-ray beam, improving penetration and contrast uniformity, indirectly enhancing image quality and SNR.
+    - Use filters to improve image consistency, especially for dense samples like bone or metal.
+- **Tube voltage (kV)**
+    - Higher voltage increases X-ray energy, improving penetration and SNR, especially in dense materials.
+    - Lower voltage enhances contrast in low-density samples but may reduce penetration and increase noise.
+    - Match voltage to sample type: low kV for soft tissue, high kV with filters for dense samples.
+- **Source-to-sample distance (geometric magnification)**
+    - Bringing the X-ray source closer increases magnification, reducing effective voxel size and improving spatial resolution.
+    - Increased magnification may amplify motion artifacts and reduce SNR if photon flux is not adjusted.
+    - Use for high-resolution scans of small features, ensuring other parameters (exposure, averaging) support good SNR.
+- **Non-binning versus inning (detector settings)
+    - Non-binning retains full detector resolution, capturing maximum spatial detail.
+    - It collects fewer photons per pixel, resulting in lower SNR.
+    - Binning (2×2) combines adjacent pixels, improving SNR at the cost of spatial resolution.
+    - Use non-binning when high detail is essential and SNR can be managed through other settings.

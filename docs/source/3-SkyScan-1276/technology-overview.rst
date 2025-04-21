@@ -315,10 +315,6 @@ data are then **sorted post-acquisition** into phase bins using concurrently rec
 **image-based motion** detection algorithms. This strategy allows full-cycle coverage and flexibility, especially for cardiac
 imaging where heartbeat intervals vary, but comes at the cost of longer scan times, increased radiation exposure, and greater computational demands.
 
-Image resolution
-----------------
-
-
 Advantages of microCT
 ---------------------
 - **High spatial resolution**
