@@ -99,7 +99,6 @@ Minimizing ring artifact
     - **Ring artifact correction:** Removes consistent circular bands
     - **Smoothing:** Blurs out sharp ring edges	to apply cautiously
 
-
 Windmill artifact
 -----------------
 Undersampling in microCT occurs when the **rotation step size between consecutive projection images is too large**, resulting
