@@ -5,8 +5,8 @@ Imaging Core, one of twelve specialized facilities within the **Core Technology 
 
 
 
-CTP encompasses a wide range of advanced instrumentation, supported by a team of dedicated scientists and technical
-experts who manage equipment maintenance, provide comprehensive user training, and facilitate research operations across
+CTP encompasses a **wide range of advanced instrumentation**, supported by a team of **dedicated scientists** and **technical**
+**experts** who manage equipment maintenance, provide comprehensive user training, and facilitate research operations across
 the university.
 For more information about available technologies and support services, please visit the CTP website:
 https://nyuad.nyu.edu/en/research/facilities-and-support/core-technology-platforms.html
