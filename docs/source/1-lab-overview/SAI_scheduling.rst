@@ -158,18 +158,18 @@ Scheduling policies
 
 Equipment booking
 ^^^^^^^^^^^^^^^^^
-Use of any SAI resource must be scheduled in advance through the designated booking system. Users are encouraged to reserve
-their imaging timeslots at least one week ahead of time. For staff-assisted imaging, a minimum notice of 24 hours is required,
-while user-operated sessions must be booked with at least 4 hours notice. Short-notice bookings should be avoided to ensure proper
-planning and support. When reserving equipment, please account for warm-up time and cleaning procedures to ensure optimal
-performance and adherence to safety protocols.
+Use of any SAI resource must be scheduled in advance through the designated booking system https://corelabs.abudhabi.nyu.edu/.
+Users are encouraged to reserve their imaging timeslots at least one week ahead of time. For staff-assisted imaging,
+a minimum notice of 24 hours is required, while user-operated sessions must be booked with at least 4 hours notice.
+Short-notice bookings should be avoided to ensure proper planning and support. When reserving equipment, please account
+for warm-up time and cleaning procedures to ensure optimal performance and adherence to safety protocols.
 
 Cancellation
 ^^^^^^^^^^^^
 Users must cancel any scheduled imaging sessions as early as possible to allow reallocation of resources. Cancellations
-should be made at least 24 hours in advance through the CTP booking system. Repeated last-minute cancellations or no-shows
-may result in temporary suspension of booking privileges. Please notify core staff immediately in the event of unavoidable
-delays or emergencies.
+should be made at least 24 hours in advance through the CTP booking system https://corelabs.abudhabi.nyu.edu/. Repeated
+last-minute cancellations or no-shows may result in temporary suspension of booking privileges. Please notify core staff
+immediately in the event of unavoidable delays or emergencies.
 
 Required documentation
 ----------------------

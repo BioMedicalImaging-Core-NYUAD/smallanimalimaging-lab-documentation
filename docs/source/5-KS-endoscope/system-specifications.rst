@@ -1,12 +1,14 @@
 Karl Storz endoscope - System specifications
 ============================================
 
-.. image:: ../_static/nVue-nVision.jpg
-   :alt: *nVue-nVision*
+.. raw:: html
+
+.. image:: ../_static/KS-endoscope.jpg
+   :alt: *Karl Storz endoscope*
    :width: 1000px
    :align: center
 
-*nVue-nVision*
+*Karl Storz endoscope*
 
 .. raw:: html
 
