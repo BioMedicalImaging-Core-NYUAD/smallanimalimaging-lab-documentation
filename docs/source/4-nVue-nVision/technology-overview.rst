@@ -1,15 +1,6 @@
 nVue-nVision - Technology overview
 ==================================
 
-.. image:: ../_static/nVue-nVision.png
-   :alt: *nVue-nVision platform*
-   :width: 1000px
-   :align: center
-
-*nVue-nVision platform*
-
-.. raw:: html
-
 nVue and nVision together form a **high-resolution, multimodal imaging** ecosystem that enables the **real-time visualization**
 and **quantification of neural dynamics and behavior** in freely moving animal models. Designed for preclinical neuroscience
 research, these platforms operate synergistically to provide a comprehensive, **temporally precise view of brain activity**
