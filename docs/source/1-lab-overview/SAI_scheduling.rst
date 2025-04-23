@@ -1,3 +1,5 @@
+.. _sai-scheduling:
+
 SAI Study Scheduling
 ====================
 

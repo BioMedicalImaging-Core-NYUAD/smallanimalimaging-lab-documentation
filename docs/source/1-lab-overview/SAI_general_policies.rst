@@ -63,7 +63,7 @@ The Small Animal Imaging (SAI) facility uses the **CTP booking system** for cent
 resources. All core users are required to utilize this system to reserve equipment prior to accessing services. To schedule
 an experiment in the SAI lab, visit https://corelabs.abudhabi.nyu.edu/, navigate to the Reservations section, select Schedule,
 and from the upper drop-down menu choose "Biomedical Imaging", then book the appropriate resource.
-For additional details, please refer to the "Scheduling Policies" section.
+For additional details, please refer to the section :ref:`sai-scheduling`.
 
 Data storage
 ^^^^^^^^^^^^
