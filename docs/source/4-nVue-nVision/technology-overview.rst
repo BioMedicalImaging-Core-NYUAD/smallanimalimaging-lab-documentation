@@ -149,7 +149,7 @@ Finally, the filtered emission is focused by an imaging lens onto a CMOS camera 
 two-dimensional image representing the spatial distribution of fluorescence within the field of view.
 
 Workflow for in vivo miniscope imaging
---------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../_static/nVue-workflow.png
    :alt: *Common workflow for in vivo miniscope imaging with dual color*
