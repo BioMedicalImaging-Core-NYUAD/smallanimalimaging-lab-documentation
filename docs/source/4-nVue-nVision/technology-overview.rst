@@ -122,6 +122,7 @@ Hardware
 ^^^^^^^^
 A miniscope is a **miniaturized epifluorescence microscope** engineered to be compact and lightweight, allowing it to be
 mounted onto the head of a freely moving mouse with minimal discomfort or disruption of natural behavior.
+
 .. image:: ../_static/nVue-hardware.png
    :alt: *In vivo dual color miniscope imaging*
    :width: 1000px
@@ -148,6 +149,7 @@ camera sensor positioned at the distal end of the miniscope. This configuration 
 two-dimensional fluorescence image that reflects the spatial distribution and temporal dynamics of neural activity within
 the defined field of view. The achromatic lens corrects for chromatic aberration across the emission spectrum, ensuring
 sharp image quality and signal fidelity across different fluorescence channels.
+For additional details regarding fluorescence, please refer to the section :ref:`fluorescence-imaging`.
 
 GRIN lens
 ^^^^^^^^^

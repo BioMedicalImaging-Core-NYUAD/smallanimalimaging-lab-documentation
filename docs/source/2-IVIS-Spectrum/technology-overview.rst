@@ -70,6 +70,7 @@ While fluorescence imaging supports multiplexing through spectral unmixing, enab
 distinct reporters, bioluminescence imaging is limited by overlapping emission spectra and shared substrate requirements,
 which constrain the ability to perform simultaneous multi-reporter imaging.
 
+.. _fluorescence-imaging:
 Fluorescence imaging
 --------------------
 Fluorescence imaging relies on the use of **fluorophores** (synthetic dyes, nanoparticles, or genetically encoded fluorescent
