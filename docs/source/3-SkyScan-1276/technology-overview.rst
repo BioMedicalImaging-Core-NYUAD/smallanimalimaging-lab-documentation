@@ -108,7 +108,7 @@ which together enable efficient X-ray production (0.01 - 10 nm) through two prim
 
 Bremsstrahlung radiation
 """"""""""""""""""""""""
-Bremsstrahlung radiation is produced when high-speed electrons are rapidly **decelerated or deflected** by the strong electric
+**Bremsstrahlung radiation** is produced when high-speed electrons are rapidly **decelerated or deflected** by the strong electric
 field of atomic nuclei within the anode target material, such as **tungsten**. As the negatively charged electrons approach
 the positively charged nucleus, their change in velocity results in the **emission of X-ray photons**. The energy of these
 photons varies continuously depending on how close the electron comes to the nucleus and how much kinetic energy is lost
@@ -119,7 +119,7 @@ in imaging applications.
 
 Characteristic radiation
 """"""""""""""""""""""""
-Characteristic radiation only occurs when an incident electron has sufficient energy to **ionize a tightly bound inner-shell**
+**Characteristic radiation** only occurs when an incident electron has sufficient energy to **ionize a tightly bound inner-shell**
 **electron**, typically from the K-shell, of a target atom. This ejection creates a vacancy, which is then filled by an
 electron from a higher-energy shell (L or M shell). The difference in binding energy between these shells is emitted as
 **an X-ray photon with a discrete, element-specific energy**. These emissions are referred to as "characteristic" because
