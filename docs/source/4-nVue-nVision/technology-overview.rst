@@ -170,13 +170,11 @@ Their primary purpose is to **extend the optical path** into deep brain regions 
 There are two main types of GRIN lenses used in neural imaging, and selection should be based on the target brain structure
 and orientation of the neuronal population:
 
-- **Straight GRIN lenses**
-These lenses transmit the image directly along the longitudinal axis of the probe. They are ideal for **imaging neuronal**
+- **Straight GRIN lenses:** These lenses transmit the image directly along the longitudinal axis of the probe. They are ideal for **imaging neuronal**
 **layers positioned directly beneath the implanted lens**, and are the most commonly used type in in vivo experiments
 targeting structures such as the hippocampus, thalamus, striatum, or hypothalamus.
 
-- **Prism GRIN lenses**
-These incorporate a **90-degree reflective prism** at the distal tip, enabling **lateral imaging** perpendicular to the insertion axis.
+- **Prism GRIN lenses:** These incorporate a **90-degree reflective prism** at the distal tip, enabling **lateral imaging** perpendicular to the insertion axis.
 This design allows for visualization of **structures that are located adjacent to the probe body**, rather than directly below it.
 Prism lenses are particularly advantageous for cortical imaging, as they permit **multi-layer field-of-view acquisition**
 without needing to penetrate vertically through all cortical layers.
