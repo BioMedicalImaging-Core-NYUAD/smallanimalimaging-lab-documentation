@@ -27,7 +27,7 @@ Principal causes
 Preventing motion artifact
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Ex vivo
-    - **Immobilize the sample*
+    - **Immobilize the sample**
         - Wrap in moist gauze, sponge, or low-density foam to physically stabilize it.
         - Embed in 1–2% agarose or low-melt paraffin for soft tissues.
     - **Secure mounting**
