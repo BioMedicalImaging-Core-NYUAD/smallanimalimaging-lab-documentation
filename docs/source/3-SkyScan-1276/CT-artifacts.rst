@@ -1,3 +1,5 @@
+.. _CT-artifacts:
+
 SkyScan 1276 - CT artifacts
 ===========================
 

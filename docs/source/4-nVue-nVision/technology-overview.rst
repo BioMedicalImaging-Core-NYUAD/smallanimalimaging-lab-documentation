@@ -31,8 +31,9 @@ Important considerations
 Miniature fluorescence microscopy enables high-resolution, real-time imaging of neural activity in freely behaving rodents.
 Its effectiveness critically depends on the use of **genetically encoded biosensors**, specifically **genetically encoded calcium indicators** (GECIs)
 and **genetically encoded neurotransmitter indicators** (GENIs). These molecular tools transduce intracellular calcium transients
-and extracellular neurotransmitter fluctuations, respectively, into fluorescent signals. When expressed in targeted neuronal populations,
+and extracellular neurotransmitter fluctuations, respectively, into **fluorescent signals**. When expressed in targeted neuronal populations,
 they permit **cell-type-specific, spatiotemporally precise visualization of circuit dynamics** underlying behavior, learning, and neuromodulation.
+For additional details regarding fluorescence, please refer to the section :ref:`fluorescence-imaging`.
 
 Intracellular calcium biosensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -149,7 +150,6 @@ camera sensor positioned at the distal end of the miniscope. This configuration 
 two-dimensional fluorescence image that reflects the spatial distribution and temporal dynamics of neural activity within
 the defined field of view. The achromatic lens corrects for chromatic aberration across the emission spectrum, ensuring
 sharp image quality and signal fidelity across different fluorescence channels.
-For additional details regarding fluorescence, please refer to the section :ref:`fluorescence-imaging`.
 
 GRIN lens
 ^^^^^^^^^

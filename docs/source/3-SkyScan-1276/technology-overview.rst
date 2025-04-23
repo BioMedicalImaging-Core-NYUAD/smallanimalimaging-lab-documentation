@@ -250,6 +250,7 @@ dataset before reconstruction algorithms are applied. Common pre-processing proc
 - **Ring artifact suppression** addresses **radial artifacts** caused by defective or uneven detector pixels that produce constant signals across projections, resulting in **ring-shaped distortions** in reconstructed slices.
 - **Beam hardening correction** compensates for the **nonlinear attenuation of low-energy photons** in polychromatic X-ray beams, particularly in dense or high atomic number materials. This correction reduces cupping artifacts and improves the accuracy of grayscale representation in reconstructed images.
 
+For more information regarding CT artifacts, please refer to the section :ref:`CT-artifacts`.
 Additional steps may include image thresholding, smoothing filters to reduce noise, and pixel binning, which improves signal-to-noise
 ratio at the cost of spatial resolution.
 The resulting slices represent **sequential planes** through the scanned volume and are subsequently stacked to generate
