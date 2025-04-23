@@ -118,6 +118,9 @@ Comparison of GECI and GENI
 Miniscope imaging
 -----------------
 
+Hardware
+^^^^^^^^
+
 .. image:: ../_static/nVue-hardware.png
    :alt: *In vivo dual color miniscope imaging*
    :width: 1000px
@@ -145,6 +148,9 @@ through an **emission filter**, which further isolates the desired emission band
 Finally, the filtered emission is focused by an imaging lens onto a CMOS camera sensor, producing a high-resolution
 two-dimensional image representing the spatial distribution of fluorescence within the field of view.
 
+Workflow for in vivo miniscope imaging
+--------------------------------------
+
 .. image:: ../_static/nVue-workflow.png
    :alt: *Common workflow for in vivo miniscope imaging with dual color*
    :width: 1000px
@@ -160,7 +166,7 @@ and **chronic in vivo optical recording**. Each phase must be carefully optimize
 and minimal disruption to animal health or behavior.
 
 Targeted expression of fluorescent biosensors
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""""""""""""""""""
 Miniscope imaging relies on the expression of genetically encoded calcium indicators or neurotransmitter indicators in neurons of interest.
 This is typically achieved through one of two strategies:
 
@@ -203,7 +209,7 @@ platform for standardization and scalability, their application must be weighed 
 specificity, which is more readily achieved through AAV-mediated delivery in combination with Cre/Flp recombinase systems.
 
 Intracranial implantation of the GRIN lens
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""""""""""""""
 Following the establishment of robust biosensor expression, a **baseplate-integrated GRIN lens** is surgically implanted
 under stereotaxic guidance to provide **chronic optical access to the brain region of interest**. The procedure begins with a
 craniotomy over the targeted area, using stereotaxic coordinates for precise anatomical targeting. The GRIN lens is then
@@ -219,7 +225,7 @@ of glial reactivity. This recovery period also allows the optical interface betw
 thereby enhancing imaging clarity and ensuring consistency for longitudinal, high-resolution recordings in freely behaving animals.
 
 Miniscope mounting and imaging
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+""""""""""""""""""""""""""""""
 Once the GRIN lens is stably integrated and fluorescent reporter expression has been verified, the **head-mounted miniscope**
 is secured to the implanted baseplate to initiate in vivo imaging. Prior to each imaging session, key acquisition parameters
 (LED excitation power, sensor gain, and electronic focal depth...) are adjusted using dedicated acquisition software to
@@ -235,7 +241,7 @@ weeks, allowing for the chronic tracking of identified neuronal populations, inv
 and mapping of behaviorally relevant neural activity patterns across a wide range of experimental conditions.
 
 Data analysis
-^^^^^^^^^^^^^
+"""""""""""""
 Following data acquisition, raw miniscope imaging videos undergo a **structured preprocessing and analysis pipeline** to extract
 biologically meaningful neural activity traces. The first step involves **motion correction**, which compensates for brain
 movement and animal locomotion using frame-by-frame image registration algorithms that align frames to a common reference.
