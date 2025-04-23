@@ -1,3 +1,5 @@
+.. _endoscope-specifications:
+
 Karl Storz endoscope - System specifications
 ============================================
 

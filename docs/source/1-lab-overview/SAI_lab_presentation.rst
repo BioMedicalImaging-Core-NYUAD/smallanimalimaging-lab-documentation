@@ -24,9 +24,9 @@ Imaging equipment
 The SAI core facility houses the following advanced imaging systems:
 
 - **Optical Imaging System** – :ref:`IVIS-specifications` (Revvity)
-- **Micro-Computed Tomography** (microCT) – SkyScan 1276 (Bruker)
-- **Customized Rodent Endoscope** – Karl Storz
-- **Miniscope and Behavioral Imaging Platform** – nVue and nVision (Inscopix)
+- **Micro-Computed Tomography** (microCT) – :ref:`SkyScan-specifications` (Bruker)
+- **Miniscope and Behavioral Imaging Platform** – :ref:`nVue-specifications` (Inscopix)
+- **Customized Rodent Endoscope** – :ref:`Endoscope-specifications` (Karl Storz)
 
 The instrumentation at the SAI facility supports both in vivo live animal imaging and ex vivo specimen investigations.
 The IVIS Spectrum and SkyScan 1276 systems are equipped with integrated isoflurane anesthesia delivery, stage temperature

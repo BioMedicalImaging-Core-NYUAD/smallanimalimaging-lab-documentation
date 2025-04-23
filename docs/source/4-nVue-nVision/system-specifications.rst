@@ -1,3 +1,5 @@
+.. _nVue-specifications:
+
 nVue-nVision - System specifications
 ====================================
 

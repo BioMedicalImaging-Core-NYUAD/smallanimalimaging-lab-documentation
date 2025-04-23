@@ -66,8 +66,8 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     :caption: IVIS Spectrum
     :hidden:
 
-    2-IVIS-Spectrum/main-applications.rst
     2-IVIS-Spectrum/system-specifications.rst
+    2-IVIS-Spectrum/main-applications.rst
     2-IVIS-Spectrum/technology-overview.rst
     2-IVIS-Spectrum/best-practices.rst
 
@@ -75,8 +75,8 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     :caption: SkyScan 1276
     :hidden:
 
-    3-SkyScan-1276/main-applications.rst
     3-SkyScan-1276/system-specifications.rst
+    3-SkyScan-1276/main-applications.rst
     3-SkyScan-1276/technology-overview.rst
     3-SkyScan-1276/best-practices.rst
     3-SkyScan-1276/CT-artifacts.rst
@@ -85,8 +85,8 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     :caption: nVue-nVision
     :hidden:
 
-    4-nVue-nVision/main-applications.rst
     4-nVue-nVision/system-specifications.rst
+    4-nVue-nVision/main-applications.rst
     4-nVue-nVision/technology-overview.rst
     4-nVue-nVision/best-practices.rst
 
@@ -94,7 +94,7 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     :caption: Karl Storz endoscope
     :hidden:
 
-    5-KS-endoscope/main-applications.rst
     5-KS-endoscope/system-specifications.rst
+    5-KS-endoscope/main-applications.rst
     5-KS-endoscope/technology-overview.rst
     5-KS-endoscope/best-practices.rst
