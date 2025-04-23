@@ -188,7 +188,7 @@ non-destructive assessment of expression strength, anatomical accuracy, and spre
 useful for high-throughput evaluation across experimental animals.
 In addition to native fluorescence imaging, **post-mortem immunohistochemistry** may be employed for enhanced sensitivity
 or when expression levels are low. IHC uses antibodies targeting the reporter protein (anti-GFP for GCaMPs) or a co-expressed
-fluorescent tag (e.g., mCherry, tdTomato), allowing high-resolution evaluation of cell-type specificity, transduction efficiency,
+fluorescent tag (mCherry, tdTomato), allowing high-resolution evaluation of cell-type specificity, transduction efficiency,
 and signal localization. Together, these validation approaches ensure that the chosen AAV construct and delivery parameters
 result in optimal, stable biosensor expression prior to GRIN lens implantation and chronic imaging.
 
@@ -198,7 +198,7 @@ due to acute viral response or surgical trauma. Only after this maturation windo
 implantation and functional imaging using the miniscope platform.
 
 - **Transgenic animal models**
-Transgenic mouse lines expressing genetically encoded calcium indicators (Thy1-GCaMP6 or TIT2L-GCaMP6f) offer a robust and
+Transgenic mouse lines expressing genetically encoded calcium indicators (Thy1-GCaMP6, TIT2L-GCaMP6f) offer a robust and
 reproducible alternative to viral vector-based expression systems. These lines provide **stable, heritable, and cell-type-specific expression**
 of calcium indicators under the control of defined promoters, enabling consistent signal intensity and anatomical coverage
 across animals and experiments. Importantly, the use of transgenic models eliminates the need for stereotaxic AAV injection,
@@ -258,6 +258,6 @@ used to **extract raw fluorescence traces** (F), which are typically **normalize
 across neurons and imaging sessions.
 Additional processing steps include **deconvolution** to estimate underlying spike trains, **trace denoising**, and **quality control filtering**
 to exclude low-SNR signals or artifactual ROIs. Once individual cell traces are obtained, downstream analyses may include
-population dynamics, dimensionality reduction (PCA, t-SNE, UMAP), activity correlations, event-triggered averages, and
-**behavioral alignment based on timestamp synchronization with external behavioral data** (locomotion, trial events, video-tracked metrics).
+population dynamics, activity correlations, event-triggered averages, and **behavioral alignment based on timestamp**
+**synchronization with external behavioral data** (locomotion, trial events, video-tracked metrics).
 These analyses provide critical insight into how neural activity encodes stimuli, behavior, learning, and circuit-level computations over time.
