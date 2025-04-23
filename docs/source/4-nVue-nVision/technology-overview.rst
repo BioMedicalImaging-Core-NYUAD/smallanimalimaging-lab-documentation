@@ -120,7 +120,8 @@ Miniscope imaging
 
 Hardware
 ^^^^^^^^
-
+A miniscope is a **miniaturized epifluorescence microscope** engineered to be compact and lightweight, allowing it to be
+mounted onto the head of a freely moving mouse with minimal discomfort or disruption of natural behavior.
 .. image:: ../_static/nVue-hardware.png
    :alt: *In vivo dual color miniscope imaging*
    :width: 1000px
@@ -130,16 +131,14 @@ Hardware
 
 .. raw:: html
 
-A miniscope is a **miniaturized epifluorescence microscope** engineered to be compact and lightweight, allowing it to be
-mounted onto the head of a freely moving mouse with minimal discomfort or disruption of natural behavior. As with conventional
-fluorescence microscopes, the miniscope includes an **excitation light source**, (high-power LED). The divergent light emitted from the LED
-is first directed by a collector lens, which focuses and channels the beam into the optical system. This incident light
-is then passed through an **excitation filter**, which spectrally selects the appropriate wavelength required to excite the targeted fluorescent reporter.
-The refined excitation light is reflected downward by a **dichroic mirror**, which is specifically designed to **reflect excitation**
-**wavelengths** while transmitting longer-wavelength emitted fluorescence. The directed excitation light then enters the brain
-through the objective lens, which in miniscopes is typically a **gradient-index (GRIN) lens**. This GRIN lens has a radially
-graded refractive index, allowing it to efficiently focus the excitation light into deep brain structures while maintaining
-compact form and **minimal optical aberration**.
+As with conventional fluorescence microscopes, the miniscope includes an **excitation light source**, (high-power LED).
+The divergent light emitted from the LED is first directed by a collector lens, which focuses and channels the beam into the optical system.
+This incident light is then passed through an **excitation filter**, which spectrally selects the appropriate wavelength required
+to excite the targeted fluorescent reporter. The refined excitation light is reflected downward by a **dichroic mirror**,
+which is specifically designed to **reflect excitation wavelengths** while transmitting longer-wavelength emitted fluorescence.
+The directed excitation light then enters the brain through the objective lens, which in miniscopes is typically a **gradient-index (GRIN) lens**.
+This GRIN lens has a radially graded refractive index, allowing it to efficiently focus the excitation light into deep brain structures
+while maintaining compact form and **minimal optical aberration**.
 Upon excitation, fluorophores expressed in neurons or surrounding tissue emit photons corresponding to their characteristic
 emission spectra. These emitted photons travel back through the same GRIN lens and are transmitted through the dichroic mirror,
 which now functions as a **pass-through filter** for the emission wavelengths. The fluorescence signal is subsequently passed
@@ -152,6 +151,11 @@ sharp image quality and signal fidelity across different fluorescence channels.
 
 GRIN lens
 ^^^^^^^^^
+**Gradient Index (GRIN) lenses** are optical elements that exploit a **radial gradient in refractive index** to bend light
+rays internally rather than at curved surfaces, as in traditional lenses. As a result, GRIN lenses typically feature flat
+entry and exit faces and are designed to guide light along a curved path within the lens body. In miniscope imaging systems,
+GRIN lenses function as **1:1 relay lenses**, meaning they transmit the image plane along their length **without altering magnification**.
+Their primary purpose is to **extend the optical path** into deep brain regions while preserving resolution and contrast.
 
 .. image:: ../_static/GRINlens-geometry.png
    :alt: *GRIN lens geometry*
@@ -162,22 +166,11 @@ GRIN lens
 
 .. raw:: html
 
-**Gradient Index (GRIN) lenses* are optical elements that exploit a **radial gradient in refractive index** to bend light
-rays internally rather than at curved surfaces, as in traditional lenses. As a result, GRIN lenses typically feature flat
-entry and exit faces and are designed to guide light along a curved path within the lens body. In miniscope imaging systems,
-GRIN lenses function as **1:1 relay lenses**, meaning they transmit the image plane along their length **without altering magnification**.
-Their primary purpose is to **extend the optical path** into deep brain regions while preserving resolution and contrast.
 There are two main types of GRIN lenses used in neural imaging, and selection should be based on the target brain structure
 and orientation of the neuronal population:
 
-- **Straight GRIN lenses:** These lenses transmit the image directly along the longitudinal axis of the probe. They are ideal for **imaging neuronal**
-**layers positioned directly beneath the implanted lens**, and are the most commonly used type in in vivo experiments
-targeting structures such as the hippocampus, thalamus, striatum, or hypothalamus.
-
-- **Prism GRIN lenses:** These incorporate a **90-degree reflective prism** at the distal tip, enabling **lateral imaging** perpendicular to the insertion axis.
-This design allows for visualization of **structures that are located adjacent to the probe body**, rather than directly below it.
-Prism lenses are particularly advantageous for cortical imaging, as they permit **multi-layer field-of-view acquisition**
-without needing to penetrate vertically through all cortical layers.
+- **Straight GRIN lenses:** These lenses transmit the image directly along the longitudinal axis of the probe. They are ideal for **imaging neuronal layers positioned directly beneath the implanted lens**, and are the most commonly used type in in vivo experiments targeting structures such as the hippocampus, thalamus, striatum, or hypothalamus.
+- **Prism GRIN lenses:** These incorporate a **90-degree reflective prism** at the distal tip, enabling **lateral imaging** perpendicular to the insertion axis. This design allows for visualization of **structures that are located adjacent to the probe body**, rather than directly below it. Prism lenses are particularly advantageous for cortical imaging, as they permit **multi-layer field-of-view acquisition** without needing to penetrate vertically through all cortical layers.
 
 Because GRIN lenses are made of precision optical glass, their imaging surfaces must be handled with care. Any scratches,
 chips, adhesive residue, or surface contamination can degrade optical performance, introduce aberrations,or obstruct the
