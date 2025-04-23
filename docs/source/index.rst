@@ -61,7 +61,6 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     1-lab-overview/SAI_publications.rst
     1-lab-overview/SAI_useful_links.rst
 
-
 .. toctree::
     :caption: IVIS Spectrum
     :hidden:
