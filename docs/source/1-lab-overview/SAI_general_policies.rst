@@ -7,6 +7,7 @@ Users are responsible for ensuring compliance with all applicable NYUAD policies
 Animal Care and Use Committee** (IACUC), the **Institutional Biosafety Committee** (IBC), the **Controlled Substance Program,** and the
 **Radiation Safety Program**. Prior to conducting any imaging procedures, users must provide the core staff with a copy of their
 approved IACUC protocol, and if applicable, an approved Institutional Biosafety Committee (IBC) protocol.
+For additional details, please refer to the section :ref:`required-documentation`.
 
 Failure to comply with SAI policies, rules, and procedures may result in temporary suspension of booking privileges.
 
@@ -48,7 +49,7 @@ at any time.
 
 Animal transfer to husbandry room
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The SAI room is considered a "dirty" area relative to the rest of the vivarium.
+The SAI room is considered a **"dirty" area** relative to the rest of the vivarium.
 To prevent cross-contamination, the following decontamination procedures must be followed:
 
 - Before returning animal cages to the vivarium husbandry room using a trolley, spray each cage thoroughly with MB-10 disinfectant solution.
@@ -63,7 +64,7 @@ The Small Animal Imaging (SAI) facility uses the **CTP booking system** for cent
 resources. All core users are required to utilize this system to reserve equipment prior to accessing services. To schedule
 an experiment in the SAI lab, visit https://corelabs.abudhabi.nyu.edu/, navigate to the Reservations section, select Schedule,
 and from the upper drop-down menu choose "Biomedical Imaging", then book the appropriate resource.
-For additional details, please refer to the "Scheduling Policies" section.
+For additional details, please refer to the section :ref:`sai-scheduling`.
 
 Data storage
 ^^^^^^^^^^^^

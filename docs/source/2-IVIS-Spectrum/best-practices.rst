@@ -24,6 +24,7 @@ Imaging optimization
 - **Start with a pilot experiment:** Define signal kinetics and substrate/probe timing, especially for bioluminescence imaging
 - **Avoid imaging during circadian fluctuations:** Image animals at consistent times of day to reduce variability in metabolism and gene expression
 - **Allow imaging system warm-up:** Let CCD cameras and optics stabilize thermally for consistent sensitivity and minimal signal drift
+- **Log comprehensive metadata:** Record animal ID, age, weight, reporter info, imaging settings, and experiment date/time.
 
 Fluorescence-specific tips
 --------------------------

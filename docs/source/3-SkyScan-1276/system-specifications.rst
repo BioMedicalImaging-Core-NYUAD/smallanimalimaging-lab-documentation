@@ -1,3 +1,5 @@
+.. _SkyScan-specifications:
+
 SkyScan 1276 - System specifications
 ====================================
 

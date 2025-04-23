@@ -1,3 +1,5 @@
+.. _sai-scheduling:
+
 SAI Study Scheduling
 ====================
 
@@ -171,6 +173,7 @@ should be made at least 24 hours in advance through the CTP booking system https
 last-minute cancellations or no-shows may result in temporary suspension of booking privileges. Please notify core staff
 immediately in the event of unavoidable delays or emergencies.
 
+.. _required-documentation:
 Required documentation
 ----------------------
 All research projects must obtain the requisite regulatory approvals and certifications prior to initiation.

@@ -1,3 +1,5 @@
+.. _IVIS-specifications:
+
 IVIS Spectrum - System specifications
 =====================================
 
