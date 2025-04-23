@@ -132,10 +132,9 @@ Hardware
 
 A miniscope is a **miniaturized epifluorescence microscope** engineered to be compact and lightweight, allowing it to be
 mounted onto the head of a freely moving mouse with minimal discomfort or disruption of natural behavior. As with conventional
-fluorescence microscopes, the miniscope includes an **excitation light source**, (high-power LED). The emitted light is first
-passed through a **collimating lens**, which converts the divergent beam into parallel light rays to ensure uniform illumination.
-This collimated light is then passed through an **excitation filter**, which spectrally selects the appropriate wavelength required
-to excite the targeted fluorescent reporter.
+fluorescence microscopes, the miniscope includes an **excitation light source**, (high-power LED). The divergent light emitted from the LED
+is first directed by a collector lens, which focuses and channels the beam into the optical system. This incident light
+is then passed through an **excitation filter**, which spectrally selects the appropriate wavelength required to excite the targeted fluorescent reporter.
 The refined excitation light is reflected downward by a **dichroic mirror**, which is specifically designed to **reflect excitation**
 **wavelengths** while transmitting longer-wavelength emitted fluorescence. The directed excitation light then enters the brain
 through the objective lens, which in miniscopes is typically a **gradient-index (GRIN) lens**. This GRIN lens has a radially
@@ -145,8 +144,11 @@ Upon excitation, fluorophores expressed in neurons or surrounding tissue emit ph
 emission spectra. These emitted photons travel back through the same GRIN lens and are transmitted through the dichroic mirror,
 which now functions as a **pass-through filter** for the emission wavelengths. The fluorescence signal is subsequently passed
 through an **emission filter**, which further isolates the desired emission band while eliminating residual excitation light.
-Finally, the filtered emission is focused by an imaging lens onto a CMOS camera sensor, producing a high-resolution
-two-dimensional image representing the spatial distribution of fluorescence within the field of view.
+Finally, the filtered emission light is directed through an **achromatic imaging lens**, which focuses the signal onto a CMOS
+camera sensor positioned at the distal end of the miniscope. This configuration enables the acquisition of a high-resolution,
+two-dimensional fluorescence image that reflects the spatial distribution and temporal dynamics of neural activity within
+the defined field of view. The achromatic lens corrects for chromatic aberration across the emission spectrum, ensuring
+sharp image quality and signal fidelity across different fluorescence channels.
 
 Workflow for in vivo miniscope imaging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
