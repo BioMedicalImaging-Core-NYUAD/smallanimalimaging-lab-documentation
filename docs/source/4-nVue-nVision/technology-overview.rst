@@ -1,6 +1,15 @@
 nVue-nVision - Technology overview
 ==================================
 
+.. image:: ../_static/nVue-nVision.png
+   :alt: *nVue-nVision platform*
+   :width: 1000px
+   :align: center
+
+*nVue-nVision platform*
+
+.. raw:: html
+
 nVue and nVision together form a **high-resolution, multimodal imaging** ecosystem that enables the **real-time visualization**
 and **quantification of neural dynamics and behavior** in freely moving animal models. Designed for preclinical neuroscience
 research, these platforms operate synergistically to provide a comprehensive, **temporally precise view of brain activity**
@@ -37,11 +46,11 @@ they permit **cell-type-specific, spatiotemporally precise visualization of circ
 Intracellular calcium biosensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: ../_static/GECI.png
-   :alt: **Mechanism of action of Genetically Encoded Calcium Indicators (GECI)*
+   :alt: **Mechanism of action of Genetically Encoded Calcium Indicators (GECIs)*
    :width: 1000px
    :align: center
 
-*Mechanism of Genetically Encoded Calcium Indicators*
+*Mechanism of Genetically Encoded Calcium Indicators (GECIs)*
 
 .. raw:: html
 
@@ -74,11 +83,11 @@ memory, and disease states.
 Synaptic neurotransmitter biosensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: ../_static/GENI.png
-   :alt: **Mechanism of action of Genetically Encoded Neurotransmitter Indicators (GENI)*
+   :alt: **Mechanism of action of Genetically Encoded Neurotransmitter Indicators (GENIs)*
    :width: 1000px
    :align: center
 
-*Mechanism of action of Genetically Encoded Neurotransmitter Indicator (GENI)*
+*Mechanism of action of Genetically Encoded Neurotransmitter Indicator (GENIs)*
 
 .. raw:: html
 
@@ -109,11 +118,11 @@ across physiological concentration ranges, allowing for subsecond resolution of 
 Comparison of GECI and GENI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: ../_static/GECIvsGENI.png
-   :alt: *Comparison of GECI and GENI biosensors*
+   :alt: *Comparison of GECIs and GENIs biosensors*
    :width: 1000px
    :align: center
 
-*Comparison of GECI and GENI biosensors*
+*Comparison of GECIs and GENIs biosensors*
 
 Miniscope imaging
 -----------------
