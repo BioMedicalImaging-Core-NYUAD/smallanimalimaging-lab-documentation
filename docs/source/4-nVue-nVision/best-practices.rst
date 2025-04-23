@@ -22,7 +22,7 @@ Intracranial lens implantation
 
 Image acquisition
 -----------------
-- **Mount/unmount miniscope carefully:** o reduce stress-related movement artifacts and behavioral variability, habituate the animal to the mounting and unmounting procedure through repeated mock sessions prior to actual imaging. Consistent handling and gradual exposure to the device help minimize stress responses and promote stable behavior during recording.
+- **Mount/unmount miniscope carefully:** To reduce stress-related movement artifacts and behavioral variability, habituate the animal to the mounting and unmounting procedure through repeated mock sessions prior to actual imaging. Consistent handling and gradual exposure to the device help minimize stress responses and promote stable behavior during recording.
 - **Calibrate imaging parameters per session:** Adjust LED power, sensor gain, exposure time, and focal plane using imaging software. Avoid overexposure and photobleaching.
 - **Maintain consistency across animals/sessions:** Use fixed imaging settings for longitudinal comparisons. Log parameters for traceability.
 - **Minimize session duration and light intensity:** To reduce the risk of photobleaching and phototoxicity, limit continuous imaging sessions to the minimum duration necessary for data collection. Avoid excessive LED intensity by adjusting the excitation power to the lowest level that provides sufficient signal-to-noise ratio. For extended recordings exceeding 15 minutes, implement brief recovery intervals, 5-minute break every 15 minutes, to allow tissue cooling and fluorophore recovery.

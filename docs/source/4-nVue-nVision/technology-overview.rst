@@ -150,6 +150,43 @@ two-dimensional fluorescence image that reflects the spatial distribution and te
 the defined field of view. The achromatic lens corrects for chromatic aberration across the emission spectrum, ensuring
 sharp image quality and signal fidelity across different fluorescence channels.
 
+GRIN lens
+^^^^^^^^^
+
+.. image:: ../_static/GRINlens-geometry.png
+   :alt: *GRIN lens geometry*
+   :width: 1000px
+   :align: center
+
+*GRIN lens geometry*
+
+.. raw:: html
+
+**Gradient Index (GRIN) lenses* are optical elements that exploit a **radial gradient in refractive index** to bend light
+rays internally rather than at curved surfaces, as in traditional lenses. As a result, GRIN lenses typically feature flat
+entry and exit faces and are designed to guide light along a curved path within the lens body. In miniscope imaging systems,
+GRIN lenses function as **1:1 relay lenses**, meaning they transmit the image plane along their length **without altering magnification**.
+Their primary purpose is to **extend the optical path** into deep brain regions while preserving resolution and contrast.
+There are two main types of GRIN lenses used in neural imaging, and selection should be based on the target brain structure
+and orientation of the neuronal population:
+
+- **Straight GRIN lenses**
+These lenses transmit the image directly along the longitudinal axis of the probe. They are ideal for **imaging neuronal**
+**layers positioned directly beneath the implanted lens**, and are the most commonly used type in in vivo experiments
+targeting structures such as the hippocampus, thalamus, striatum, or hypothalamus.
+
+- **Prism GRIN lenses**
+These incorporate a **90-degree reflective prism** at the distal tip, enabling **lateral imaging** perpendicular to the insertion axis.
+This design allows for visualization of **structures that are located adjacent to the probe body**, rather than directly below it.
+Prism lenses are particularly advantageous for cortical imaging, as they permit **multi-layer field-of-view acquisition**
+without needing to penetrate vertically through all cortical layers.
+
+Because GRIN lenses are made of precision optical glass, their imaging surfaces must be handled with care. Any scratches,
+chips, adhesive residue, or surface contamination can degrade optical performance, introduce aberrations,or obstruct the
+field of view. If needed, clean the lens using lens paper moistened with 70% ethanol, applying gentle, circular motions to
+avoid damaging the surface. Avoid touching the imaging face with bare tools or gloves, and always cover the lens when not
+in use to prevent environmental contamination.
+
 Workflow for in vivo miniscope imaging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
