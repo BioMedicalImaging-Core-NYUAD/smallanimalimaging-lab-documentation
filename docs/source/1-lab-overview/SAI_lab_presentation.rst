@@ -23,7 +23,7 @@ Imaging equipment
 ^^^^^^^^^^^^^^^^^
 The SAI core facility houses the following advanced imaging systems:
 
-- **Optical Imaging System** – IVIS Spectrum (Revvity)
+- **Optical Imaging System** – :ref:`IVIS-specifications` (Revvity)
 - **Micro-Computed Tomography** (microCT) – SkyScan 1276 (Bruker)
 - **Customized Rodent Endoscope** – Karl Storz
 - **Miniscope and Behavioral Imaging Platform** – nVue and nVision (Inscopix)
