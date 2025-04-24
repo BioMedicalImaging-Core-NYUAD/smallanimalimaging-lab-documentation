@@ -9,7 +9,7 @@ them especially valuable for diagnostic procedures, **targeted biopsies**, **int
 By reducing surgical trauma and enabling repeated interventions on the same subject, rodent endoscopy supports refined,
 ethically sound, and cost-effective preclinical research across a wide range of biomedical fields.
 
-.. image:: ../_static/endoscocpe-applications.png
+.. image:: ../_static/endoscope-applications.png
    :alt: *Common applications of rodent endoscopy*
    :width: 1000px
    :align: center
