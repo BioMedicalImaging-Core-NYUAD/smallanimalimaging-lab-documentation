@@ -36,8 +36,8 @@ outer diameter), and do not require extreme modifications.
     - White light and far-red modes for ICG-based perfusion or lymphatic imaging
     - Confirmation of vascular supply or drug deposition at injection sites
 
-Specialized / Experimental Applications
----------------------------------------
+Specialized/Experimental applications
+-------------------------------------
 These require custom-built endoscopes, modified surgical techniques, and specialized lab setups. They are rarely routine,
 but have been demonstrated in specialized research environments.
 
