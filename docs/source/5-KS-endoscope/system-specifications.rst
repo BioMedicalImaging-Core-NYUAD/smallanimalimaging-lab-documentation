@@ -13,6 +13,16 @@ Karl Storz endoscope - System specifications
 
 .. raw:: html
 
+Camera - 4U Rubina
+------------------
+- Image resolution: 3840 x 2160 pixels (native 4K UHD)
+- Image sensors: Dual CMOS sensors
+- Frame rate: 50/60 Hz
+- Focus: manual focus adjustment via focus ring
+- Focal length: 19 mm
+- Scanning method: progressive scan
+- Visualization modes: overlay mode (white light image and far-red data), monochromatic mode (fluorescent image alone), intensity map (color scale of fluorescence intensity)
+
 Light source - TL 400 Power LED Rubina
 --------------------------------------
 - Lamp type: LED

@@ -290,3 +290,132 @@ to exclude low-SNR signals or artifactual ROIs. Once individual cell traces are 
 population dynamics, activity correlations, event-triggered averages, and **behavioral alignment based on timestamp**
 **synchronization with external behavioral data** (locomotion, trial events, video-tracked metrics).
 These analyses provide critical insight into how neural activity encodes stimuli, behavior, learning, and circuit-level computations over time.
+
+Advantages of miniscope imaging
+-------------------------------
+- **High spatial resolution at the cellular level**
+Miniscopes enable single-neuron resolution through head-mounted optics and GRIN lens technology. These systems typically
+achieve lateral spatial resolution in the range of 1–2 μm, which is sufficient to resolve individual somata and, in some
+cases, dendritic segments. This cellular resolution is critical for identifying and tracking discrete neuronal units across
+time, enabling longitudinal studies of plasticity, learning, or disease progression. Combined with proper lens alignment
+and stable implantation, the system provides a stable optical interface for high-fidelity signal capture within deep brain
+regions.
+
+- **Dual-color fluorescence imaging for enhanced specificity**
+nVue supports simultaneous imaging of two fluorescent channels, enabling precise discrimination of cell types or activity signals.
+Dual-color imaging improves the biological specificity of the data by allowing concurrent visualization of distinct cell
+populations or genetically encoded sensors. This multiplexing capacity enhances interpretability in circuit-level experiments,
+such as distinguishing inhibitory versus excitatory neuron dynamics or separating calcium and neurotransmitter activity.
+Dual-color capabilities also reduce the need for cross-animal comparisons, improving within-subject control and reducing inter-sample variability.
+
+- **High sensitivity for detecting calcium transients
+The system achieves excellent sensitivity by combining high-power, wavelength-matched LED excitation with low-noise CMOS sensors.
+It is capable of capturing small changes in intracellular calcium levels, which reflect neuronal spiking activity. When
+paired with bright, genetically encoded indicators, the system offers reliable detection of subthreshold and suprathreshold
+activity, even in low-expressing neurons. This sensitivity is critical for decoding sparse or weakly modulated signals in
+behaviorally relevant contexts.
+
+- **Robust SNR under freely behaving conditions**
+Imaging during unrestrained behavior introduces motion and optical variability, but the miniscope design minimizes these
+effects. The use of fixed focal GRIN lenses, optimized optics, and active motion correction (during post-processing) supports
+a high signal-to-noise ratio, even under conditions of moderate locomotion. Frame rates of up to 40 fps help temporally
+isolate neural events from movement artifacts, and spatial filtering algorithms further enhance SNR. This allows for the
+extraction of clean fluorescence traces critical for spike inference and population decoding.
+
+- **Longitudinal tracking of neural ensembles**
+Miniscope implants allow for stable imaging across days to weeks from the same field of view. The baseplate system ensures
+consistent alignment of the optical axis across imaging sessions, enabling precise re-identification of neuronal ROIs over
+time. This longitudinal capability supports studies of experience-dependent plasticity, learning trajectories, neurodegeneration,
+and recovery. Importantly, signal integrity can be maintained across sessions with careful baseplate handling, ensuring that
+changes in neural activity reflect true biological phenomena rather than sampling error or alignment drift.
+
+- **Integration with behavioral and electrophysiological systems**
+nVision software enables tight synchronization between imaging and behavior or stimulation paradigms.
+The miniscope system includes TTL input/output and timestamped metadata logging, allowing integration with video tracking,
+behavioral software, or concurrent electrophysiology. This allows researchers to align neuronal dynamics with precise
+behavioral events, such as reward delivery, stimulus onset, or motor transitions. Such synchronization is essential for
+decoding context-dependent neural activity and performing causality-based analyses (peri-event histograms or population trajectory modeling).
+
+- **Lightweight design for naturalistic behavior**
+Miniscopes are designed to preserve normal locomotion and exploratory behavior. Weighing under 3 grams, they minimizes head
+load and mechanical interference, making it suitable for mice and juvenile rats. The lightweight housing ensures that
+locomotion, rearing, grooming, and other behaviors remain natural and unaffected, reducing confounds due to handling or restraint.
+This feature is particularly important in behavioral neuroscience, where ecological validity is essential for accurate interpretation.
+
+Limitations of miniscope imaging
+--------------------------------
+- **Restricted field of view limits spatial coverage**
+Miniscope systems are constrained to small imaging windows, typically around 600–800 μm per channel.
+This limited FOV restricts the number of neurons that can be imaged simultaneously to a few hundred, depending on cell
+density and expression level. As a result, the system captures only a partial representation of the local circuit, which
+may not fully reflect network-level dynamics. This can impact interpretations in studies involving distributed processing,
+population coding, or inter-regional coordination, where access to broader spatial coverage is essential.
+
+- **Invasive lens implantation causes tissue disruption**
+Recording requires surgical implantation of a GRIN lens directly above the imaging target.
+GRIN lens implantation displaces overlying tissue and may trigger inflammatory responses, gliosis, or damage to local
+vasculature. These biological consequences can alter baseline neural activity or long-term circuit function. Furthermore,
+precise targeting is critical: if the lens is misaligned or placed too deep, the imaging plane may not coincide with the
+desired cellular layer, reducing spatial specificity and effective resolution.
+
+- **Limited imaging depth and volume**
+Only a narrow axial band (~100-300 μm below the lens tip) is accessible for functional imaging.
+Because miniscopes rely on epifluorescence imaging through a static focal plane, optical sectioning is minimal and depth
+discrimination is limited. This restricts recordings to a single focal layer at a time and precludes volumetric imaging
+without re-implantation or hardware modification. Thus, miniscope imaging lacks the depth resolution and 3D coverage offered
+by two-photon microscopy or light-sheet techniques.
+
+- **Low optical sectioning and axial resolution**
+Miniscopes rely on widefield epifluorescence without depth discrimination. Unlike two-photon or confocal systems that reject
+out-of-focus light, miniscopes collect fluorescence from the entire illuminated column. This results in optical blur from
+neuropil and non-target layers, reducing axial resolution and compromising specificity in densely labeled regions. Signal
+crosstalk from overlapping cells can lower the accuracy of ROI segmentation and calcium trace interpretation.
+
+- **Susceptibility to motion artifacts in freely moving animals**
+Head movement, grooming, or collisions with the environment introduce optical instability, which is particularly problematic when targeting deep brain regions.
+In freely behaving animals, mechanical forces can cause subtle shifts or rotational jitter of the miniscope, reducing signal
+fidelity and introducing spatial misalignment across frames. These artifacts lower the effective SNR and impair both single-trial
+trace extraction and longitudinal cell tracking. The challenge is even more pronounced when imaging deep brain structures where GRIN
+lenses must traverse large volumes of brain tissue. In such cases, even minor relative motion between the lens and target
+neurons can disrupt focal alignment, increase signal crosstalk from non-target planes, and reduce spatial resolution.
+
+- **Risk of photobleaching and phototoxicity**
+Prolonged or high-intensity fluorescence excitation can damage tissue, degrade signal quality, and alter neural physiology.
+Miniscope imaging depends on sustained exposure to excitation light, typically via high-intensity LEDs. Over time, this
+exposure increases the risk of photobleaching, reducing fluorescence signal amplitude and dynamic range, especially in
+genetically encoded calcium indicators. Additionally, phototoxicity from light-induced heat and oxidative stress may cause
+tissue inflammation or perturb neural activity. These effects are particularly problematic during long recording sessions
+or when using higher excitation powers to boost sensitivity. To mitigate these risks, it is strongly recommended to limit
+continuous imaging to 15 minutes per session, and if longer recordings are needed, to implement a 5-minute recovery break
+every 15 minutes. These pauses allow for tissue cooling and fluorophore recovery, thereby preserving both SNR and tissue
+integrity across extended imaging protocols.
+
+- **High technical demands for surgical preparation**
+Successful imaging requires precise stereotaxic targeting and advanced surgical technique. Craniotomy, viral injection and
+GRIN lens implantation must all be executed with sub-millimeter accuracy. Errors at any stage can compromise imaging quality
+or render animals unusable. Moreover, post-operative care is intensive and critical for reducing inflammation and ensuring
+lens clarity. As a result, extensive training and pilot testing are needed before deploying the technique at scale.
+
+- **Requirement for region- and cell-type specific optimization**
+Effective miniscope imaging demands tailored optimization of injection and implantation procedures based on the targeted
+brain region and neuronal population. Unlike generic imaging approaches, miniscope-based calcium imaging depends on precise
+anatomical targeting and robust indicator expression in the region and cell type of interest. Each brain structure has unique
+stereotaxic coordinates, anatomical constraints, and cellular organization, requiring customized viral injection protocols.
+Parameters such as anteroposterior, mediolateral, and dorsoventral coordinates, as well as injection angle, vector titer, volume,
+serotype, and promoter specificity must be carefully optimized for each experiment. Similarly, GRIN lens implantation depth
+and trajectory must be adjusted to account for the structure’s geometry and the optimal focal offset for fluorescence imaging.
+Suboptimal targeting can result in weak or off-target expression, insufficient signal-to-noise ratio, or imaging planes
+misaligned with active neuronal layers. Therefore, preliminary pilot experiments, combined with post hoc validation via
+histology or fluorescence microscopy, are essential to refine coordinates and ensure reproducibility across animals and cohorts.
+
+- **Indirect readout of neural activity**
+Miniscopes detect calcium signals, which are proxies (not direct measures) of spiking. Calcium imaging provides a delayed
+and integrated signal of action potential activity, with temporal resolution limited by indicator kinetics. While sufficient f
+or many behaviors, this makes it difficult to resolve rapid spike timing or subthreshold events. Deconvolution algorithms
+help estimate spike trains but cannot fully replace the temporal precision of electrophysiological recordings.
+
+- **High data storage and processing requirements**
+Each session generates large raw datasets requiring robust infrastructure. High-frame-rate recordings across multiple sessions
+quickly accumulate to hundreds of gigabytes per animal. Efficient data management, compression, and backup strategies are essential.
+Moreover, image preprocessing (motion correction, segmentation, trace extraction) is computationally demanding and often time-consuming,
+creating a bottleneck for high-throughput experimental workflows.
