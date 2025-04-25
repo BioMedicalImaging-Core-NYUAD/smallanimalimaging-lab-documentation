@@ -5,7 +5,7 @@ Compliance
 ----------
 Users are responsible for ensuring compliance with all applicable NYUAD policies, including those set by the **Institutional
 Animal Care and Use Committee** (IACUC), the **Institutional Biosafety Committee** (IBC), the **Controlled Substance Program,** and the
-**Radiation Safety Program**. Prior to conducting any imaging procedures, users must provide the core staff with a copy of their
+**Radiation or Laser Safety Program**. Prior to conducting any imaging procedures, users must provide the core staff with a copy of their
 approved IACUC protocol, and if applicable, an approved Institutional Biosafety Committee (IBC) protocol.
 For additional details, please refer to the section :ref:`required-documentation`.
 

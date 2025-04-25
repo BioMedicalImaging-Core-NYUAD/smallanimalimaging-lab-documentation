@@ -4,7 +4,6 @@ Karl Storz endoscope - Technology overview
 Rodent endoscopy is a minimally invasive imaging and intervention technique that enables **in situ anatomical visualization of internal structures**
 in small animal models. By directly accessing body cavities and hollow organs using **ultra-miniaturized endoscopic optics**,
 this modality provides researchers with **real-time, high-resolution views of tissue morphology and physiological processes under native conditions**.
-
 Rodent endoscopy stands apart from external imaging technologies by delivering **true anatomical insight at the site of interest**,
 whether within the gastrointestinal tract, peritoneal cavity, or reproductive system. Through the use of specialized endoscopes
 with working channels and integrated light sources, including those compatible with fluorescence imaging, researchers can
@@ -13,11 +12,9 @@ perform **targeted biopsies**, **localized injections**, and **live tissue monit
 Optimized for the constraints of rodent anatomy, these systems allow for the **dynamic assessment of organ function, pathological progression**,
 and **surgical outcomes** without the need for destructive sampling. The ability to observe and manipulate tissues in situ
 makes rodent endoscopy an invaluable tool in fields ranging from oncology and immunology to gastroenterology and reproductive biology.
-
 By combining anatomical precision, real-time feedback, and minimal physiological disruption, rodent endoscopy enhances
 the fidelity and efficiency of preclinical research, supporting high-throughput, ethically responsible, and
 translationally relevant experimental designs.
-
 
 Important considerations
 ------------------------
