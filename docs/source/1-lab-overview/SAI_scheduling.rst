@@ -201,3 +201,11 @@ Radiation safety certificate
 Researchers seeking access to the microCT scanner must submit a valid **Radiation Safety Certificate** and comply with the
 NYUAD Radiation Safety Program.
 The online Radiation Safety Training can be accessed at: https://moodle.abudhabi.nyu.edu/course/view.php?id=72.
+
+Laser safety certificate
+^^^^^^^^^^^^^^^^^^^^^^^^
+Researchers seeking access to the multiphoton fluorescence microscopy must submit a valid ** Laser Safety Course**
+and comply with the NYUAD Laser Safety Program.
+The online Radiation Safety Training can be accessed at:
+    - Basic Laser Safety https://moodle.abudhabi.nyu.edu/course/view.php?id=67
+    - Advanced Laser Safety https://moodle.abudhabi.nyu.edu/course/view.php?id=73
