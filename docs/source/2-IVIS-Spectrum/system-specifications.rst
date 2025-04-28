@@ -56,3 +56,13 @@ Available accessories
 - Fluorescence and bioluminescence phantom mouse for calibration, validation, quality control
 - Mouse Imaging Shuttle (MIS) for 3D multimodal co-registration with microCT or MRI systems
 
+Operational protocols and risk assessments
+------------------------------------------
+The SOPs and RAs related to the use of the IVIS Spectrum system are available https://drive.google.com/drive/u/1/folders/1yU5AkpK4jt7LfB_xHxhKC4837ZLwxuR2,
+upon request. These documents are stored in the designated folder and include:
+
+- IVIS Spectrum user manual
+- SOP for IVIS Spectrum utilization
+- SOP for RAS-4 rodent anesthesia system
+- RA for IVIS Spectrum with anesthesia
+- Revvity useful information

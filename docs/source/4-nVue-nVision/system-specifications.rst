@@ -91,3 +91,20 @@ Software suite
 - Inscopix Data Acquisition Software IDAS - data acquisition platform and automated synchronization of nVue and nVision
 - Inscopix Data Processing Software IDPS - pre-processing pipeline
 - Inscopix Data Exploration, Analysis & Sharing Software IDEAS - Data analysis & interpretation
+
+Operational protocols and risk assessments
+------------------------------------------
+The SOPs and RAs related to the use of the nVue-nVision platform are available https://drive.google.com/drive/u/1/folders/1_Y-os1suhyrXSIISQ3GZnKq0_TVdfHoT,
+upon request. These documents are stored in the designated folder and include:
+
+- nVue user manual
+- nVision user manual
+- commutator user manual
+- IDPS user manual
+- SkyScan 1276 workflow
+- SOP for nVue-nVision utilization
+- RA for nVue-nVision
+- RA for intracranial vector injection
+- RA for intracranial lens implantation
+- RA for intracardia perfusion
+- Inscopix IQ useful information

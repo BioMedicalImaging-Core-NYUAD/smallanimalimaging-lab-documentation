@@ -97,3 +97,12 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     5-KS-endoscope/main-applications.rst
     5-KS-endoscope/technology-overview.rst
     5-KS-endoscope/best-practices.rst
+
+.. toctree::
+    :caption: Ultima 2Pplus
+    :hidden:
+
+    6-Ultima-2Pplus/system-specifications.rst
+    6-Ultima-2Pplus/main-applications.rst
+    6-Ultima-2Pplus/technology-overview.rst
+    6-Ultima-2Pplus/best-practices.rst
