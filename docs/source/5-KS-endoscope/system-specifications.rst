@@ -57,4 +57,11 @@ Available scopes
 - **Straight forward Hopkins telescope from Karl Storz:** 0° angle, 1.9mm diameter, 10cm length
 - **Miniature semi-rigid straight forward telescope:** fiberscope, 1mm diameter, 20cm length
 
+Operational protocols and risk assessments
+------------------------------------------
+The SOPs and RAs related to the use of the Karl Storz endoscope are available https://drive.google.com/drive/u/1/folders/1kh4P3YXeFpcQXIz8yn7E20Paw7BMyjP0,
+upon request. These documents are stored in the designated folder and include:
 
+- SOP for Kar Storz endoscope utilization
+- RA for Kar Storz endoscope
+- Karl Storz useful information

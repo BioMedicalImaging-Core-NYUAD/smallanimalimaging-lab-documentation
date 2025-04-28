@@ -60,3 +60,15 @@ Available accessories
 - ECG patches for cardiac gating and physiological monitoring during in vivo imaging
 - Real-time dose meter inside chamber for dose tracking
 - Imaging cassettes of various diameters to accommodate ex vivo samples and whole-body scans of mouse and rats with optimized specimen positioning
+
+Operational protocols and risk assessments
+------------------------------------------
+The SOPs and RAs related to the use of the SkyScan 1276 system are available https://drive.google.com/drive/u/1/folders/1ZRjqZFXyPtIG-4KglzBfxUvnnrdUHj9P,
+upon request. These documents are stored in the designated folder and include:
+
+- SkyScan 1276 user manual
+- Radiation safety program manual
+- SkyScan 1276 workflow
+- SOP for SkyScan 1276 utilization
+- RA for SkyScan 1276 with anesthesia
+- Bruker useful information

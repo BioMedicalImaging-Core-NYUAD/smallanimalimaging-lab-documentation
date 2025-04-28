@@ -82,3 +82,11 @@ When using the shared workstation, users are advised not to save their data on t
 or deleted by other users. Instead, users are encouraged to store their data on secure platforms such as their NYU Box,
 Google Drive, or their private SAI shared subfolder.
 
+SAI common operational protocols
+--------------------------------
+SOPs related to the use of the Small Animal Imaging Facility are available upon request https://drive.google.com/drive/u/1/folders/1DfTFD4PwZpi45n9_hF-p2dRPDqZ6DAhq.
+The available documents include:
+
+- SOP outlining general facility policies
+- SOP for the transfer of rodents
+- SOP for the transfer of external materials

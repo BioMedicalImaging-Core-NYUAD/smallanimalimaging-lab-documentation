@@ -183,11 +183,11 @@ Animal protocol (IACUC)
 All **live animal imaging studies** must receive prior approval from the **Institutional Animal Care and Use Committee (IACUC)**.
 If your study involves in vivo imaging, it is recommended that you amend your existing IACUC protocol as early as possible
 to ensure compliance and avoid delays.
-The SAI Core maintains an approved IACUC protocol encompassing standard imaging procedures, which may be utilized
+The SAI Core is finalizing an IACUC protocol encompassing standard imaging procedures, which, once approved, may be utilized
 to initiate small pilot studies, provided the proposed procedure falls within the scope of this core protocol.
 
 For assistance with incorporating live animal imaging into your IACUC-approved protocol, please contact Dr. Maylis Boitet. For
-inquiries related to IACUC protocol submission or regulatory matters, please reach out to William Pressley wd1@nyu.edu.
+inquiries related to IACUC protocol submission or regulatory matters, please reach out to William Pressley at wdp1@nyu.edu.
 
 Biosafety protocol (IBC)
 ^^^^^^^^^^^^^^^^^^^^^^^^

@@ -8,6 +8,14 @@ Manufacturer information
 - Customized Rodent Endoscope – Karl Storz https://www.karlstorz.com/ae/en/small-animals.htm
 - Miniscope and Behavioral Imaging Platform – nVue and nVision (Inscopix) https://iqlearning.inscopix.com/products/nvue-0
 
+Operational protocols and risk assessments
+------------------------------------------
+- common SOPs https://drive.google.com/drive/u/1/folders/10Mrd5s5YVrqCtkFf7_kbNnTHHV3EQ2zO
+- Optical Imaging System – IVIS Spectrum (Revvity) https://drive.google.com/drive/u/1/folders/1yU5AkpK4jt7LfB_xHxhKC4837ZLwxuR2
+- Micro-Computed Tomography (microCT) – SkyScan 1276 (Bruker) https://drive.google.com/drive/u/1/folders/1ZRjqZFXyPtIG-4KglzBfxUvnnrdUHj9P
+- Customized Rodent Endoscope – Karl Storz https://drive.google.com/drive/u/1/folders/1kh4P3YXeFpcQXIz8yn7E20Paw7BMyjP0
+- Miniscope and Behavioral Imaging Platform – nVue and nVision (Inscopix) https://drive.google.com/drive/u/1/folders/1_Y-os1suhyrXSIISQ3GZnKq0_TVdfHoT
+
 NYUAD contacts
 --------------
 - Small Animal Imaging Lab: for any inquiry regarding SAI Lab, please contact maylis.boitet@nyu.edu
