@@ -90,3 +90,5 @@ The available documents include:
 - SOP outlining general facility policies
 - SOP for the transfer of rodents
 - SOP for the transfer of external materials
+- accessing common processing workstation
+- accessing shared SAI folder
