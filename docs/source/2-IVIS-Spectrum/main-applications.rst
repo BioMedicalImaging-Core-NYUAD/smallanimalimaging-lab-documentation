@@ -1,5 +1,3 @@
-
-
 IVIS Spectrum - Main applications
 =================================
 
