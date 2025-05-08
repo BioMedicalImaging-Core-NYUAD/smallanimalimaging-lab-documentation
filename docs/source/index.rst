@@ -1,11 +1,13 @@
-Small Animal Imaging Lab
-========================
 .. image:: _static/logo-SAI.png
    :alt: *Biomedical Imaging Core*
-   :width: 100px
+   :width: 300px
    :align: center
 
 .. raw:: html
+   <div style="display: flex; justify-content: space-between; align-items: center;">
+     <h1 style="margin: 0;">Small Animal Imaging Lab</h1>
+     <img src="_static/logo-SAI.png" alt="Biomedical Imaging Core" width="150">
+   </div>
 
 The **Small Animal Imaging Lab**, in collaboration with the **NeuroWaves Lab** and the **Brain Imaging Lab**,
 forms the Biomedical Imaging Core, one of twelve specialized facilities within the **Core Technology Platforms** (CTP) at NYU Abu Dhabi.
