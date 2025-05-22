@@ -84,7 +84,7 @@ Google Drive, or their private SAI shared subfolder.
 
 SAI common operational protocols
 --------------------------------
-SOPs related to the use of the Small Animal Imaging Facility are available upon request https://drive.google.com/drive/u/1/folders/1DfTFD4PwZpi45n9_hF-p2dRPDqZ6DAhq.
+SOPs related to the use of the Small Animal Imaging Facility are available upon request https://drive.google.com/drive/u/0/folders/10Mrd5s5YVrqCtkFf7_kbNnTHHV3EQ2zO.
 The available documents include:
 
 - SOP outlining general facility policies
