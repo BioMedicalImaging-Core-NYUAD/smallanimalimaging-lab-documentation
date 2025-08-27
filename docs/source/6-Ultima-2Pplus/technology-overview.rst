@@ -217,7 +217,7 @@ events compared to electrophysiological recordings.
 
 Comparison one-photon (confocal) and two-photon fluorescence microscopy
 -----------------------------------------------------------------------
-.. image:: ../_static/comparison-confocal-2photon.png
+.. image:: ../_static/comparison-confocal-twophoton.png
    :alt: *Schema of a confocal and a two-photon microscope*
    :width: 1000px
    :align: center
