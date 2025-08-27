@@ -35,6 +35,7 @@ and extracellular neurotransmitter fluctuations, respectively, into **fluorescen
 they permit **cell-type-specific, spatiotemporally precise visualization of circuit dynamics** underlying behavior, learning, and neuromodulation.
 For additional details regarding fluorescence, please refer to the section :ref:`fluorescence-imaging`.
 
+.. _fluorescent-biosensors:
 Intracellular calcium biosensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: ../_static/GECI.png
