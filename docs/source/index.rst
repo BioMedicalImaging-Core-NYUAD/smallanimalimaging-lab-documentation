@@ -91,19 +91,20 @@ Research Building, C1 at New York University Abu Dhabi, UAE.
     4-nVue-nVision/best-practices.rst
 
 .. toctree::
-    :caption: Karl Storz endoscope
-    :hidden:
-
-    5-KS-endoscope/system-specifications.rst
-    5-KS-endoscope/main-applications.rst
-    5-KS-endoscope/technology-overview.rst
-    5-KS-endoscope/best-practices.rst
-
-.. toctree::
     :caption: Ultima 2Pplus
     :hidden:
 
-    6-Ultima-2Pplus/system-specifications.rst
-    6-Ultima-2Pplus/main-applications.rst
-    6-Ultima-2Pplus/technology-overview.rst
-    6-Ultima-2Pplus/best-practices.rst
+    5-Ultima-2Pplus/system-specifications.rst
+    5-Ultima-2Pplus/main-applications.rst
+    5-Ultima-2Pplus/technology-overview.rst
+    5-Ultima-2Pplus/best-practices.rst
+
+.. toctree::
+    :caption: Karl Storz endoscope
+    :hidden:
+
+    6-KS-endoscope/system-specifications.rst
+    6-KS-endoscope/main-applications.rst
+    6-KS-endoscope/technology-overview.rst
+    6-KS-endoscope/best-practices.rst
+
