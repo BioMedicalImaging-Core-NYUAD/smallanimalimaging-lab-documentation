@@ -109,7 +109,7 @@ providing excellent signal-to-noise ratios even at imaging depths up to 1 mm.
 
 Galvometric and resonant scanning modalities
 """"""""""""""""""""""""""""""""""""""""""""
-The beam path in a two-photon microscope needs to illuminate the sample in a **raster scan*, meaning the tissue is imaged
+The beam path in a two-photon microscope needs to illuminate the sample in a **raster scan**, meaning the tissue is imaged
 **point by point across the XY plane**. This scanning pattern is achieved by controlling the laser beam with **fast-moving mirrors**,
 and two main approaches are commonly used: **galvometer scanning** and **resonant scanning**.
 
