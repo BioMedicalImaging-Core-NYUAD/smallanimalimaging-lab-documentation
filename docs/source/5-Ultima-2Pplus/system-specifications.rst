@@ -51,18 +51,12 @@ Optics and nosepiece
     - Nikon CFI Plan Apo Lambda 4×
     - Nikon CFI75 16×/0.8 NA
     - Nikon Apo 60× Water/1.0 NA
-    - Nikon CFI75 Apo 25× Water Immersion
 
 Epi-fluorescence imaging
 ------------------------
 - Modified epi-illuminator arm with integrated LED excitation source
 - Widefield fluorescence imaging for sample positioning and overview imaging
 - Integrated CMOS camera for capturing epifluorescence images
-- Available filter sets (Nikon cubes)
-    - ET-DSRed (TRITC/Cy3): ET545/30x, ET620/60m; dichroic T570LP
-    - ET-DAPI: AT350/50x, ET460/50m; dichroic T400LP
-    - ET-YFP: ET500/20x, ET535/30m; dichroic T515LP
-    - ET-GFP (FITC/Cy2): ET500/20x, ET535/30m; dichroic T515LP
 
 Imaging chamber and enclosure
 -----------------------------

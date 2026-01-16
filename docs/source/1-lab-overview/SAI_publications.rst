@@ -6,13 +6,17 @@ Authorship
 
 2025
 ^^^^
-Elsherif, M., Badr El‐Din, R., Makhambetova, Z.,Naser,H., Boitet, M., Singh, R., Oh, K., Sukesan, R., Sohmyung Ha, S., B Ramadi, K.,
+Mohammed, H., Usmani, S., Bhushan, B., Ahmad, A., Al-Ketan, O., Shibl, A., Boitet, M., Dev, D., Naser, H., Jha, A., Ramadi, K. B.,
+Passive intestinal microbiome sampling using an ingestible device with tortuous lattices, Device, September 5, 2025. https://www.sciencedirect.com/science/article/pii/S2666998625002170
+
+Elsherif, M., Badr El‐Din, R., Makhambetova, Z.,Naser,H., Boitet, M., Singh, R., Oh, K., Sukesan, R., Sohmyung Ha, S., B Ramadi, K. B.,
 Wirelessly Powered Ingestible Capsule for Optical Stimulation of the Gastrointestinal Tract in Rodents, Advanced Materials Technologies,
 August, 2025. https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/admt.202500957
 
-Benyettou, F., Das, G., Boitet, M., Varghese, S., Khair, M., Das, A. K., Matouk, Z., et al.,
-Freezing-Activated Covalent Organic Frameworks for Precise Fluorescence Cryo-Imaging of Cancer Tissue,
-Journal of the American Chemical Society, March 12, 2025. https://pubs.acs.org/doi/10.1021/jacs.4c13848
+Benyettou, F., Das, G., Boitet, M., Varghese, S., Khair, M., Das, A. K., Matouk, Z., Prakasam, T., Bazin, P., Sharma, S. K.,
+Thomas, S., He, Y., Straubinger, R., Garai, B., Jagannathan, R., Gándara, F., El-Roz, M., Trabolsi A., Freezing-Activated Covalent Organic
+Frameworks for Precise Fluorescence Cryo-Imaging of Cancer Tissue, Journal of the American Chemical Society, March 12, 2025.
+https://pubs.acs.org/doi/10.1021/jacs.4c13848
 
 Palanikumar, L., Yasin, F. M., Munkhjargal, I., Boitet, M., Ali, L., Ali, M. S., Straubinger, R., Barrera, F. N., and Magzoub, M.,
 Tumor-targeted hydroxyapatite nanoparticles for dual-mode diagnostic imaging and near-infrared light-triggered photothermal cancer therapy,
@@ -32,9 +36,10 @@ Elsherif, M., El-Din, R. B., Makhambetova, Z., Naser, H., Boitet, M., Singh, R.,
 Wirelessly-Powered Ingestible Electronic Capsule for Non-Invasive Gastrointestinal Optogenetics,
 bioRxiv, September 1, 2024. https://www.biorxiv.org/content/10.1101/2024.08.30.610532v1
 
-Benyettou, F., Khair, M., Prakasam, T., Varghese, S., Matouk, Z., Alkaabi, M., Pena-Sánchez, P., et al.,
-CRGD-Peptide Modified Covalent Organic Frameworks for Precision Chemotherapy in Triple-Negative Breast Cancer,
-ACS Applied Materials and Interfaces, August 27, 2024. https://pubs.acs.org/doi/10.1021/acsami.4c10812
+Benyettou, F., Khair, M., Prakasam, T., Varghese, S., Matouk, Z., Alkaabi, M., Pena-Sánchez, P.,
+Boitet, M., AbdulHalim, R., Sharma, S. K., Ghemrawi, R., Thomas, S., Whelan, J., Pasricha, R., Jagannathan, R., Gándara, F., Trabolsi A.,
+CRGD-Peptide Modified Covalent Organic Frameworks for Precision Chemotherapy in Triple-Negative Breast Cancer, ACS Applied Materials and
+Interfaces, August 27, 2024. https://pubs.acs.org/doi/10.1021/acsami.4c10812
 
 
 
