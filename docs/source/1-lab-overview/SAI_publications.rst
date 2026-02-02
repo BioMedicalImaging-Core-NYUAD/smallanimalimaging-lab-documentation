@@ -4,6 +4,12 @@ SAI List of Publications
 Authorship
 ----------
 
+2026
+^^^^
+Palanikumar, L., Yasin, F. M., Munkhjargal, I., Boitet, M., Ali, L., Ali, M. S., Straubinger, R., Barrera, F. N., Magzoub, M.,
+Tumor-targeted hydroxyapatite nanoparticles for near-infrared II light-mediated dual-mode diagnostic imaging and photothermal
+cancer therapy, Cell Reports Physical Science, January, 2026. https://www.sciencedirect.com/science/article/pii/S2666386425006630
+
 2025
 ^^^^
 Mohammed, H., Usmani, S., Bhushan, B., Ahmad, A., Al-Ketan, O., Shibl, A., Boitet, M., Dev, D., Naser, H., Jha, A., Ramadi, K. B.,
