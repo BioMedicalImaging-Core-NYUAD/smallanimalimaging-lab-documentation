@@ -6,6 +6,14 @@ Authorship
 
 2026
 ^^^^
+Benyettou, F., Prakasam, T., Khair, M., Abdullah, O., Lusi, M., Paterson, H., Alkaabi, M., Thomas, S., Straubinger, R., Al Damook, R.,
+Boitet, M., Abelbaki, M., Del Monte, J., Yu, D., Heinz, R., Holmen, S., Hsu, E., Platas-Iglesias, C., Esposito, G., and Trabolsi, A.,
+Manganese-Templated Nontrivial Structures for MRI and Therapy, JACS, April 2026. https://pubs.acs.org/doi/10.1021/jacs.5c19016?ref=pdf
+
+Khalaji, S., Venit, T.,Lukacova, Z., Fambri, V., Shrestha, R., Kaluarachchi, S., Boitet, M., Fagny, M.,Saldi, G., Percipalle, P.,
+Nuclear Myosin 1 links genomic architecture to adipose tissue remodeling, metabolic inflammation and obesity in mice, Cell Death & Disease, February 2026.
+https://www.nature.com/articles/s41419-026-08525-3
+
 Palanikumar, L., Yasin, F. M., Munkhjargal, I., Boitet, M., Ali, L., Ali, M. S., Straubinger, R., Barrera, F. N., Magzoub, M.,
 Tumor-targeted hydroxyapatite nanoparticles for near-infrared II light-mediated dual-mode diagnostic imaging and photothermal
 cancer therapy, Cell Reports Physical Science, January, 2026. https://www.sciencedirect.com/science/article/pii/S2666386425006630
