@@ -15,7 +15,7 @@ Ultima 2Pplus - System specifications
 Laser input
 -----------
 - Coherent Chameleon Discovery NX TPC dual-output femtosecond laser
-    - Widely tunable from 660 to 13200 nm
+    - Widely tunable from 660 to 1320 nm
     - Fixed secondary output at ~1040 nm (>2.8 W)
     - Peak power >2.7 W
 - Laser power meter with pick-off window for monitoring
